@@ -1,0 +1,65 @@
+{
+  "0": [
+    {
+      "name": "W",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.737,
+          "y": 0.523,
+          "z": 0.172
+        },
+        "lifetime": 120,
+        "modelURL": "atp:/alphabet/LetterW.fbx",
+        "name": "W",
+        "position": {
+          "x": 100.02,
+          "y": -19.33,
+          "z": 44.49
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "W",
+      "action": "PARENT",
+      "target": "Giver",
+      "jointName": "RightHand",
+      "jointPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "jointRotation":{
+        "x": 90,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "8200": [
+    {
+      "name": "W",
+      "action": "UNPARENT",
+      "target": "Giver",
+      "jointName": "RightHand"
+    }
+  ],
+  "19000": [
+    {
+      "name": "W",
+      "action": "PARENT",
+      "target": "Taker",
+      "jointName": "RightHand"
+    }
+  ],
+  "25000": [
+    {
+      "name": "W",
+      "action": "DELETE"
+    }
+  ]
+}
