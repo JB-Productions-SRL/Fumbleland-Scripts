@@ -68,7 +68,7 @@ function generateSource(entID, uuid, joint, position, rotation) {
             var pos = Entities.getEntityProperties(d[0]).position;
             Script.setTimeout(function () {
                 var pos = Entities.getEntityProperties(d[0]).position;
-                Entities.editEntity(d[0], {"parentID": "", "parentJointIndex": 65535,"position": pos});
+                Entities.editEntity(d[0], {"parentID": "", "parentJointIndex": 65535, "position": pos});
             }, 10);
         } + '').replace('DATA', JSON.stringify([entID, uuid]));
     } else {
@@ -145,7 +145,7 @@ function messageReceived(chan, msg, id) {
         var msgJSON = JSON.parse(msg);
         if (msgJSON.type === "COMMAND") {
             if (msgJSON.cmd === "LOADJSON") {
-                console.log("LOADJSON "+msgJSON.data);
+                console.log("LOADJSON " + msgJSON.data);
                 actors = {};
                 timeOuts = [];
                 ents = [];
@@ -223,6 +223,7 @@ function init() {
     playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
 
     Agent.isAvatar = true;
+    Avatar.position = {x: 0, y: -10, z: 0};
     Avatar.displayName = "Stagehand";
     console.log(Agent.sessionUUID);
     var uuid = Agent.sessionUUID;
