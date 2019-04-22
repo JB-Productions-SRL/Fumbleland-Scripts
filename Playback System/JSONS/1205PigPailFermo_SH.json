@@ -1,0 +1,142 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1232515424489975,
+          "y": 0.16096122562885284,
+          "z": 0.05431387200951576
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Schoolboard letter - P",
+        "position": {
+          "x": 32.42662048339844,
+          "y": -3.6660983562469482,
+          "z": 22.30638885498047
+        },
+        "rotation": {
+          "x": 0.033170707523822784,
+          "y": -0.8870763182640076,
+          "z": 0.06515365093946457,
+          "w": 0.45579686760902405
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1545638144016266,
+          "y": 0.17246556282043457,
+          "z": 0.05596780776977539
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+        "name": "Schoolboard letter - T",
+        "position": {
+          "x": 28.420673370361328,
+          "y": -3.6817970275878906,
+          "z": 22.586078643798828
+        },
+        "rotation": {
+          "x": 0.3260163962841034,
+          "y": -0.5255423784255981,
+          "z": -0.036994241178035736,
+          "w": -0.7849572896957397
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "4000": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 56,
+      "jointPosition": {
+        "x": -0.0562286376953125,
+        "y": 0.047944068908691406,
+        "z": 0.03389930725097656
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 90,
+        "z": 75.00887298583984
+      }
+    }
+  ],
+  "6500": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "PigPail",
+      "jointIndex": 87,
+      "jointPosition": {
+        "x": 0.07285690307617188,
+        "y": 0.6177992820739746,
+        "z": 0.2625133991241455
+      },
+      "jointRotation": {
+        "x": -8.390603065490723,
+        "y": -1.2768497467041016,
+        "z": 1.070297360420227
+      }
+    }
+  ],
+  "25200": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 27,
+      "jointPosition": {
+        "x": 0.05837678909301758,
+        "y": 0.0623784065246582,
+        "z": 0.07483291625976562
+      },
+      "jointRotation": {
+        "x": -20.241430282592773,
+        "y": -90.13848876953125,
+        "z": -46.8387451171875
+      }
+    }
+  ],
+  "31810": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "PigPail",
+      "jointIndex": 87,
+      "jointPosition": {
+        "x": -0.06320762634277344,
+        "y": 0.615256667137146,
+        "z": 0.2594795227050781
+      },
+      "jointRotation": {
+        "x": -8.518464088439941,
+        "y": -1.3977603912353516,
+        "z": 1.080855369567871
+      }
+    }
+  ],
+  "42200": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    }
+  ],
+  "45000": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ]
+}

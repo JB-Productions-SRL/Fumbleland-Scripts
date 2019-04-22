@@ -1,0 +1,58 @@
+{
+  "0": [
+    {
+      "name": "Stars",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.3675,
+          "y": 0.0721,
+          "z": 0.3675
+        },
+        "lifetime":315000,
+        "modelURL": "http://vr.fumbleland.com/objects/PainStars_v002.fbx",
+        "name": "Stars",
+        "position": {
+          "x": -22,
+          "y": -2.6119744777679443,
+          "z": 13.0
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "Stars",
+      "action": "PARENT",
+      "target": "HairPlane",
+      "jointIndex": 20,
+      "jointPosition": {
+        "x": -0.02527761459350586,
+        "y": 0.060466766357421875,
+        "z": 0.04098320007324219
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 0,
+        "z": -90
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "Stars",
+      "action": "EDIT",
+      "props": {
+        "script": "(function () {var entityUUID, rots, timer, entProps;function interval(func, time) {var t = {func: func,time: time,id: 0};t.id = Script.setInterval(function () {t.func();}, t.time);Script.scriptEnding.connect(function () {try {Script.clearInterval(t.id);} catch (e) {/**/}});return t;}this.preload = function (entityID) {entityUUID = entityID;  rots = 0;  timer = interval(function(){    rots = rots + 2;    entProps = Entities.getEntityProperties(entityUUID);    Entities.editEntity(entityUUID,{      \"localRotation\":Quat.fromPitchYawRollDegrees(0,rots,(-90)),      \"localPosition\":{x:0.45,y:0,z:0},    });  },20);};this.unload = function(entityID){Script.scriptEnding();};});"
+      }
+    }
+  ],
+  "25000": [
+    {
+      "name": "Stars",
+      "action": "DELETE"
+    }
+  ]
+}

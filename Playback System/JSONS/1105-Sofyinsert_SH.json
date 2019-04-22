@@ -1,0 +1,86 @@
+{
+  "0": [
+    {
+      "name": "LetterR",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2700999975204468,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterR.fbx",
+        "name": "Letter-R",
+        "position": {
+          "x": 9.537620544433594,
+          "y": -2.4420363903045654,
+          "z": 9.993474960327148
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.6466010808944702,
+          "z": -0.0000457763671875,
+          "w": 0.7628138065338135
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterM",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2723256051540375,
+          "y": 0.2510819733142853,
+          "z": 0.0861165001988411
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterM.fbx",
+        "name": "Letter-M",
+        "position": {
+          "x": 9.609872817993164,
+          "y": -2.9695727825164795,
+          "z": 9.955690383911133
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.7358052730560303,
+          "z": -0.0000762939453125,
+          "w": 0.6771801710128784
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.006224155426025391,
+        "y": 0.04163038730621338,
+        "z": 0.15979623794555664
+      },
+      "jointRotation": {
+        "x": 84.66619873046875,
+        "y": -78.47200012207031,
+        "z": -18.24493408203125
+      }
+    }
+  ],
+  "46000": [
+    {
+      "name": "LetterM",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterR",
+      "action": "DELETE"
+    }
+  ]
+}

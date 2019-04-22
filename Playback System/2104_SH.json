@@ -1,0 +1,135 @@
+{
+  "0": [
+    {
+      "name": "Flower",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.14240816235542297,
+          "y": 0.3102233111858368,
+          "z": 0.1373303085565567
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/flowerPurple_v002.fbx",
+        "name": "Flower",
+        "position": {
+          "x": 6.015366077423096,
+          "y": -2.037513256072998,
+          "z": -20.270540237426758
+        },
+        "rotation": {
+          "x": -0.00002923235297203064,
+          "y": 0.00001636520028114319,
+          "z": 0.000026049325242638588,
+          "w": 0.9999963641166687
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "Flower",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.070046067237854,
+        "y": 0.1167898178100586,
+        "z": 0.04988068342208862
+      },
+      "jointRotation": {
+        "x": 9.327542304992676,
+        "y": 2.901715040206909,
+        "z": -71.13194274902344
+      }
+    }
+  ],
+  "8580": [
+    {
+      "name": "Heart",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 4.053646087646484,
+          "y": -1.5914509296417236,
+          "z": -20.91664695739746
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.6427557468414307,
+          "z": -0.0000457763671875,
+          "w": 0.7660486698150635
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "10260": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 4.240959167480469,
+          "y": -1.6612684726715088,
+          "z": -19.564937591552734
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7933318614959717,
+          "z": -0.0000457763671875,
+          "w": 0.6087586879730225
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "20060": [
+    {
+      "name": "Flower",
+      "action": "PARENT",
+      "target": "MrsSpelling",
+      "jointIndex": 50,
+      "jointPosition": {
+        "x": -0.0482020378112793,
+        "y": 0.10571146011352539,
+        "z": 0.04648125171661377
+      },
+      "jointRotation": {
+        "x": -0.007400511763989925,
+        "y": -0.0005175848491489887,
+        "z": 81.99860382080078
+      }
+    }
+  ],
+  "49960": [
+    {
+      "name": "Flower",
+      "action": "DELETE"
+    }
+  ]
+}

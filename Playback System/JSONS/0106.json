@@ -1,0 +1,18 @@
+{
+  "0": {
+    "name": "LemonFart",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0106-LemonFart.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "1": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0106-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

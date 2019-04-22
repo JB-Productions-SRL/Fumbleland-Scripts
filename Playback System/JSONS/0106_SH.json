@@ -1,0 +1,205 @@
+{
+  "10080": [
+    {
+      "name": "Fart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "11910": [
+    {
+      "name": "Fart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "12470": [
+    {
+      "name": "Fart3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "13050": [
+    {
+      "name": "Fart4",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "14450": [
+    {
+      "name": "Fart5",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "16250": [
+    {
+      "name": "Fart6",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "18250": [
+    {
+      "name": "Fart7",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":-16.710494995117188,"y":-2.2427382469177246,"z":-6.087562084197998
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 1,
+          "w": 0
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "lifetime":10,
+        "serverScripts": "http://vr.fumbleland.com/scripts/farts.js?999",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ]
+}

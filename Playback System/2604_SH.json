@@ -1,0 +1,86 @@
+{
+  "0": [
+    {
+      "name": "Bowl",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.24735835194587708,
+          "y": 0.13949622213840485,
+          "z": 0.2445875108242035
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/Ciotola_02.fbx",
+        "name": "Village - Vase",
+        "position": {
+          "x": 6.9,
+          "y": -4.041231155395508,
+          "z": -20.5
+        },
+        "rotation": {
+          "x": 0.025576293468475342,
+          "y": -0.9667396545410156,
+          "z": 0.004656761884689331,
+          "w": 0.2543689012527466
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "Bowl",
+      "action": "PARENT",
+      "target": "MrsSpelling",
+      "jointIndex": 50,
+      "jointPosition": {
+        "x": -0.020462989807128906,
+        "y": 0.04279518127441406,
+        "z": 0.13756561279296875
+      },
+      "jointRotation": {
+        "x": -160.25389099121094,
+        "y": 67.50952911376953,
+        "z": -57.08918762207031
+      }
+    }
+  ],
+  "61600": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 9.383296966552734,
+          "y": -1.8046107292175293,
+          "z": -26.368873596191406
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.8869917392730713,
+          "z": -0.0000457763671875,
+          "w": 0.461753249168396
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "76850": [
+    {
+      "name": "Bowl",
+      "action": "DELETE"
+    }
+  ]
+}

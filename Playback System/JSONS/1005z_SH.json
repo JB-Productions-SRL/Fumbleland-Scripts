@@ -1,0 +1,173 @@
+{
+  "0": [
+    {
+      "name": "LetterC",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.20890000462532043,
+          "y": 0.25369998812675476,
+          "z": 0.08550000190734863
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterC.fbx",
+        "name": "Village - LetterC",
+        "position": {
+          "x": 16.20562171936035,
+          "y": -3.271146535873413,
+          "z": -26.857013702392578
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.6010376214981079,
+          "z": 0.0000152587890625,
+          "w": -0.7992522716522217
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterG",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.20890000462532043,
+          "y": 0.25369998812675476,
+          "z": 0.08550000190734863
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterG.fbx",
+        "name": "Village - LetterG",
+        "position": {
+          "x": 16.244956970214844,
+          "y": -2.273193120956421,
+          "z": -26.632627487182617
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.5933165550231934,
+          "z": -0.0001068115234375,
+          "w": 0.8049591779708862
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 26,
+      "jointPosition": {
+        "x": 0.016510009765625,
+        "y": 0.03945732116699219,
+        "z": 0.11608600616455078
+      },
+      "jointRotation": {
+        "x": 3.5409886837005615,
+        "y": -103.08869171142578,
+        "z": -80.11843872070312
+      }
+    }
+  ],
+  "43590": [
+    {
+      "name": "LetterC",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 16.20562171936035,
+          "y": -2.271146535873413,
+          "z": -26.857013702392578
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.6010376214981079,
+          "z": 0.0000152587890625,
+          "w": -0.7992522716522217
+        }
+      }
+    }
+  ],
+  "45770": [
+    {
+      "name": "LetterG",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 26,
+      "jointPosition": {
+        "x": 0.016510009765625,
+        "y": 0.03945732116699219,
+        "z": 0.11608600616455078
+      },
+      "jointRotation": {
+        "x": 3.5409886837005615,
+        "y": -103.08869171142578,
+        "z": -80.11843872070312
+      }
+    }
+  ],
+  "52890": [
+    {
+      "name": "Raincoat",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.9439659118652344,
+          "y": 0.865763247013092,
+          "z": 0.33482956886291504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/rainCoat_v001.fbx",
+        "name": "Village - Raincoat",
+        "position": {
+          "x": 17.34792709350586,
+          "y": -1.0526583194732666,
+          "z": -29.044788360595703
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": 0.2587777376174927,
+          "z": -0.0000457763671875,
+          "w": 0.9659113883972168
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "66720": [
+    {
+      "name": "LetterG",
+      "action": "DELETE"
+    }
+  ],
+  "70510": [
+    {
+      "name": "LetterC",
+      "action": "DELETE"
+    },
+    {
+      "name": "Raincoat",
+      "action": "DELETE"
+    }
+  ]
+}

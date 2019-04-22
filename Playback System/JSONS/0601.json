@@ -1,0 +1,10 @@
+{
+  "0": {
+    "name": "BellyFish",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0601-BellyFish.hfr",
+    "ready": false,
+    "startTrim": 1000,
+    "endTrim": 0
+  }
+}

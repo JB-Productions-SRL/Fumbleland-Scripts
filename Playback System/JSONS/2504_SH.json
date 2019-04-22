@@ -1,0 +1,139 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.18961632251739502,
+          "y": 0.24763086438179016,
+          "z": 0.08537939935922623
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_P_blu.fbx",
+        "name": "Letter - P",
+        "position": {
+          "x": 0.7564266920089722,
+          "y": -2.261674642562866,
+          "z": -25.965988159179688
+        },
+        "rotation": {
+          "x": 0.013473749160766602,
+          "y": -0.5844663381576538,
+          "z": -0.027054250240325928,
+          "w": -0.8108797073364258
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterP2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2331477254629135,
+          "y": 0.30448102951049805,
+          "z": 0.1049804836511612
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_P_blu.fbx",
+        "name": "Letter - P",
+        "position": {
+          "x": 0.9478994011878967,
+          "y": -1.4528782367706299,
+          "z": -25.85612678527832
+        },
+        "rotation": {
+          "x": 0.0003204345703125,
+          "y": -0.6980849504470825,
+          "z": -0.0008087158203125,
+          "w": -0.7160601615905762
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterP3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2954810857772827,
+          "y": 0.38588574528694153,
+          "z": 0.13304761052131653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_P_blu.fbx",
+        "name": "Letter - P",
+        "position": {
+          "x": 0.8783403038978577,
+          "y": -0.7257615327835083,
+          "z": -25.583656311035156
+        },
+        "rotation": {
+          "x": 0.022018790245056152,
+          "y": -0.808102548122406,
+          "z": -0.005172789096832275,
+          "w": -0.5886472463607788
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "18000": [
+    {
+      "name": "Heart",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":2.5538341999053955,"y":-1.6031854152679443,"z":-24.590938568115234},
+        "rotation": {"x":-0.0000457763671875,"y":-0.7071488499641418,"z":-0.0000152587890625,"w":0.7070878744125366},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "19920": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.09312057495117188,
+        "y": 0.06492471694946289,
+        "z": 0.10885238647460938
+      },
+      "jointRotation": {
+        "x": 10.470338821411133,
+        "y": -96.30555725097656,
+        "z": -86.81524658203125
+      }
+    }
+  ],
+  "42110": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterP2",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterP3",
+      "action": "DELETE"
+    }
+  ]
+}

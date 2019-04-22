@@ -1,0 +1,73 @@
+{
+  "0": [
+    {
+      "name": "LetterN",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1849094033241272,
+          "y": 0.20282794535160065,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+        "name": "Schoolboard letter - N",
+        "position": {
+          "x": 0.36682820320129395,
+          "y": -3.6289435625076294,
+          "z": -14.707479476928711
+        },
+        "rotation": {
+          "x": -0.012220114469528198,
+          "y": -0.1265106201171875,
+          "z": -0.008171036839485168,
+          "w": -0.9918177723884583
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "9800": [
+    {
+      "name": "LetterN",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.057784438133239746,
+        "y": 0.09308645129203796,
+        "z": 0.11152297258377075
+      },
+      "jointRotation": {
+        "x": -162.0222930908203,
+        "y": 85.89634704589844,
+        "z": -88.94073486328125
+      }
+    }
+  ],
+  "22330": [
+    {
+      "name": "LetterN",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 25,
+      "jointPosition": {
+        "x": 0.06465721130371094,
+        "y": 0.06892389804124832,
+        "z": 0.11689257621765137
+      },
+      "jointRotation": {
+        "x": -1.0948383808135986,
+        "y": -97.17334747314453,
+        "z": -77.05635833740234
+      }
+    }
+  ],
+  "29170": [
+    {
+      "name": "LetterN",
+      "action": "DELETE"
+    }
+  ]
+}

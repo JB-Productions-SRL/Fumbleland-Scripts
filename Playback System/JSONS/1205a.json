@@ -1,0 +1,18 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1205a-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 10000
+  },
+  "1": {
+    "name": "Leah",
+    "timeOffset": 1500,
+    "url": "atp:/recordings/1205a-Leah.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 9500
+  }
+}

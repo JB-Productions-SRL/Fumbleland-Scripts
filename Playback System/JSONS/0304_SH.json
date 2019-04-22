@@ -1,0 +1,972 @@
+{
+  "0": [
+    {
+      "name": "Pencil0",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05033006891608238,
+          "y": 0.3473210632801056,
+          "z": 0.051421672105789185,
+          "red": 0.05033006891608238,
+          "green": 0.3473210632801056,
+          "blue": 0.051421672105789185
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilGreen.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -14.876744270324707,
+          "y": -3391.135986328125,
+          "z": 13.878414154052734,
+          "red": -14.876744270324707,
+          "green": -3391.135986328125,
+          "blue": 13.878414154052734
+        },
+        "rotation": {
+          "x": 0.14050692319869995,
+          "y": -0.6801059246063232,
+          "z": 0.6930012106895447,
+          "w": -0.1935536414384842
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05062008649110794,
+          "y": 0.34932243824005127,
+          "z": 0.05171797797083855,
+          "red": 0.05062008649110794,
+          "green": 0.34932243824005127,
+          "blue": 0.05171797797083855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilYellow.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -16.053760528564453,
+          "y": -3.1231281757354736,
+          "z": 11.583033561706543,
+          "red": -16.053760528564453,
+          "green": -3.1231281757354736,
+          "blue": 11.583033561706543
+        },
+        "rotation": {
+          "x": -0.5548027753829956,
+          "y": 0.16716253757476807,
+          "z": -0.43367666006088257,
+          "w": 0.690028190612793
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.050602201372385025,
+          "y": 0.3491990268230438,
+          "z": 0.05169970914721489,
+          "red": 0.050602201372385025,
+          "green": 0.3491990268230438,
+          "blue": 0.05169970914721489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilBlue.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -16.035802841186523,
+          "y": -3.124180793762207,
+          "z": 14.676926612854004,
+          "red": -16.035802841186523,
+          "green": -3.124180793762207,
+          "blue": 14.676926612854004
+        },
+        "rotation": {
+          "x": 0.06660568714141846,
+          "y": 0.4446021318435669,
+          "z": 0.7018997669219971,
+          "w": 0.5524224042892456
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05090053752064705,
+          "y": 0.3512578010559082,
+          "z": 0.05200451239943504,
+          "red": 0.05090053752064705,
+          "green": 0.3512578010559082,
+          "blue": 0.05200451239943504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilRed.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -16.0922794342041,
+          "y": -3.12296986579895,
+          "z": 11.16790771484375,
+          "red": -16.0922794342041,
+          "green": -3.12296986579895,
+          "blue": 11.16790771484375
+        },
+        "rotation": {
+          "x": -0.6661325693130493,
+          "y": -0.07475394010543823,
+          "z": 0.23936831951141357,
+          "w": 0.7024185657501221
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil4",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.050602201372385025,
+          "y": 0.3491990268230438,
+          "z": 0.05169970914721489,
+          "red": 0.050602201372385025,
+          "green": 0.3491990268230438,
+          "blue": 0.05169970914721489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilBlue.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -17.36626625061035,
+          "y": -3.124263286590576,
+          "z": 11.506756782531738,
+          "red": -17.36626625061035,
+          "green": -3.124263286590576,
+          "blue": 11.506756782531738
+        },
+        "rotation": {
+          "x": -0.32762646675109863,
+          "y": 0.6463874578475952,
+          "z": 0.618219256401062,
+          "w": -0.30443274974823
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil5",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05062008649110794,
+          "y": 0.34932243824005127,
+          "z": 0.05171797797083855,
+          "red": 0.05062008649110794,
+          "green": 0.34932243824005127,
+          "blue": 0.05171797797083855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilYellow.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -17.251445770263672,
+          "y": -3.1219282150268555,
+          "z": 12.30732250213623,
+          "red": -17.251445770263672,
+          "green": -3.1219282150268555,
+          "blue": 12.30732250213623
+        },
+        "rotation": {
+          "x": -0.46819257736206055,
+          "y": -0.3626001477241516,
+          "z": 0.528801441192627,
+          "w": 0.6079652309417725
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil6",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05033006891608238,
+          "y": 0.3473210632801056,
+          "z": 0.051421672105789185,
+          "red": 0.05033006891608238,
+          "green": 0.3473210632801056,
+          "blue": 0.051421672105789185
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilGreen.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -17.61726188659668,
+          "y": -3.1219165325164795,
+          "z": 12.343385696411133,
+          "red": -17.61726188659668,
+          "green": -3.1219165325164795,
+          "blue": 12.343385696411133
+        },
+        "rotation": {
+          "x": -0.6227664947509766,
+          "y": 0.5140001773834229,
+          "z": -0.34560155868530273,
+          "w": 0.4780803918838501
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil7",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05033006891608238,
+          "y": 0.3473210632801056,
+          "z": 0.051421672105789185,
+          "red": 0.05033006891608238,
+          "green": 0.3473210632801056,
+          "blue": 0.051421672105789185
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilGreen.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -11.186837196350098,
+          "y": -3.1222596168518066,
+          "z": 8.070555686950684,
+          "red": -11.186837196350098,
+          "green": -3.1222596168518066,
+          "blue": 8.070555686950684
+        },
+        "rotation": {
+          "x": -0.34462499618530273,
+          "y": -0.32909131050109863,
+          "z": 0.617425799369812,
+          "w": 0.6258487701416016
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil8",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05033006891608238,
+          "y": 0.3473210632801056,
+          "z": 0.051421672105789185,
+          "red": 0.05033006891608238,
+          "green": 0.3473210632801056,
+          "blue": 0.051421672105789185
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilGreen.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -14.424173355102539,
+          "y": -3.1094448566436768,
+          "z": 12.064093589782715,
+          "red": -14.424173355102539,
+          "green": -3.1094448566436768,
+          "blue": 12.064093589782715
+        },
+        "rotation": {
+          "x": -0.4728618264198303,
+          "y": 0.2686045169830322,
+          "z": -0.5220569372177124,
+          "w": -0.6570382118225098
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil9",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05062008649110794,
+          "y": 0.34932243824005127,
+          "z": 0.05171797797083855,
+          "red": 0.05062008649110794,
+          "green": 0.34932243824005127,
+          "blue": 0.05171797797083855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilYellow.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -12.720719337463379,
+          "y": -3.123561143875122,
+          "z": 11.952722549438477,
+          "red": -12.720719337463379,
+          "green": -3.123561143875122,
+          "blue": 11.952722549438477
+        },
+        "rotation": {
+          "x": -0.7114824056625366,
+          "y": -0.07472342252731323,
+          "z": -0.0631875991821289,
+          "w": 0.6958876848220825
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil10",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.050602201372385025,
+          "y": 0.3491990268230438,
+          "z": 0.05169970914721489,
+          "red": 0.050602201372385025,
+          "green": 0.3491990268230438,
+          "blue": 0.05169970914721489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilBlue.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -11.622842788696289,
+          "y": -3.1225087642669678,
+          "z": 12.158469200134277,
+          "red": -11.622842788696289,
+          "green": -3.1225087642669678,
+          "blue": 12.158469200134277
+        },
+        "rotation": {
+          "x": -0.37019914388656616,
+          "y": -0.5156481266021729,
+          "z": 0.6017700433731079,
+          "w": 0.48464179039001465
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil11",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.050602201372385025,
+          "y": 0.3491990268230438,
+          "z": 0.05169970914721489,
+          "red": 0.050602201372385025,
+          "green": 0.3491990268230438,
+          "blue": 0.05169970914721489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilBlue.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -15.833865509033203,
+          "y": -3.1215145587921143,
+          "z": 10.2768,
+          "red": -15.833865509033203,
+          "green": -3.1215145587921143,
+          "blue": 10.2768
+        },
+        "rotation": {
+          "x": -0.6418097019195557,
+          "y": 0.5790340900421143,
+          "z": 0.29362940788269043,
+          "w": 0.40816354751586914
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil12",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05062008649110794,
+          "y": 0.34932243824005127,
+          "z": 0.05171797797083855,
+          "red": 0.05062008649110794,
+          "green": 0.34932243824005127,
+          "blue": 0.05171797797083855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilYellow.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -15.342452049255371,
+          "y": -3.1231727600097656,
+          "z": 8.469034194946289,
+          "red": -15.342452049255371,
+          "green": -3.1231727600097656,
+          "blue": 8.469034194946289
+        },
+        "rotation": {
+          "x": 0.6527962684631348,
+          "y": 0.7029068470001221,
+          "z": -0.269275963306427,
+          "w": 0.08506906032562256
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil13",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05090053752064705,
+          "y": 0.3512578010559082,
+          "z": 0.05200451239943504,
+          "red": 0.05090053752064705,
+          "green": 0.3512578010559082,
+          "blue": 0.05200451239943504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilRed.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -14.246524810791016,
+          "y": -3.1203060150146484,
+          "z": 10.583636283874512,
+          "red": -14.246524810791016,
+          "green": -3.1203060150146484,
+          "blue": 10.583636283874512
+        },
+        "rotation": {
+          "x": -0.5110093951225281,
+          "y": 0.542992353439331,
+          "z": 0.4890364408493042,
+          "w": 0.45256733894348145
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil14",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05090053752064705,
+          "y": 0.3512578010559082,
+          "z": 0.05200451239943504,
+          "red": 0.05090053752064705,
+          "green": 0.3512578010559082,
+          "blue": 0.05200451239943504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilRed.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -13.49478816986084,
+          "y": -3.1230642795562744,
+          "z": 8.806685447692871,
+          "red": -13.49478816986084,
+          "green": -3.1230642795562744,
+          "blue": 8.806685447692871
+        },
+        "rotation": {
+          "x": 0.07508969306945801,
+          "y": 0.5103989839553833,
+          "z": -0.7029068470001221,
+          "w": 0.4897078275680542
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil15",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.050602201372385025,
+          "y": 0.3491990268230438,
+          "z": 0.05169970914721489,
+          "red": 0.050602201372385025,
+          "green": 0.3491990268230438,
+          "blue": 0.05169970914721489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilBlue.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -13.158321380615234,
+          "y": -3.1240792274475098,
+          "z": 10.937716484069824,
+          "red": -13.158321380615234,
+          "green": -3.1240792274475098,
+          "blue": 10.937716484069824
+        },
+        "rotation": {
+          "x": -0.7065995335578918,
+          "y": -0.6358892321586609,
+          "z": -0.06785684823989868,
+          "w": 0.302937388420105
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil16",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.050602201372385025,
+          "y": 0.3491990268230438,
+          "z": 0.05169970914721489,
+          "red": 0.050602201372385025,
+          "green": 0.3491990268230438,
+          "blue": 0.05169970914721489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilBlue.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -15.105005264282227,
+          "y": -3.1222987174987793,
+          "z": 14.02505874633789,
+          "red": -15.105005264282227,
+          "green": -3.1222987174987793,
+          "blue": 14.02505874633789
+        },
+        "rotation": {
+          "x": 0.6527962684631348,
+          "y": 0.5580071210861206,
+          "z": -0.271381676197052,
+          "w": 0.43450069427490234
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil17",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05090053752064705,
+          "y": 0.3512578010559082,
+          "z": 0.05200451239943504,
+          "red": 0.05090053752064705,
+          "green": 0.3512578010559082,
+          "blue": 0.05200451239943504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilRed.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -13.721075057983398,
+          "y": -3.1224429607391357,
+          "z": 12.721287727355957,
+          "red": -13.721075057983398,
+          "green": -3.1224429607391357,
+          "blue": 12.721287727355957
+        },
+        "rotation": {
+          "x": -0.2857251763343811,
+          "y": 0.32933545112609863,
+          "z": 0.6424505710601807,
+          "w": 0.6301518678665161
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil18",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05090053752064705,
+          "y": 0.3512578010559082,
+          "z": 0.05200451239943504,
+          "red": 0.05090053752064705,
+          "green": 0.3512578010559082,
+          "blue": 0.05200451239943504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilRed.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -12.457595825195312,
+          "y": -3.122485876083374,
+          "z": 13.084075927734375,
+          "red": -12.457595825195312,
+          "green": -3.122485876083374,
+          "blue": 13.084075927734375
+        },
+        "rotation": {
+          "x": 0.5530327558517456,
+          "y": -0.35567253828048706,
+          "z": -0.4402990937232971,
+          "w": 0.6113526821136475
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil19",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05062008649110794,
+          "y": 0.34932243824005127,
+          "z": 0.05171797797083855,
+          "red": 0.05062008649110794,
+          "green": 0.34932243824005127,
+          "blue": 0.05171797797083855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilYellow.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -12.775959968566895,
+          "y": -3.1230554580688477,
+          "z": 14.76583194732666,
+          "red": -12.775959968566895,
+          "green": -3.1230554580688477,
+          "blue": 14.76583194732666
+        },
+        "rotation": {
+          "x": 0.6294804811477661,
+          "y": 0.14363312721252441,
+          "z": 0.3217974901199341,
+          "w": -0.6925307512283325
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil20",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05033006891608238,
+          "y": 0.3473210632801056,
+          "z": 0.051421672105789185,
+          "red": 0.05033006891608238,
+          "green": 0.3473210632801056,
+          "blue": 0.051421672105789185
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilGreen.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -11.581805229187012,
+          "y": -3.1210098266601562,
+          "z": 8.723662376403809,
+          "red": -11.581805229187012,
+          "green": -3.1210098266601562,
+          "blue": 8.723662376403809
+        },
+        "rotation": {
+          "x": -0.3186541795730591,
+          "y": 0.4008392095565796,
+          "z": 0.6322270631790161,
+          "w": 0.5814144611358643
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Pencil21",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.05062008649110794,
+          "y": 0.34932243824005127,
+          "z": 0.05171797797083855,
+          "red": 0.05062008649110794,
+          "green": 0.34932243824005127,
+          "blue": 0.05171797797083855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/PencilYellow.fbx",
+        "name": "PPencil!",
+        "position": {
+          "x": -10.821971893310547,
+          "y": -3.120734214782715,
+          "z": 13.654253005981445,
+          "red": -10.821971893310547,
+          "green": -3.120734214782715,
+          "blue": 13.654253005981445
+        },
+        "rotation": {
+          "x": -0.7058060169219971,
+          "y": -0.27803462743759155,
+          "z": 0.055893778800964355,
+          "w": 0.6491950750350952
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }],
+  "35130": [
+    {
+      "name": "LetterC",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterC.fbx",
+        "name": "Letter-T",
+        "position": {
+          "x": -7.3328,
+          "y": -4.5796,
+          "z": 13.6793
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "36630": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.019150495529174805,
+        "y": 0.06844282150268555,
+        "z": 0.126672625541687
+      },
+      "jointRotation": {
+        "x": -20.899505615234375,
+        "y": -95.04224395751953,
+        "z": 88.83578491210938
+      }
+    }
+  ],
+  "41670": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -6.4502,
+          "y": -1.8796,
+          "z": 11.0895
+        },
+        "rotation": {"x":0,"y":0,"z":0,"w":1},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?3",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "48540": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.02533245086669922,
+        "y": 0.05296468734741211,
+        "z": 0.127405047416687
+      },
+      "jointRotation": {
+        "x": 21.566402435302734,
+        "y": -85.04995727539062,
+        "z": -89.60829162597656
+      }
+    }
+  ],
+  "57990": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -6.4502,
+          "y": -1.8796,
+          "z": 11.0895
+        },
+        "rotation": {"x":0,"y":0,"z":0,"w":1},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?3",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "62520": [
+    {
+      "name": "Heart3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -7.4547,
+          "y": -1.7396,
+          "z": 14.2819
+        },
+        "rotation": {"x":0,"y":0,"z":0,"w":1},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?3",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "88300": [
+    {
+      "name": "Pencil0",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil3",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil4",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil5",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil6",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil7",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil8",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil9",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil10",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil11",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil12",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil13",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil14",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil15",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil16",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil17",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil18",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil19",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil20",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pencil21",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterC",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart3",
+      "action": "DELETE"
+    }
+  ]
+}

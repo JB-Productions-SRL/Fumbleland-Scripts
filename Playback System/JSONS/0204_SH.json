@@ -1,0 +1,157 @@
+{
+  "0": [
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+        "name": "Letter-T",
+        "position": {
+          "x": -17.55772590637207,
+          "y": -2.6119744777679443,
+          "z": 13.499527931213379
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "4250": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.02527761459350586,
+        "y": 0.060466766357421875,
+        "z": 0.04098320007324219
+      },
+      "jointRotation": {
+        "x": -21.688472747802734,
+        "y": -94.99081420898438,
+        "z": 89.68901824951172
+      }
+    }
+  ],
+  "23000": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -7.3661,
+          "y": -1.6997,
+          "z": 14.2572
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "44000": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.02527761459350586,
+        "y": 0.060466766357421875,
+        "z": 0.04098320007324219
+      },
+      "jointRotation": {
+        "x": -21.688472747802734,
+        "y": 94.99081420898438,
+        "z": -89.68901824951172
+      }
+    }
+  ],
+  "51000": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -8.5977,
+          "y": -1.5803,
+          "z": 13.9340
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "53000": [
+    {
+      "name": "Heart3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -7.3661,
+          "y": -1.6997,
+          "z": 14.2572
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "67300": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart3",
+      "action": "DELETE"
+    }
+  ]
+}

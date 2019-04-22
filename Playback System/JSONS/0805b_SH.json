@@ -1,0 +1,252 @@
+{
+  "0": [
+    {
+      "name": "PaintBrush",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1126040369272232,
+          "y": 0.04521157220005989,
+          "z": 0.2735229432582855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newObjects5/paintBrushRed_v001.fbx",
+        "name": "PaintBrush",
+        "position": {
+          "x": -30.155967712402344,
+          "y": -1.5902831554412842,
+          "z": 35.12533187866211
+        },
+        "rotation": {
+          "x": -0.054851412773132324,
+          "y": 0.6372231841087341,
+          "z": 0.7659628391265869,
+          "w": -0.06528833508491516
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterH",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.16587461531162262,
+          "y": 0.20323365926742554,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterH.fbx",
+        "name": "Schoolboard letter - H",
+        "position": {
+          "x": -30.07391929626465,
+          "y": 5.533100605010986,
+          "z": 39.65032196044922
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "RocketSpray",
+      "action": "REZ",
+      "props": {
+        "lifetime": 300,
+        "name": "Village - RocketSpray",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "position": {
+          "x": -30.155967712402344,
+          "y": -1.5902831554412842,
+          "z": 35.12533187866211
+        },
+        "accelerationSpread": {
+          "x": 0.5,
+          "y": 0.4000000059604645,
+          "z": 0
+        },
+        "alpha": 0,
+        "alphaFinish": 0,
+        "alphaStart": 1,
+        "color": {
+          "blue": 144,
+          "green": 148,
+          "red": 153
+        },
+        "colorFinish": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "colorStart": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "dimensions": {
+          "x": 13.052801132202148,
+          "y": 13.052801132202148,
+          "z": 13.052801132202148
+        },
+        "emitAcceleration": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "emitOrientation": {
+          "w": 1,
+          "x": -1.52587890625e-05,
+          "y": -1.52587890625e-05,
+          "z": -1.52587890625e-05
+        },
+        "emitRate": 438,
+        "emitSpeed": 1.850000023841858,
+        "emitterShouldTrail": true,
+        "lifespan": 3.0399999618530273,
+        "maxParticles": 2111,
+        "particleRadius": 0.3400000035762787,
+        "radiusFinish": 0.10000000149011612,
+        "radiusStart": 0.10000000149011612,
+        "speedSpread": 0,
+        "spinFinish": null,
+        "spinStart": null,
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "type": "ParticleEffect"
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "PaintBrush",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.09513068199157715,
+        "y": 0.1418304443359375,
+        "z": 0.03965950012207031
+      },
+      "jointRotation": {
+        "x": -113.54878997802734,
+        "y": 127.40047454833984,
+        "z": -85.18440246582031
+      }
+    }
+  ],
+  "34540": [
+    {
+      "name": "RocketSpray",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.16230392456054688,
+        "y": 0.15272140502929688,
+        "z": 0.043634891510009766
+      },
+      "jointRotation": {
+        "x": -137.60079956054688,
+        "y": 127.35557556152344,
+        "z": -85.19331359863281
+      }
+    }
+  ],
+  "36000": [
+    {
+      "name": "RocketSpray",
+      "action": "EDIT",
+      "props": {
+        "isEmitting": false
+      }
+    }
+  ],
+  "39000": [
+    {
+      "name": "RocketSpray",
+      "action": "DELETE"
+    }
+  ],
+  "60300": [
+    {
+      "name": "LetterH",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 55,
+      "jointPosition": {
+        "x": -0.03285694122314453,
+        "y": 0.039337158203125,
+        "z": 0.09717369079589844
+      },
+      "jointRotation": {
+        "x": -125.95382690429688,
+        "y": 90.10468292236328,
+        "z": -54.0446662902832
+      }
+    }
+  ],
+  "71000": [
+    {
+      "name": "Airplane!",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.7733427286148071,
+          "y": 0.40430471301078796,
+          "z": 0.7857477068901062
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Airplane.fbx",
+        "name": "Airplane!",
+        "position": {
+          "x": -30.98103141784668,
+          "y": 7.930002212524414,
+          "z": 39.02923583984375
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.8829327821731567,
+          "z": -0.0000457763671875,
+          "w": 0.46944379806518555
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -6,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "85650": [
+    {
+      "name": "LetterH",
+      "action": "DELETE"
+    }
+  ],
+  "88080": [
+    {
+      "name": "PaintBrush",
+      "action": "DELETE"
+    },
+    {
+      "name": "Airplane!",
+      "action": "DELETE"
+    }
+  ]
+}

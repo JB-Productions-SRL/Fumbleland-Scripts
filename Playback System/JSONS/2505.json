@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 20500,
+    "url": "atp:/recordings/2505-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 53190
+  },
+  "2": {
+    "name": "SolarBear",
+    "timeOffset": 1100,
+    "url": "atp:/recordings/2505-SolarBear1.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "3": {
+    "name": "SlowBall",
+    "timeOffset": 3600,
+    "url": "atp:/recordings/2505-SlowBall.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "Sofy",
+    "timeOffset": 13500,
+    "url": "atp:/recordings/2505-Sofy.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 60690
+  },
+  "5": {
+    "name": "PolarBear",
+    "timeOffset": 64000,
+    "url": "atp:/recordings/2505-PolarBear.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

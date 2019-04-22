@@ -1,0 +1,749 @@
+{
+  "0": [
+    {
+      "name": "LetterB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1858000010251999,
+          "y": 0.25130000710487366,
+          "z": 0.08630000054836273
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 57.95849609375,
+          "y": -2.6068530082702637,
+          "z": -32.38482666015625
+        },
+        "rotation": {
+          "x": 0.0032501220703125,
+          "y": 0.2878309488296509,
+          "z": -0.013382136821746826,
+          "w": 0.9575799703598022
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterG",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.19431962072849274,
+          "y": 0.20448407530784607,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterG.fbx",
+        "name": "Schoolboard letter - g",
+        "position": {
+          "x": 54.96912384033203,
+          "y": -3.254117727279663,
+          "z": -32.08313751220703
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.5563896894454956,
+          "z": -0.0000152587890625,
+          "w": 0.8309299945831299
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "JackPuddle",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 1.89406418800354,
+          "y": 0.13747021555900574,
+          "z": 1.5560922622680664
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/splashGlue_v001.fbx",
+        "name": "JackPuddle",
+        "position": {
+          "x": 56.12642288208008,
+          "y": -3.3172833919525146,
+          "z": -33.04615783691406
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.9902647733688354,
+          "z": -0.0000762939453125,
+          "w": 0.13917756080627441
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "MrsSpellingPuddle",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 1.89406418800354,
+          "y": 0.13747021555900574,
+          "z": 1.5560922622680664
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/splashGlue_v001.fbx",
+        "name": "MrsSpellingPuddle",
+        "position": {
+          "x": 56.672828674316406,
+          "y": -3.3171682357788086,
+          "z": -32.36951446533203
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": 0.40669870376586914,
+          "z": -0.0000152587890625,
+          "w": 0.9135423898696899
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "6000": [
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "Jack",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.0975637435913086,
+        "y": 0.09730911254882812,
+        "z": 0.11856496334075928
+      },
+      "jointRotation": {
+        "x": -7.552044868469238,
+        "y": -107.68687438964844,
+        "z": -62.178436279296875
+      }
+    }
+  ],
+  "17460": [
+    {
+      "name": "GlueDrop",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.19061963260173798,
+          "y": 0.6474183201789856,
+          "z": 0.19061963260173798
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/dropGlue_v001.fbx",
+        "name": "FloofEntity",
+        "position": {
+          "x": 52.95999526977539,
+          "y": -2.5865423679351807,
+          "z": -35.72813415527344
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.2
+      }
+    },
+    {
+      "name": "GluePuddle",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.01,
+          "y": 0.01,
+          "z": 0.01
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/splashGlue_v001.fbx",
+        "name": "GluePuddle",
+        "serverScripts": "http://vr.fumbleland.com/scripts/glueGrow.js",
+        "position": {
+          "x": 52.9169,
+          "y": -3.2938,
+          "z": -35.7374
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "23220": [
+    {
+      "name": "GlueDrop",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.19061963260173798,
+          "y": 0.6474183201789856,
+          "z": 0.19061963260173798
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/dropGlue_v001.fbx",
+        "name": "FloofEntity",
+        "position": {
+          "x": 57.1276,
+          "y": -2.5865423679351807,
+          "z": -34.3289
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.2
+      }
+    },
+    {
+      "name": "GluePuddle2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.01,
+          "y": 0.01,
+          "z": 0.01
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/splashGlue_v001.fbx",
+        "name": "GluePuddle",
+        "serverScripts": "http://vr.fumbleland.com/scripts/glueGrow.js",
+        "position": {
+          "x": 57.1276,
+          "y": -3.2938,
+          "z": -34.3289
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "30540": [
+    {
+      "name": "GlueDrop",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.19061963260173798,
+          "y": 0.6474183201789856,
+          "z": 0.19061963260173798
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/dropGlue_v001.fbx",
+        "name": "FloofEntity",
+        "position": {
+          "x": 51.9019,
+          "y": -2.5865423679351807,
+          "z": -35.6857
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.2
+      }
+    },
+    {
+      "name": "GluePuddle3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.01,
+          "y": 0.01,
+          "z": 0.01
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newobjects6/splashGlue_v001.fbx",
+        "name": "GluePuddle",
+        "serverScripts": "http://vr.fumbleland.com/scripts/glueGrow.js",
+        "position": {
+          "x": 51.9019,
+          "y": -3.2938,
+          "z": -35.6857
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "37010": [
+    {
+      "name": "WaterCanSpray",
+      "action": "REZ",
+      "props": {
+        "lifetime": 300,
+        "name": "Village - Orchard",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "type": "ParticleEffect",
+        "position": {
+          "x": 56.60494613647461,
+          "y": -4.6258599758148193,
+          "z": -31.270999908447266
+        },
+        "dimensions": {
+          "x": 88.40562438964844,
+          "y": 88.40562438964844,
+          "z": 88.40562438964844
+        },
+        "rotation": {
+          "x": -0.17547082901000977,
+          "y": 0.11304906010627747,
+          "z": -0.07978085428476334,
+          "w": 0.9746295809745789
+        },
+        "isEmitting": true,
+        "maxParticles": 1944,
+        "lifespan": 5,
+        "emitRate": 547,
+        "emitSpeed": 1.850000023841858,
+        "speedSpread": 0,
+        "emitOrientation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "emitDimensions": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "emitRadiusStart": 1,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "emitAcceleration": {
+          "x": 0,
+          "y": -2.5,
+          "z": 0
+        },
+        "accelerationSpread": {
+          "x": 0.5,
+          "y": 0.4000000059604645,
+          "z": 0
+        },
+        "particleRadius": 0.3400000035762787,
+        "radiusSpread": 0,
+        "radiusStart": 0,
+        "radiusFinish": 0.10000000149011612,
+        "color": {
+          "red": 120,
+          "green": 232,
+          "blue": 255
+        },
+        "colorSpread": {
+          "red": 0,
+          "green": 0,
+          "blue": 0
+        },
+        "colorStart": {
+          "red": 0,
+          "green": 0,
+          "blue": 0
+        },
+        "colorFinish": {
+          "red": 0,
+          "green": 0,
+          "blue": 0
+        },
+        "alphaSpread": 0,
+        "alphaStart": 1,
+        "alphaFinish": 0,
+        "emitterShouldTrail": true,
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": null,
+        "spinFinish": null,
+        "rotateWithEntity": false,
+        "textures": "atp:/images/wispy-smoke.png"
+      }
+    },
+    {
+      "name": "WaterCan",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.7556650042533875,
+          "y": 0.5220396518707275,
+          "z": 0.306738942861557
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/wateringCan_v001.fbx",
+        "name": "Village - Orchard",
+        "position": {
+          "x": 56.60494613647461,
+          "y": -4.6258599758148193,
+          "z": -31.270999908447266
+        },
+        "rotation": {
+          "x": 0.09387919306755066,
+          "y": -0.6295937895774841,
+          "z": -0.2656309902667999,
+          "w": 0.7239940166473389
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "38000": [
+    {
+      "name": "WaterCan",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.0018367767333984375,
+        "y": 0.3699951171875,
+        "z": -0.23058319091796875
+      },
+      "jointRotation": {
+        "x": 178.2818145751953,
+        "y": 41.66139221191406,
+        "z": 86.18106079101562
+      }
+    }
+  ],
+  "46000": [
+    {
+      "name": "WaterCanSpray",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": -0.035538673400878906,
+        "y": 0.4705162048339844,
+        "z": -0.33240509033203125
+      },
+      "jointRotation": {
+        "x": 127.96617889404297,
+        "y": -48.552303314208984,
+        "z": 88.64537811279297
+      }
+    }
+  ],
+  "46520": [
+    {
+      "name": "JackPuddle",
+      "action": "EDIT",
+      "props": {
+        "serverScripts": "http://vr.fumbleland.com/scripts/glueShrink.js?0"
+      }
+    },
+    {
+      "name": "MrsSpellingPuddle",
+      "action": "EDIT",
+      "props": {
+        "serverScripts": "http://vr.fumbleland.com/scripts/glueShrink.js?0"
+      }
+    },
+    {
+      "name": "GluePuddle2",
+      "action": "EDIT",
+      "props": {
+        "serverScripts": "http://vr.fumbleland.com/scripts/glueShrink.js?0"
+      }
+    }
+  ],
+  "47000": [
+    {
+      "name": "Heart3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 56.8780,
+          "y": -1.6825313568115234,
+          "z": -32.4118
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.7071488499641418,
+          "z": -0.0000152587890625,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "49020": [
+    {
+      "name": "JackPuddle",
+      "action": "DELETE"
+    },
+    {
+      "name": "MrsSpellingPuddle",
+      "action": "DELETE"
+    },
+    {
+      "name": "GluePuddle2",
+      "action": "DELETE"
+    },
+    {
+      "name": "WaterCanSpray",
+      "action": "EDIT",
+      "props": {
+        "isEmitting": false
+      }
+    }
+  ],
+  "51220": [
+    {
+      "name": "WaterCanSpray",
+      "action": "DELETE"
+    }
+  ],
+  "53010": [
+    {
+      "name": "LetterB",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 54.78369140625,
+          "y": -3.24074125289917,
+          "z": -32.18501663208008
+        },
+        "rotation": {
+          "x": -0.00953686237335205,
+          "y": -0.5994201898574829,
+          "z": -0.011276423931121826,
+          "w": 0.8003203868865967
+        }
+      }
+    }
+  ],
+  "54050": [
+    {
+      "name": "LetterG",
+      "action": "PARENT",
+      "target": "Jack",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.050015020370483398438,
+        "y": 0.06099281668663025,
+        "z": 0.1082005500793457
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 90,
+        "z": 90
+      }
+    }
+  ],
+  "62220": [
+    {
+      "name": "BlueBerry",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.47763437032699585,
+          "y": 0.427112340927124,
+          "z": 0.4741681218147278
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Blueberry_02.fbx",
+        "name": "BlueBerry",
+        "position": {
+          "x": 55.154510498046875,
+          "y": -0.6178185939788818,
+          "z": -34.884620666503906
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "72480": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 56.74602127075195,
+          "y": -1.6825313568115234,
+          "z": -32.26488494873047
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.7071488499641418,
+          "z": -0.0000152587890625,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "75440": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 56.245574951171875,
+          "y": -1.5980157852172852,
+          "z": -31.080066680908203
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.7071488499641418,
+          "z": -0.0000152587890625,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "80550": [
+    {
+      "name": "LetterG",
+      "action": "DELETE"
+    }
+  ],
+  "85550": [
+    {
+      "name": "GluePuddle",
+      "action": "DELETE"
+    },
+    {
+      "name": "GluePuddle3",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB",
+      "action": "DELETE"
+    },
+    {
+      "name": "WaterCan",
+      "action": "DELETE"
+    },
+    {
+      "name": "BlueBerry",
+      "action": "DELETE"
+    }
+  ]
+}

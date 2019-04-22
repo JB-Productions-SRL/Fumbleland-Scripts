@@ -1,0 +1,176 @@
+{
+  "0": [
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+        "name": "Letter-T",
+        "position": {
+          "x": -17.55772590637207,
+          "y": -2.6119744777679443,
+          "z": 13.499527931213379
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterS",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1952,
+          "y": 0.2493,
+          "z": 0.0849
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterS.fbx",
+        "name": "Letter-S",
+        "position": {
+          "x": -17.69,
+          "y": -2.27,
+          "z": 13.57
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": 0.930418848991394,
+          "z": -0.0001068115234375,
+          "w": 0.3664759397506714
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.02527761459350586,
+        "y": 0.060466766357421875,
+        "z": 0.04098320007324219
+      },
+      "jointRotation": {
+        "x": -21.688472747802734,
+        "y": 94.99081420898438,
+        "z": -89.68901824951172
+      }
+    }
+  ],
+  "70000": [
+    {
+      "name": "LetterS",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.040564775466918945,
+        "y": 0.08558464050292969,
+        "z": 0.09295272827148438
+      },
+      "jointRotation": {
+        "x": -176.09664916992188,
+        "y": -76.05059814453125,
+        "z": 59.15409851074219
+      }
+    }
+  ],
+  "73830": [
+    {
+      "name": "LetterT",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": -17.81,
+          "y": -2.27,
+          "z": 13.59
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": 0.930418848991394,
+          "z": -0.0001068115234375,
+          "w": 0.3664759397506714
+        }
+      }
+    }
+  ],
+  "90020": [
+    {
+      "name": "Notebook",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2343,
+          "y": 0.2940,
+          "z": 0.0748
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Notebook.fbx",
+        "name": "Village - Notebook",
+        "position": {
+          "x": -17.1168,
+          "y": -1.1448,
+          "z": 13.8138
+        },
+        "rotation": {
+          "x": -0.2990310788154602,
+          "y": 0.6408331394195557,
+          "z": 0.6408026218414307,
+          "w": 0.29881739616394043
+        },
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "shapeType": "simple-hull",
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "90320": [
+    {
+      "name": "Notebook",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "100300": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterS",
+      "action": "DELETE"
+    },
+    {
+      "name": "Notebook",
+      "action": "DELETE"
+    }
+  ]
+}

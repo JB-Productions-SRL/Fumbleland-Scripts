@@ -1,0 +1,26 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0305-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 68140
+  },
+  "1": {
+    "name": "Sofy",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0305-Sofy.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 68140
+  },
+  "2": {
+    "name": "Pencilvase",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0305-PencilVase.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 54680
+  }
+}

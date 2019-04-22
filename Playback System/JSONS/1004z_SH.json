@@ -1,0 +1,137 @@
+{
+  "20000": [
+    {
+      "name": "LetterC",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterC.fbx",
+        "name": "Letter-C",
+        "position": {
+          "x": 13.06956672668457,
+          "y": -4.6080574989318848,
+          "z": -18.677650451660156
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "22470": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.019150495529174805,
+        "y": 0.06844282150268555,
+        "z": 0.126672625541687
+      },
+      "jointRotation": {
+        "x": -20.899505615234375,
+        "y": -95.04224395751953,
+        "z": 88.83578491210938
+      }
+    }
+  ],
+  "37330": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 26,
+      "jointPosition": {
+        "x": 0.016510009765625,
+        "y": 0.03945732116699219,
+        "z": 0.11608600616455078
+      },
+      "jointRotation": {
+        "x": 3.5409886837005615,
+        "y": -103.08869171142578,
+        "z": -80.11843872070312
+      }
+    }
+  ],
+  "37500": [
+    {
+      "name": "Heart",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 11.144942283630371,
+          "y": -1.657285213470459,
+          "z": -21.036561965942383
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.5150072574615479,
+          "z": -0.0000457763671875,
+          "w": 0.8571450710296631
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "40340": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 11.849583625793457,
+          "y": -1.5563197135925293,
+          "z": -19.25228500366211
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7933318614959717,
+          "z": -0.0000457763671875,
+          "w": 0.6087586879730225
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "script": "http://vr.fumbleland.com/scripts/heart.js?3",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "58000": [
+    {
+      "name": "LetterC",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    }
+  ]
+}

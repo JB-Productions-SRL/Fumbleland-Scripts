@@ -1,0 +1,34 @@
+{
+  "0": {
+    "name": "MrsS",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0304-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "2": {
+    "name": "Sofy",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0304-Sofy.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "3": {
+    "name": "PigPail",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0304-PigPail.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "David",
+    "timeOffset": 36300,
+    "url": "atp:/recordings/0304-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

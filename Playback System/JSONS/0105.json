@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "Roby",
+    "timeOffset": 2200,
+    "url": "atp:/recordings/0105-Roby.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 69230
+  },
+  "1": {
+    "name": "MrsS",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0105-MrsS.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 70430
+  },
+  "2": {
+    "name": "ManCake",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0105-ManCake.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 53300
+  },
+  "3": {
+    "name": "LemonFart",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0105-LemonFart.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0105-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

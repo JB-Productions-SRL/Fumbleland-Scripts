@@ -1,0 +1,351 @@
+{
+  "0": [
+    {
+      "name": "LetterN",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1954263597726822,
+          "y": 0.21436405181884766,
+          "z": 0.07229989022016525
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_N_blu.fbx",
+        "name": "Letter - N",
+        "position": {
+          "x": -65.6518783569336,
+          "y": 4.646266460418701,
+          "z": -31.332042694091797
+        },
+        "rotation": {
+          "x": -0.34882378578186035,
+          "y": 0.09163409471511841,
+          "z": -0.9118490815162659,
+          "w": -0.19611689448356628
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterL",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.15742051601409912,
+          "y": 0.2552202343940735,
+          "z": 0.08822689950466156
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_L_pink.fbx",
+        "name": "Letter - L",
+        "position": {
+          "x": -65.60322570800781,
+          "y": 4.52099609375,
+          "z": -30.70213508605957
+        },
+        "rotation": {
+          "x": -0.06688644737005234,
+          "y": -0.298528254032135,
+          "z": 0.2247113436460495,
+          "w": -0.9251550436019897
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "StopWatch",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.09157092869281769,
+          "y": 0.456683874130249,
+          "z": 0.3167211711406708
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/timer_v002.fbx",
+        "name": "timer_v002.fbx",
+        "position": {
+          "x": -66.44881439208984,
+          "y": 4.401628017425537,
+          "z": -30.352149963378906
+        },
+        "rotation": {
+          "x": -0.1905394196510315,
+          "y": -0.2088502049446106,
+          "z": 0.13313496112823486,
+          "w": 0.9499199390411377
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "StopWatch",
+      "action": "PARENT",
+      "target": "BookStop",
+      "jointIndex": 27,
+      "jointPosition": {
+        "x": 0.10577774047851562,
+        "y": 0.11641120910644531,
+        "z": 0.16511154174804688
+      },
+      "jointRotation": {
+        "x": -19.073917388916016,
+        "y": -130.37271118164062,
+        "z": -47.12900161743164
+      }
+    },
+    {
+      "name": "LetterN",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 25,
+      "jointPosition": {
+        "x": 0.06465721130371094,
+        "y": 0.06892389804124832,
+        "z": 0.11689257621765137
+      },
+      "jointRotation": {
+        "x": -1.0948383808135986,
+        "y": -97.17334747314453,
+        "z": -77.05635833740234
+      }
+    }
+  ],
+  "52300": [
+    {
+      "name": "LetterN",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": -65.6518783569336,
+          "y": 4.646266460418701,
+          "z": -31.332042694091797
+        },
+        "rotation": {
+          "x": -0.34882378578186035,
+          "y": 0.09163409471511841,
+          "z": -0.9118490815162659,
+          "w": -0.19611689448356628
+        }
+      }
+    }
+  ],
+  "53510": [
+    {
+      "name": "LetterL",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.07699823379516602,
+        "y": 0.06149864196777344,
+        "z": 0.09811019897460938
+      },
+      "jointRotation": {
+        "x": -20.848196029663086,
+        "y": 106.31010437011719,
+        "z": 63.65785598754883
+      }
+    }
+  ],
+  "60460": [
+    {
+      "name": "SnowballStop1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.4730665683746338,
+          "y": 3.7114548683166504,
+          "z": 3.7114548683166504
+        },
+        "lifetime": 300,
+        "name": "SnowballStop1",
+        "position": {
+          "x": -61.04160690307617,
+          "y": 3.2386302947998047,
+          "z": -27.272428512573242
+        },
+        "rotation": {
+          "x": 0.06797897815704346,
+          "y": 0.45427632331848145,
+          "z": 0.17766082286834717,
+          "w": 0.8702982664108276
+        },
+        "type": "Box",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    },
+    {
+      "name": "SnowballStop2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.4730665683746338,
+          "y": 3.7114548683166504,
+          "z": 3.7114548683166504
+        },
+        "lifetime": 300,
+        "name": "SnowballStop2",
+        "position": {
+          "x": -60.58503341674805,
+          "y": 3.3786466121673584,
+          "z": -22.90585708618164
+        },
+        "rotation": {
+          "x": -0.10148775577545166,
+          "y": -0.3008316159248352,
+          "z": 0.15913629531860352,
+          "w": 0.9348134994506836
+        },
+        "type": "Box",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    },
+    {
+      "name": "SnowBallRail1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 15.46411418914795,
+          "y": 0.20722061395645142,
+          "z": 0.20000000298023224
+        },
+        "lifetime": 300,
+        "name": "SnowBallRail1",
+        "position": {
+          "x": -66.70536804199219,
+          "y": 4.586650848388672,
+          "z": -25.531570434570312
+        },
+        "rotation": {
+          "x": -0.17369341850280762,
+          "y": -0.9846494197845459,
+          "z": -0.0030975937843322754,
+          "w": 0.0170443058013916
+        },
+        "type": "Box",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    },
+    {
+      "name": "SnowBallRail2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 15.46411418914795,
+          "y": 0.20722061395645142,
+          "z": 0.20000000298023224
+        },
+        "lifetime": 300,
+        "name": "SnowBallRail2",
+        "position": {
+          "x": -66.72379302978516,
+          "y": 4.593232154846191,
+          "z": -24.468809127807617
+        },
+        "rotation": {
+          "x": -0.17366290092468262,
+          "y": -0.9844663143157959,
+          "z": -0.004623472690582275,
+          "w": 0.025589346885681152
+        },
+        "type": "Box",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "66460": [
+    {
+      "name": "SnowBall",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.8827048540115356,
+          "y": 0.9150499701499939,
+          "z": 0.8935641050338745
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/snowBall_v004.fbx",
+        "name": "SnowBall",
+        "position": {
+          "x": -71.44237518310547,
+          "y": 8.708630561828613,
+          "z": -24.593158721923828
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.0348668098449707,
+          "z": -0.0000457763671875,
+          "w": 0.9993896484375
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 2,
+          "y": -4,
+          "z": 0
+        },
+        "angularVelocity": {
+          "x": 0,
+          "y": 0,
+          "z": -10
+        },
+        "angularDamping": 0.3,
+        "damping": 0.3,
+        "shapeType": "sphere"
+      }
+    }
+  ],
+  "76630": [
+    {
+      "name": "LetterL",
+      "action": "DELETE"
+    }
+  ],
+  "81260": [
+    {
+      "name": "LetterN",
+      "action": "DELETE"
+    },
+    {
+      "name": "StopWatch",
+      "action": "DELETE"
+    },
+    {
+      "name": "SnowBall",
+      "action": "DELETE"
+    },
+    {
+      "name": "SnowballStop1",
+      "action": "DELETE"
+    },
+    {
+      "name": "SnowballStop2",
+      "action": "DELETE"
+    },
+    {
+      "name": "SnowBallRail1",
+      "action": "DELETE"
+    },
+    {
+      "name": "SnowBallRail2",
+      "action": "DELETE"
+    }
+  ]
+}

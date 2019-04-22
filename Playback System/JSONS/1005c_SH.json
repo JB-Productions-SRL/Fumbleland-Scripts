@@ -1,0 +1,395 @@
+{
+  "0": [
+    {
+      "name": "LetterC",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterC.fbx",
+        "name": "Village - LetterC",
+        "position": {
+          "x": 23.1,
+          "y": -2.8,
+          "z": -27.6
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.9613641500473022,
+          "z": -0.0000152587890625,
+          "w": 0.2752879858016968
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterG",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterG.fbx",
+        "name": "Village - LetterG",
+        "position": {
+          "x": 22.60478973388672,
+          "y": -2.273193120956421,
+          "z": -27.768186569213867
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.5739986300468445,
+          "z": -0.0000457763671875,
+          "w": 0.8188754320144653
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "4000": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 27,
+      "jointPosition": {
+        "x": 0.02014327049255371,
+        "y": 0.06540107727050781,
+        "z": 0.1052398681640625
+      },
+      "jointRotation": {
+        "x": 8.259187698364258,
+        "y": -147.46896362304688,
+        "z": -75.47821044921875
+      }
+    }
+  ],
+  "50000": [
+    {
+      "name": "LetterC",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 22.610065460205078,
+          "y": -2.2732157707214355,
+          "z": -27.436655044555664
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.7441366910934448,
+          "z": -0.0000152587890625,
+          "w": 0.6680247783660889
+        }
+      }
+    }
+  ],
+  "52760": [
+    {
+      "name": "LetterG",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 27,
+      "jointPosition": {
+        "x": 0.02014327049255371,
+        "y": 0.06540107727050781,
+        "z": 0.1052398681640625
+      },
+      "jointRotation": {
+        "x": 8.259187698364258,
+        "y": -147.46896362304688,
+        "z": -75.47821044921875
+      }
+    }
+  ],
+  "57200": [
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 18.6028,
+          "y": -2.0429,
+          "z": -28.0337
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "RaincoatBlocker",
+      "action": "REZ",
+      "props":{
+        "dimensions": {
+          "x": 0.20000000298023224,
+          "y": 0.22084015607833862,
+          "z": 0.8489903211593628
+        },
+        "lifetime": 300,
+        "name": "RaincoatBlocker",
+        "position": {
+          "x": 22.425678253173828,
+          "y": -2.377493381500244,
+          "z": -28.05341339111328
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.03492790460586548,
+          "z": -0.0000152587890625,
+          "w": 0.9993896484375
+        },
+        "visible":false,
+        "type": "Box",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "58000": [
+    {
+      "name": "Raincoat",
+      "action": "REZ",
+      "props":{
+        "dimensions": {
+          "x": 0.9439659118652344,
+          "y": 0.865763247013092,
+          "z": 0.33482956886291504
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/rainCoat_v001.fbx",
+        "name": "Village - Raincoat",
+        "position": {
+          "x": 22.85,
+          "y": -0.8608,
+          "z": -28.0
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7095292806625366,
+          "z": -0.0000762939453125,
+          "w": -0.7046768665313721
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    },
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 22.6497,
+          "y": -1.0608,
+          "z": -27.6693
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "59500": [
+    {
+      "name": "Ladybug",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "78200": [
+    {
+      "name": "LetterC",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterG",
+      "action": "DELETE"
+    },
+    {
+      "name": "Raincoat",
+      "action": "DELETE"
+    },
+    {
+      "name": "RaincoatBlocker",
+      "action": "DELETE"
+    }
+  ]
+}

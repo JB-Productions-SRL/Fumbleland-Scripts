@@ -1,5 +1,5 @@
-var debug = Script.require('https://debug.midnightrift.com/files/hifi/debug.min.js');
-debug.connect('fumbleland');
+//var debug = Script.require('https://debug.midnightrift.com/files/hifi/debug.min.js');
+//debug.connect('fumbleland');
 
 var MESSAGE_CHANNEL_STAGEHAND = "Actor->Stagehand";
 
@@ -18,6 +18,18 @@ var playbackData = null;
 var stopRecordingTimer = null;
 
 var playTimeout;
+
+Script.unhandledException.connect(function (err) {
+    try {
+        Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+            type: "DEBUG",
+            id: ACID,
+            msg: "ERROR", error: err, now: new Date
+        }));
+    } catch (e) {
+        //
+    }
+});
 
 function stopRecording(force) {
 
@@ -47,6 +59,8 @@ function stopRecording(force) {
             Script.clearInterval(stopRecordingTimer);
             stopRecordingTimer = null;
         }
+        Avatar.sendIdentityPacket();
+        Avatar.position = {x: 0, y: -10, z: 0};
         Agent.isAvatar = false;
     }
 }
@@ -86,6 +100,16 @@ function play() {
     Users.disableIgnoreRadius();
 
     Agent.isAvatar = true;
+    Avatar.skeletonModelURL = "https://highfidelity.com/api/v1/commerce/entity_edition/7fe80a1e-f445-4800-9e89-40e677b03bee.fst";
+    Avatar.scale = 1;
+
+    AvatarList.getAvatarIdentifiers().forEach(function (id) {
+        Users.ignore(id, true);
+        Script.setTimeout(function () {
+            Users.ignore(id, false);
+            Avatar.sendIdentityPacket();
+        }, 250);
+    });
 
     Recording.setPlayerUseDisplayName(true);
     Recording.setPlayFromCurrentLocation(false);
@@ -144,6 +168,7 @@ function messageReceived(chan, msg, id) {
             }
             if (msgJSON.cmd === "CELLDEATH") {
                 if (msgJSON.id === ACID) {
+                    console.log("ACTOR CELLDEATH1 "+ACID+" ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
                         type: "DEBUG",
                         msg: "KILLINGSELF",
@@ -151,10 +176,15 @@ function messageReceived(chan, msg, id) {
                         now: new Date
                     }));
                     Script.setTimeout(function () {
-                        Avatar.getAbsoluteJointTranslationInObjectFrame(0);
-                        Script.stop();
-                    }, 1500);
+                        console.log("//ACTOR CELLDEATH2 "+ACID+" ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+
+                        try { location.deleteLater(); } catch(e) { print('location.deleteLater patched', e); }
+                        Script.requestGarbageCollection();
+                        Script.setTimeout(function() { Script.requestGarbageCollection(); Script.stop(); }, 1000);
+
+                        }, 3000);
                 } else if (msgJSON.id.replace(/-[0-9]+$/, '') === ACID.replace(/-[0-9]+$/, '')) {
+                    console.log("ACTOR INVALID CELLDEATH ID! " + msgJSON.id+" MYID "+ACID+" ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                     Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
                         type: "DEBUG",
                         msg: "INVALID CELLDEATH ID! " + msgJSON.id,
@@ -166,6 +196,14 @@ function messageReceived(chan, msg, id) {
             }
         }
         if (msgJSON.type === "SessionPing") {
+
+            Agent.isAvatar = true;
+            Avatar.position = {x: 0, y: -10, z: 0};
+            Script.setTimeout(function () {
+                Avatar.position = {x: 0, y: -10, z: 0};
+                Agent.isAvatar = false;
+            }, 1000);
+
             Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({type: "ReturnPing", id: ACID, now: new Date}));
             // debug.send({color: 'black'}, JSON.stringify({type: "ReturnPing", id: ACID, now: new Date}));
         }
@@ -174,7 +212,20 @@ function messageReceived(chan, msg, id) {
 
 
 function init() {
+    Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+        type: "DEBUG",
+        id: ACID,
+        msg: "ERROR", error: "ACTOR INIT START", now: new Date
+    }));
     var uuid = Agent.sessionUUID;
+    Agent.isAvatar = true;
+    Avatar.position = {x: 0, y: -10, z: 0};
+    Script.setTimeout(function () {
+        Avatar.position = {x: 0, y: -10, z: 0};
+        Agent.isAvatar = false;
+    }, 1000);
+
+    /*
     Script.setInterval(function () {
         if (Agent.sessionUUID !== uuid) {
             Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
@@ -188,7 +239,7 @@ function init() {
                 Script.stop();
             }, 1500);
         }
-    }, 1000);
+    }, 1000);*/
     Messages.subscribe(MESSAGE_CHANNEL_IN);
     Messages.subscribe(MESSAGE_CHANNEL_OUT);
     Messages.messageReceived.connect(messageReceived);
@@ -198,6 +249,14 @@ function init() {
         now: new Date,
         init: true
     }));
+
+
+    Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+        type: "DEBUG",
+        id: ACID,
+        msg: "ERROR", error: "ACTOR LOADED", now: new Date
+    }));
+    // debug.send({color: 'black'}, JSON.stringify({type: "ACTORINIT", id: ACID, now: new Date}));
 }
 
 function shutdown() {
@@ -219,14 +278,9 @@ Script.resolvePath('').replace(/\bid=(\w+)/, function (_, id) {
 
 Script.setTimeout(init, 10000);
 
-Script.unhandledException.connect(function (err) {
-    try {
-        Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
-            type: "DEBUG",
-            id: ACID,
-            msg: "ERROR", error: err, now: new Date
-        }));
-    } catch (e) {
-        //
-    }
-});
+Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+    type: "DEBUG",
+    id: ACID,
+    msg: "ERROR", error: "ACTOR INIT TIMER", now: new Date
+}));
+

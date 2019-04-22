@@ -1,0 +1,852 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1915,
+          "y": 0.2701,
+          "z": 0.0862
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Letter-P",
+        "position": {
+          "x": -15.9,
+          "y": -2.6,
+          "z": -5.1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterM",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1915,
+          "y": 0.2501,
+          "z": 0.0862
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterM.fbx",
+        "name": "Letter-M",
+        "position": {
+          "x": -15.9,
+          "y": -2.6,
+          "z": -5.1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "jointRotation": {
+        "x": 90,
+        "y": 90,
+        "z": 0
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Roby",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": 0,
+        "y": 0.065,
+        "z": 0.1
+      },
+      "jointRotation": {
+        "x": 270,
+        "y": 90,
+        "z": 0
+      }
+    }
+  ],
+  "11000": [
+    {
+      "name": "Fart1",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.03578239679336548,
+          "z": -0.0000152587890625,
+          "w": 0.999359130859375
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "11200": [
+    {
+      "name": "Fart7",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0002593994140625,
+          "y": -0.8489356637001038,
+          "z": -0.0000457763671875,
+          "w": 0.528496265411377
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "11400": [
+    {
+      "name": "Fart5",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001983642578125,
+          "y": -0.6238040924072266,
+          "z": -0.0001068115234375,
+          "w": 0.7815823554992676
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "11600": [
+    {
+      "name": "Fart8",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0002593994140625,
+          "y": -0.9803158640861511,
+          "z": 0.0000457763671875,
+          "w": 0.19752800464630127
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "11800": [
+    {
+      "name": "Fart3",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001373291015625,
+          "y": -0.37599754333496094,
+          "z": -0.0000762939453125,
+          "w": 0.926604151725769
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "12000": [
+    {
+      "name": "Fart2",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.15788507461547852,
+          "z": -0.0000762939453125,
+          "w": 0.9874570369720459
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "12200": [
+    {
+      "name": "Fart6",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0002288818359375,
+          "y": -0.7443197965621948,
+          "z": -0.0000762939453125,
+          "w": 0.6678415536880493
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "12400": [
+    {
+      "name": "Fart4",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001678466796875,
+          "y": -0.48616766929626465,
+          "z": -0.0000762939453125,
+          "w": 0.8738384246826172
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "35000": [
+    {
+      "name": "Fart1",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.03578239679336548,
+          "z": -0.0000152587890625,
+          "w": 0.999359130859375
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "35200": [
+    {
+      "name": "Fart7",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0002593994140625,
+          "y": -0.8489356637001038,
+          "z": -0.0000457763671875,
+          "w": 0.528496265411377
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "35400": [
+    {
+      "name": "Fart5",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001983642578125,
+          "y": -0.6238040924072266,
+          "z": -0.0001068115234375,
+          "w": 0.7815823554992676
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "35600": [
+    {
+      "name": "Fart8",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0002593994140625,
+          "y": -0.9803158640861511,
+          "z": 0.0000457763671875,
+          "w": 0.19752800464630127
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "35800": [
+    {
+      "name": "Fart3",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001373291015625,
+          "y": -0.37599754333496094,
+          "z": -0.0000762939453125,
+          "w": 0.926604151725769
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "36000": [
+    {
+      "name": "Fart2",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.15788507461547852,
+          "z": -0.0000762939453125,
+          "w": 0.9874570369720459
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "36200": [
+    {
+      "name": "Fart6",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0002288818359375,
+          "y": -0.7443197965621948,
+          "z": -0.0000762939453125,
+          "w": 0.6678415536880493
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "36400": [
+    {
+      "name": "Fart4",
+      "action": "REZ",
+      "props": {
+        "animation": {
+          "currentFrame": 1,
+          "firstFrame": 1,
+          "fps": 20,
+          "lastFrame": 100,
+          "running": true,
+          "url": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx"
+        },
+        "dimensions": {
+          "x": 0.7225110530853271,
+          "y": 0.6438024044036865,
+          "z": 0.6698298454284668
+        },
+        "lifetime": 5,
+        "modelURL": "http://vr.fumbleland.com/objects/Flatulence_A_v009.fbx",
+        "name": "Village - Smell",
+        "position": {
+          "x": -16.623464584350586,
+          "y": -2.098655939102173,
+          "z": -6.097376346588135
+        },
+        "rotation": {
+          "x": -0.0001678466796875,
+          "y": -0.48616766929626465,
+          "z": -0.0000762939453125,
+          "w": 0.8738384246826172
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "47900": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "Roby",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "jointRotation": {
+        "x": 90,
+        "y": 90,
+        "z": 0
+      }
+    }
+  ],
+  "50100": [
+    {
+      "name": "LetterP",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": -15.855676651000977,
+          "y": -2.3488059043884277,
+          "z": -4.647779941558838
+        },
+        "rotation": {
+          "x": -0.16523993015289307,
+          "y": -0.687434196472168,
+          "z": 0.687617301940918,
+          "w": -0.16523993015289307
+        }
+      }
+    }
+  ],
+  "54700": [
+    {
+      "name": "Pancake",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.4555,
+          "y": 0.0796,
+          "z": 0.4524
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Pancake.fbx",
+        "name": "Village - Pancake",
+        "position": {
+          "x": -15.62855052947998,
+          "y": -1.6096083641052246,
+          "z": -5.085938930511475
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.0000457763671875,
+          "z": -0.007278561592102051,
+          "w": 0.999969482421875
+        },
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "shapeType": "simple-hull",
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "54900": [
+    {
+      "name": "Pancake",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "63000": [
+    {
+      "name": "Heart",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -16.798,
+          "y": -1.4286,
+          "z": -5.1315
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7070878744125366,
+          "z": -0.0000152587890625,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "65300": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -15.123827934265137,
+          "y": -1.423664927482605,
+          "z": -3.7260217666625977
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.9702754020690918,
+          "z": -0.0000762939453125,
+          "w": 0.24190127849578857
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "script": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "71530": [
+    {
+      "name": "LetterM",
+      "action": "DELETE"
+    }
+  ],
+  "75000": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Pancake",
+      "action": "DELETE"
+    }
+  ]
+}

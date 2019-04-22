@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 29300,
+    "url": "atp:/recordings/0605z-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 58380
+  },
+  "2": {
+    "name": "Sofy",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0605-Sofy.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 86780
+  },
+  "3": {
+    "name": "BellyFish",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0605-BellyFish.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 71560
+  },
+  "4": {
+    "name": "David",
+    "timeOffset": 42800,
+    "url": "atp:/recordings/0605z-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "5": {
+    "name": "DoorRat",
+    "timeOffset": 12500,
+    "url": "atp:/recordings/0605z-DoorRat.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

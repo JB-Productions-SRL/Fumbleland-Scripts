@@ -1,0 +1,65 @@
+{
+  "35760": [
+    {
+      "name": "Fart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "position": {
+          "x": 3.41357421875,
+          "y": -2.547013282775879,
+          "z": -0.49583983421325684
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0.7071067690849304,
+          "z": 0,
+          "w": 0.7071067690849304
+        },
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "37760": [
+    {
+      "name": "Fart1",
+      "action": "PARENT",
+      "target": "LemonFart",
+      "jointIndex": 2,
+      "jointPosition": {
+        "x": 0.1,
+        "y": 0,
+        "z": 0
+      },
+      "jointRotation": {
+        "x": 0.1,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "39660": [
+    {
+      "name": "Fart1",
+      "action": "EDIT",
+      "props": {
+        "script": "http://vr.fumbleland.com/scripts/fartsYellow.js"
+      }
+    }
+  ],
+  "50000": [
+    {
+      "name": "Fart1",
+      "action": "DELETE"
+    }
+  ]
+}

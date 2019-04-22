@@ -1,0 +1,18 @@
+{
+  "0": {
+    "name": "Roby",
+    "timeOffset": 600,
+    "url": "atp:/recordings/0102-Roby.hfr",
+    "ready": false,
+    "startTrim": 1200,
+    "endTrim": 0
+  },
+  "1": {
+    "name": "MrsS",
+    "timeOffset": 1200,
+    "url": "atp:/recordings/0102-MrsS.hfr",
+    "ready": false,
+    "startTrim": 2200,
+    "endTrim": 0
+  }
+}

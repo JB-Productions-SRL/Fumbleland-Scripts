@@ -1,0 +1,34 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 4000,
+    "url": "atp:/recordings/0405z-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 98050
+  },
+  "2": {
+    "name": "Roby",
+    "timeOffset": 6000,
+    "url": "atp:/recordings/0405-Roby.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 96050
+  },
+  "3": {
+    "name": "LadyJug",
+    "timeOffset": 3500,
+    "url": "atp:/recordings/0405z-LadyJug.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 81110
+  },
+  "4": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0405z-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

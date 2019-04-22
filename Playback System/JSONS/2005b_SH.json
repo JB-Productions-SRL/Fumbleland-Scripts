@@ -1,0 +1,173 @@
+{
+  "0": [
+    {
+      "name": "LetterE",
+      "action": "REZ",
+      "props": {
+        "name": "Letter-E",
+        "type": "Model",
+        "lifetime": 300,
+        "dimensions": {
+          "x": "0.191",
+          "y": "0.250",
+          "z": "0.086"
+        },
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+        "position": {
+          "x": -14.0115966796875,
+          "y": -2.3271493911743164,
+          "z": 13.844730377197266
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.9025864601135254,
+          "z": -0.0001068115234375,
+          "w": 0.4304722547531128
+        }
+      }
+    },
+    {
+      "name": "LetterA",
+      "action": "REZ",
+      "props": {
+        "name": "Letter-A",
+        "type": "Model",
+        "lifetime": 300,
+        "dimensions": {
+          "x": 0.23560431599617004,
+          "y": 0.2500999867916107,
+          "z": 0.08619999885559082
+        },
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "modelURL": "http://vr.fumbleland.com/objects/LetterA.fbx",
+        "position": {
+          "x": -8.3,
+          "y": -2.3333022594451904,
+          "z": 9.6
+        },
+        "rotation": {
+          "x": 0.014999628067016602,
+          "y": 0.8614785671234131,
+          "z": 0.00877392292022705,
+          "w": 0.5074387788772583
+        }
+      }
+    }
+  ],
+  "4000": [
+    {
+      "name": "LetterA",
+      "action": "PARENT",
+      "target": "Roby",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.09196972846984863,
+        "y": 0.08196735382080078,
+        "z": 0.14580535888671875
+      },
+      "jointRotation": {
+        "x": 45.68379592895508,
+        "y": -80.29278564453125,
+        "z": 39.36787414550781
+      }
+    }
+  ],
+  "68870": [
+    {
+      "name": "LetterA",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": -14.044914245605469,
+          "y": -2.3333022594451904,
+          "z": 14.107072830200195
+        },
+        "rotation": {
+          "x": 0.014999628067016602,
+          "y": 0.8614785671234131,
+          "z": 0.00877392292022705,
+          "w": 0.5074387788772583
+        }
+      }
+    }
+  ],
+  "70670": [
+    {
+      "name": "LetterE",
+      "action": "PARENT",
+      "target": "Roby",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.08997145295143127,
+        "y": 0.04289817810058594,
+        "z": 0.12005043029785156
+      },
+      "jointRotation": {
+        "x": -78.84337615966797,
+        "y": -94.5382080078125,
+        "z": -8.414178848266602
+      }
+    }
+  ],
+  "78970": [
+    {
+      "name": "Softball",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2544443905353546,
+          "y": 0.25812646746635437,
+          "z": 0.254444420337677
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/softBall_v004.fbx",
+        "name": "Village - Softball",
+        "position": {
+          "x": -14.2733793258667,
+          "y": -0.997873067855835,
+          "z": 13.87853717803955
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7095292806625366,
+          "z": -0.0000762939453125,
+          "w": -0.7046768665313721
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "93000": [
+    {
+      "name": "LetterE",
+      "action": "DELETE"
+    }
+  ],
+  "95000": [
+    {
+      "name": "LetterA",
+      "action": "DELETE"
+    },
+    {
+      "name": "Softball",
+      "action": "DELETE"
+    }
+  ]
+}

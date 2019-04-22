@@ -1,0 +1,55 @@
+{
+  "0": [
+    {
+      "name": "Hammer",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.3011718988418579,
+          "y": 0.14076916873455048,
+          "z": 0.0861869528889656
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/hammer_L_v001.fbx?",
+        "name": "Village Hammer",
+        "position": {
+          "x": 20.31804084777832,
+          "y": -1.8004016876220703,
+          "z": -24.58220100402832
+        },
+        "rotation": {
+          "x": 0.5693224668502808,
+          "y": -0.8217805624008179,
+          "z": -0.019135260954499245,
+          "w": 0.011917173862457275
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "Hammer",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.11233782768249512,
+        "y": 0.1282215118408203,
+        "z": 0.015127420425415039
+      },
+      "jointRotation": {
+        "x": 164.91819763183594,
+        "y": 179.54977416992188,
+        "z": 19.151823043823242
+      }
+    }
+  ],
+  "18000": [
+    {
+      "name": "Hammer",
+      "action": "DELETE"
+    }
+  ]
+}

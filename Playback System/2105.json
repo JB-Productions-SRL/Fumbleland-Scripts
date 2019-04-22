@@ -1,0 +1,58 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 32000,
+    "url": "atp:/recordings/2105-MrsSpellingOK.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 63250
+  },
+  "2": {
+    "name": "David",
+    "timeOffset": 32000,
+    "url": "atp:/recordings/2105-DavidOK.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "3": {
+    "name": "SaltWaiter",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2105-SaltWaiter.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 80380
+  },
+  "4": {
+    "name": "Sky",
+    "timeOffset": 32000,
+    "url": "atp:/recordings/2105-Sky.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 63250
+  },
+  "5": {
+    "name": "SlowBall",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2105-SlowBall.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "6": {
+    "name": "BellyFish",
+    "timeOffset": 5500,
+    "url": "atp:/recordings/2105-BellyFish.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "7": {
+    "name": "BellyFishFinale",
+    "timeOffset": 79000,
+    "url": "atp:/recordings/2105-BellyFishFinale.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

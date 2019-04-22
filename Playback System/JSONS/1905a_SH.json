@@ -1,0 +1,107 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2500999867916107,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Letter-P",
+        "position": {
+          "x": 14.608275413513184,
+          "y": -2.0600268840789795,
+          "z": 8.205459594726562
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.061112403869628906,
+          "z": -0.0000152587890625,
+          "w": 0.99810791015625
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "18450": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 8.116568565368652,
+          "y": -1.611250638961792,
+          "z": 2.836859703063965
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.7194170951843262,
+          "z": -0.0000152587890625,
+          "w": 0.6946059465408325
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "22300": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 7.320465087890625,
+          "y": -1.6112399101257324,
+          "z": 5.255034923553467
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.7194170951843262,
+          "z": -0.0000152587890625,
+          "w": 0.6946059465408325
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "34380": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    }
+  ]
+}

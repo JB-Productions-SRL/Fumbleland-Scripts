@@ -1,0 +1,144 @@
+{
+  "0": [
+    {
+      "name": "LetterM",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2037000060081482,
+          "y": 0.18780000507831573,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterM.fbx",
+        "name": "Schoolboard letter - M",
+        "position": {
+          "x": 11.298601150512695,
+          "y": -4.298393726348877,
+          "z": -6.028531074523926
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.40669870376586914,
+          "z": -0.0000762939453125,
+          "w": 0.9135423898696899
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterC",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1880880743265152,
+          "y": 0.2025122493505478,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterC.fbx",
+        "name": "Schoolboard letter - C",
+        "position": {
+          "x": 11.503087997436523,
+          "y": -2.2997934818267822,
+          "z": -5.985718727111816
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.3172808885574341,
+          "z": -0.0000457763671875,
+          "w": 0.9483023881912231
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "33290": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.04436206817626953,
+        "y": 0.08395195007324219,
+        "z": 0.12030744552612305
+      },
+      "jointRotation": {
+        "x": 0.8998091220855713,
+        "y": 96.06735229492188,
+        "z": 77.98155212402344
+      }
+    }
+  ],
+  "42900": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.05714893341064453,
+        "y": 0.055572509765625,
+        "z": 0.12774145603179932
+      },
+      "jointRotation": {
+        "x": 165.2815704345703,
+        "y": -92.68336486816406,
+        "z": -82.62561798095703
+      }
+    }
+  ],
+  "63330": [
+    {
+      "name": "LetterM",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 11.298601150512695,
+          "y": -2.298393726348877,
+          "z": -6.028531074523926
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.40669870376586914,
+          "z": -0.0000762939453125,
+          "w": 0.9135423898696899
+        }
+      }
+    }
+  ],
+  "68180": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.053119659423828125,
+        "y": 0.06359243392944336,
+        "z": 0.11429309844970703
+      },
+      "jointRotation": {
+        "x": 0.5730801820755005,
+        "y": 101.11353302001953,
+        "z": 83.6822738647461
+      }
+    }
+  ],
+  "100000": [
+    {
+      "name": "LetterC",
+      "action": "DELETE"
+    }
+  ],
+  "105000": [
+    {
+      "name": "LetterM",
+      "action": "DELETE"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "0": {
+    "name": "MrsS",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0205-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 97300
+  },
+  "2": {
+    "name": "Sofy",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0205-Sofy.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 97300
+  },
+  "3": {
+    "name": "NoseBook",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0205-NoseBook.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 88220
+  },
+  "4": {
+    "name": "HairPlane",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0205-HairPlane.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

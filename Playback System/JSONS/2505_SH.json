@@ -1,0 +1,126 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.18961632251739502,
+          "y": 0.24763086438179016,
+          "z": 0.08537939935922623
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_P_blu.fbx",
+        "name": "Letter - P",
+        "position": {
+          "x": 28.152416229248047,
+          "y": -3.880521059036255,
+          "z": 34.26607894897461
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterS",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.15897254645824432,
+          "y": 0.20304153859615326,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterS.fbx",
+        "name": "Schoolboard letter - S",
+        "position": {
+          "x": 28.089080810546875,
+          "y": -2.9028029441833496,
+          "z": 34.38862228393555
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "17320": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.09312057495117188,
+        "y": 0.06492471694946289,
+        "z": 0.10885238647460938
+      },
+      "jointRotation": {
+        "x": 10.470338821411133,
+        "y": -96.30555725097656,
+        "z": -86.81524658203125
+      }
+    }
+  ],
+  "47200": [
+    {
+      "name": "LetterP",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 28.152416229248047,
+          "y": -2.880521059036255,
+          "z": 34.26607894897461
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        }
+      }
+    }
+  ],
+  "48700": [
+    {
+      "name": "LetterS",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.07177257537841797,
+        "y": 0.0677485466003418,
+        "z": 0.0868377685546875
+      },
+      "jointRotation": {
+        "x": 10.15216064453125,
+        "y": -96.33500671386719,
+        "z": -86.52880096435547
+      }
+    }
+  ],
+  "74190": [
+    {
+      "name": "LetterS",
+      "action": "DELETE"
+    }
+  ],
+  "80330": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ]
+}

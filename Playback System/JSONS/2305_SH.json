@@ -1,0 +1,293 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1565779745578766,
+          "y": 0.20448412001132965,
+          "z": 0.0689999982714653
+        },
+        "lifetime": -1,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Schoolboard letter - p",
+        "position": {
+          "x": 26.8569278717041,
+          "y": -2.475691318511963,
+          "z": -73.34477996826172
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.0001068115234375,
+          "z": -0.07051193714141846,
+          "w": 0.99749755859375
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterL",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1257963925600052,
+          "y": 0.20394916832447052,
+          "z": 0.0689999982714653
+        },
+        "lifetime": -1,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterL.fbx",
+        "name": "Schoolboard letter - l",
+        "position": {
+          "x": 26.650968551635742,
+          "y": -2.730912733078003,
+          "z": -73.34479522705078
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.0000457763671875,
+          "z": -0.08830398321151733,
+          "w": 0.9960936307907104
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "10000": [
+    {
+      "name": "LetterL",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.05518150329589844,
+        "y": 0.11249208450317383,
+        "z": 0.09283065795898438
+      },
+      "jointRotation": {
+        "x": -24.748903274536133,
+        "y": -104.2804183959961,
+        "z": -33.012245178222656
+      }
+    }
+  ],
+  "30830": [
+    {
+      "name": "LetterL",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 25.15,
+          "y": 4.18,
+          "z": -71.49
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "w": 1
+        },
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -2,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.2
+      }
+    }
+  ],
+  "31830": [
+    {
+      "name": "LetterL",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 26.70,
+          "y": 0.39,
+          "z": -72.65
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.7550011277198792,
+          "z": 0.0000457763671875,
+          "w": 0.6557564735412598
+        },
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -2.5,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.2
+      }
+    }
+  ],
+  "33280": [
+    {
+      "name": "LetterL",
+      "action": "EDIT",
+      "props": {
+        "dynamic": false,
+        "gravity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.2
+      }
+    }
+  ],
+  "33480": [
+    {
+      "name": "LetterL",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.07699823379516602,
+        "y": 0.06149864196777344,
+        "z": 0.09811019897460938
+      },
+      "jointRotation": {
+        "x": -20.848196029663086,
+        "y": 106.31010437011719,
+        "z": 63.65785598754883
+      }
+    }
+  ],
+  "33300": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 27.1657,
+          "y": -1.7289975881576538,
+          "z": -71.9282
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.6090943813323975,
+          "z": -0.0000152587890625,
+          "w": 0.7931182384490967
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "35300": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 24.71379852294922,
+          "y": 4.416969299316406,
+          "z": -71.51321411132812
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.4455481767654419,
+          "z": -0.0001068115234375,
+          "w": 0.8952316045761108
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "script": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "76050": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 25,
+      "jointPosition": {
+        "x": 0.0975637435913086,
+        "y": 0.09730911254882812,
+        "z": 0.11856496334075928
+      },
+      "jointRotation": {
+        "x": -7.552044868469238,
+        "y": -107.68687438964844,
+        "z": -62.178436279296875
+      }
+    }
+  ],
+  "78440": [
+    {
+      "name": "LetterL",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 26.650968551635742,
+          "y": -2.430912733078003,
+          "z": -73.34479522705078
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.0000457763671875,
+          "z": -0.08830398321151733,
+          "w": 0.9960936307907104
+        }
+      }
+    }
+  ],
+  "99740": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ],
+  "101000": [
+    {
+      "name": "LetterL",
+      "action": "DELETE"
+    }
+  ]
+}

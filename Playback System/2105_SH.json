@@ -1,0 +1,126 @@
+{
+  "0": [
+    {
+      "name": "Flower",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.14240816235542297,
+          "y": 0.3102233111858368,
+          "z": 0.1373303085565567
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/flowerPurple_v002.fbx",
+        "name": "Flower",
+        "position": {
+          "x": 32.963294982910156,
+          "y": -4.1787753105163574,
+          "z": 18.67998695373535
+        },
+        "rotation": {
+          "x": 0.0036163330078125,
+          "y": -0.7817654609680176,
+          "z": 0.01060497760772705,
+          "w": -0.6234989166259766
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterI",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.053533609956502914,
+          "y": 0.20341409742832184,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterI.fbx",
+        "name": "Schoolboard letter - I",
+        "position": {
+          "x": 34.118412017822266,
+          "y": -2.185835838317871,
+          "z": 19.97937774658203
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7132219076156616,
+          "z": -0.0000457763671875,
+          "w": 0.7008926868438721
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "33000": [
+    {
+      "name": "Flower",
+      "action": "PARENT",
+      "target": "MrsSpelling",
+      "jointIndex": 50,
+      "jointPosition": {
+        "x": -0.0482020378112793,
+        "y": 0.10571146011352539,
+        "z": 0.04648125171661377
+      },
+      "jointRotation": {
+        "x": -0.007400511763989925,
+        "y": -0.0005175848491489887,
+        "z": 81.99860382080078
+      }
+    }
+  ],
+  "48450": [
+    {
+      "name": "Flower",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 32.963294982910156,
+          "y": -2.1787753105163574,
+          "z": 18.67998695373535
+        },
+        "rotation": {
+          "x": 0.0036163330078125,
+          "y": -0.7817654609680176,
+          "z": 0.01060497760772705,
+          "w": -0.6234989166259766
+        }
+      }
+    }
+  ],
+  "70550": [
+    {
+      "name": "LetterI",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.06017875671386719,
+        "y": 0.06271755695343018,
+        "z": 0.0475921630859375
+      },
+      "jointRotation": {
+        "x": -0.022186698392033577,
+        "y": -0.001746234716847539,
+        "z": 80.99946594238281
+      }
+    }
+  ],
+  "95250": [
+    {
+      "name": "LetterI",
+      "action": "DELETE"
+    }
+  ],
+  "100160": [
+    {
+      "name": "Flower",
+      "action": "DELETE"
+    }
+  ]
+}

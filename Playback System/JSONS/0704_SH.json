@@ -1,0 +1,300 @@
+{
+  "0": [
+    {
+      "name": "LetterB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1858000010251999,
+          "y": 0.25130000710487366,
+          "z": 0.08630000054836273
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 4.689332962036133,
+          "y": -1.5040085124969482,
+          "z": -30.116483688354492
+        },
+        "rotation": {
+          "x": 0.0032501220703125,
+          "y": 0.2878309488296509,
+          "z": -0.013382136821746826,
+          "w": 0.9575799703598022
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterB2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1524878740310669,
+          "y": 0.5168737769126892,
+          "z": 0.06273521482944489
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 5.097165107727051,
+          "y": -1.3610005378723145,
+          "z": -30.20009422302246
+        },
+        "rotation": {
+          "x": 0.007583737373352051,
+          "y": 0.16026556491851807,
+          "z": -0.027420461177825928,
+          "w": 0.9866635799407959
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterB3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.3088003993034363,
+          "y": 0.18334470689296722,
+          "z": 0.1256251037120819
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 5.403794765472412,
+          "y": -1.552977204322815,
+          "z": -30.21847152709961
+        },
+        "rotation": {
+          "x": 0.004135251045227051,
+          "y": 0.21742582321166992,
+          "z": -0.013107478618621826,
+          "w": 0.9759517908096313
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterB4",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.31883272528648376,
+          "y": 0.4082365036010742,
+          "z": 0.10006987303495407
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 5.816462993621826,
+          "y": -1.4271787405014038,
+          "z": -30.24867820739746
+        },
+        "rotation": {
+          "x": -0.030228137969970703,
+          "y": 0.07392990589141846,
+          "z": -0.027359426021575928,
+          "w": 0.996429443359375
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterB5",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.3407827317714691,
+          "y": 0.46099504828453064,
+          "z": 0.15831895172595978
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 7.000370979309082,
+          "y": -1.3977612257003784,
+          "z": -30.328781127929688
+        },
+        "rotation": {
+          "x": -0.010666072368621826,
+          "y": -0.3362630605697632,
+          "z": -0.025040030479431152,
+          "w": 0.9413747787475586
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Apple",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.10910549014806747,
+          "y": 0.1323024332523346,
+          "z": 0.10890012979507446
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newObjects7/apple_v001.fbx",
+        "name": "Village - Apple",
+        "position": {
+          "x": 4.653009414672852,
+          "y": -1.8533838987350464,
+          "z": -26.440027236938477
+        },
+        "rotation": {
+          "x": -0.04409253969788551,
+          "y": 0.12050138413906097,
+          "z": -0.3399716913700104,
+          "w": 0.9316733479499817
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "1500": [
+    {
+      "name": "Apple",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.0203932523727417,
+        "y": 0.08389854431152344,
+        "z": 0.06070685386657715
+      },
+      "jointRotation": {
+        "x": 150.40843200683594,
+        "y": 23.44646644592285,
+        "z": 89.82870483398438
+      }
+    }
+  ],
+  "7180": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":4.5237650871276855,"y":-1.3705272674560547,"z":-29.507308959960938},
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "11560": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {"x":6.031323432922363,"y":-1.493863821029663,"z":-28.473617553710938},
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "31880": [
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.07043600082397461,
+        "y": 0.09957265853881836,
+        "z": 0.12296390533447266
+      },
+      "jointRotation": {
+        "x": -30.146038055419922,
+        "y": -95.0890884399414,
+        "z": 88.02203369140625
+      }
+    }
+  ],
+  "34590": [
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "Jack",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.0975637435913086,
+        "y": 0.09730911254882812,
+        "z": 0.11856496334075928
+      },
+      "jointRotation": {
+        "x": -7.552044868469238,
+        "y": -107.68687438964844,
+        "z": -62.178436279296875
+      }
+    }
+  ],
+  "75580": [
+    {
+      "name": "LetterB",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB2",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB3",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB4",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB5",
+      "action": "DELETE"
+    },
+    {
+      "name": "Apple",
+      "action": "DELETE"
+    }
+  ]
+}

@@ -1,5 +1,19 @@
-// var debug = Script.require('https://debug.midnightrift.com/files/hifi/debug.min.js');
-// debug.connect('fumbleland');
+/* eslint-disable no-redeclare */
+
+var debugMode = false;
+var debug;
+
+if (debugMode) {
+    debug = Script.require('https://debug.midnightrift.com/files/hifi/debug.min.js');
+    debug.connect('fumbleland');
+} else {
+    debug = {
+        send: function (color, msg) {
+            // do nothing
+        }
+    };
+}
+
 
 var MESSAGE_CHANNEL_OUT = "Stagehand->Director";
 
@@ -10,6 +24,32 @@ var MESSAGE_CHANNEL_ACTOR = "Actor->Stagehand";
 var ents = {};
 
 var actors = {};
+
+// Fetches and parses an FST model -- humbletim 2018
+function getJointIndex(url, name) {
+    function getFST(fst) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', fst, false);
+        xhr.send();
+        if (xhr.status !== 200) {
+            throw new Error(xhr.statusText || 'xhr error:' + xhr.status);
+        }
+        var lines = xhr.responseText.split(/[\r\n]/);
+        return lines.reduce(function (out, line) {
+            line = line.split(/\s*=\s*/);
+            out[line[0]] = line[1];
+            return out;
+        }, {});
+    }
+
+    var fstURL = "http://vr.fumbleland.com/avatars/" + url + ".fst";
+    var filename = getFST(fstURL).filename;
+    var a = fstURL.substring(0, fstURL.lastIndexOf("/")) + "/" + filename;
+    return AnimationCache.getAnimation(a).jointNames.indexOf(name);
+}
+
+// End module
+
 
 function timeout(func, time) {
     var t = {
@@ -24,20 +64,47 @@ function timeout(func, time) {
     return t;
 }
 
+function debugLog(msg) {
+    if (debugMode) {
+        debug.send({color: 'black'}, msg);
+    }
+}
+
 function prop(id) {
     var p = {
         id: id,
         setParent: function (uuid, joint, position, rotation) {
-            console.log("Ping4!");
-            console.log("Ping5! " + uuid + " " + joint + " " + this.id);
+            rotation = Quat.fromVec3Degrees(rotation);
+            debugLog("Ping4!");
+            debugLog("Ping5! " + uuid + " " + joint + " " + this.id);
             if (uuid === "") {
-                console.log("NOUUID");
+                debugLog("NOUUID");
                 var pos = Entities.getEntityProperties(this.id).position;
-                console.log("POSITION " + JSON.stringify(pos));
-                // console.log(Entities.editEntity(this.id, {"parentID": "", "parentJointIndex": 65535, "position": pos}));
-                console.log(Entities.editEntity(this.id, {"script": "(" + generateSource(this.id, uuid, joint, position, rotation) + ")"}));
+                debugLog("POSITION " + JSON.stringify(pos));
+                debugLog(Entities.editEntity(this.id, {"parentID": "", "parentJointIndex": 65535, "position": pos}));
+                // debugLog(Entities.editEntity(this.id, {"serverScripts": "(" + generateSource(this.id, uuid, joint, position, rotation) + ")"}));
             } else {
-                console.log(Entities.editEntity(this.id, {"script": "(" + generateSource(this.id, uuid, joint, position, rotation) + ")"}));
+                debug.send({color: 'black'}, "Ping1");
+                debugLog(Entities.editEntity(this.id, {
+                    "parentID": uuid,
+                    "parentJointIndex": joint,
+                    "localPosition": position,
+                    "localRotation": rotation
+                }));
+                timeout(function () {
+                    Entities.editEntity(this.id, {
+                        "localPosition": position,
+                        "localRotation": rotation
+                    });
+                }, 100);
+                debugLog(JSON.stringify({
+                    "parentID": uuid,
+                    "parentJointIndex": joint,
+                    "localPosition": position,
+                    "localRotation": rotation
+                }));
+                debug.send({color: 'black'}, "Ping2");
+                // debugLog(Entities.editEntity(this.id, {"serverScripts": "(" + generateSource(this.id, uuid, joint, position, rotation) + ")"}));
             }
 
         },
@@ -49,38 +116,6 @@ function prop(id) {
         }
     };
     return p;
-}
-
-function generateSource(entID, uuid, joint, position, rotation) {
-    if (!position) {
-        position = {
-            "x": 0,
-            "y": 0,
-            "z": 0
-        };
-    }
-    if (rotation) {
-        rotation = Quat.fromVec3Degrees(rotation);
-    }
-    if (uuid === "") {
-        return (function () {
-            var d = DATA;
-            var pos = Entities.getEntityProperties(d[0]).position;
-            Script.setTimeout(function () {
-                var pos = Entities.getEntityProperties(d[0]).position;
-                Entities.editEntity(d[0], {"parentID": "", "parentJointIndex": 65535, "position": pos});
-            }, 10);
-        } + '').replace('DATA', JSON.stringify([entID, uuid]));
-    } else {
-        return (function () {
-            var d = DATA;
-            var props = {"parentID": d[1], "parentJointIndex": d[2], "localPosition": d[3]};
-            if (d[4] !== null) {
-                props.localRotation = d[4];
-            }
-            Entities.editEntity(d[0], props);
-        } + '').replace('DATA', JSON.stringify([entID, uuid, joint, position, rotation]));
-    }
 }
 
 var jsonToLoad = "test_SH.json";
@@ -95,8 +130,7 @@ function t1(set, time) {
             set.forEach(function (data) {
                 if (data.action === "REZ") {
                     ents[data.name] = prop(Entities.addEntity(data.props));
-                }
-                if (data.action === "PARENT") {
+                } else if (data.action === "PARENT") {
 
                     if (!actors[data.target]) {
                         var avatars = AvatarList.getAvatarIdentifiers();
@@ -110,20 +144,29 @@ function t1(set, time) {
                             }
                         });
                         if (found) {
-                            ents[data.name].setParent(_avatar.sessionUUID, _avatar.getJointIndex(data.jointName), data.jointPosition, data.jointRotation);
+                            ents[data.name].setParent(_avatar.sessionUUID, data.jointIndex, data.jointPosition, data.jointRotation);
                         }
                     } else {
+                        Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+                            type: "DEBUG",
+                            id: "Stagehand",
+                            msg: "DEBUG", debug: data, now: new Date
+                        }));
                         var temp = AvatarList.getAvatar(actors[data.target]);
-                        ents[data.name].setParent(temp.sessionUUID, temp.getJointIndex(data.jointName), data.jointPosition, data.jointRotation);
+
+                        Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+                            type: "DEBUG",
+                            id: "Stagehand",
+                            msg: "DEBUG2", debug: {"data.jointIndex": data.jointIndex}, now: new Date
+                        }));
+
+                        ents[data.name].setParent(temp.sessionUUID, data.jointIndex, data.jointPosition, data.jointRotation);
                     }
-                }
-                if (data.action === "UNPARENT") {
+                } else if (data.action === "UNPARENT") {
                     ents[data.name].setParent("", 65535);
-                }
-                if (data.action === "EDIT") {
+                } else if (data.action === "EDIT") {
                     ents[data.name].edit(data.props);
-                }
-                if (data.action === "DELETE") {
+                } else if (data.action === "DELETE") {
                     ents[data.name].del();
                     delete ents[data.name];
                 }
@@ -132,7 +175,7 @@ function t1(set, time) {
     );
 }
 
-function messageReceived(chan, msg, id) {
+function messageReceived(chan, msg) {
     if (chan === MESSAGE_CHANNEL_ACTOR) {
         var msgJSON = JSON.parse(msg);
         if (msgJSON.type === "COMMAND") {
@@ -145,20 +188,40 @@ function messageReceived(chan, msg, id) {
         var msgJSON = JSON.parse(msg);
         if (msgJSON.type === "COMMAND") {
             if (msgJSON.cmd === "LOADJSON") {
-                console.log("LOADJSON " + msgJSON.data);
+                debugLog("LOADJSON " + msgJSON.data);
                 actors = {};
                 timeOuts = [];
                 ents = [];
                 jsonToLoad = msgJSON.data + "_SH.json";
-                playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+
+                try {
+                    playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+                } catch (e) {
+                    playbackJSON = false;
+                    Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+                        type: "DEBUG",
+                        id: "Stagehand",
+                        msg: "ERROR", error: e, now: new Date
+                    }));
+                }
             }
             if (msgJSON.cmd === "LOAD") {
                 actors = {};
                 timeOuts = [];
                 ents = [];
-                playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+
+                try {
+                    playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+                } catch (e) {
+                    playbackJSON = false;
+                    Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+                        type: "DEBUG",
+                        id: "Stagehand",
+                        msg: "ERROR", error: e, now: new Date
+                    }));
+                }
             }
-            if (msgJSON.cmd === "PLAY") {
+            if (msgJSON.cmd === "PLAY" && playbackJSON != false) {
                 timeOuts = [];
                 ents = [];
                 var list = Object.keys(playbackJSON);
@@ -172,18 +235,15 @@ function messageReceived(chan, msg, id) {
                     }, list[list.length - 1] + 500)
                 );
             }
-            if (msgJSON.cmd === "STOP") {
+            if (msgJSON.cmd === "STOP" && playbackJSON != false) {
                 stop();
             }
-            if (msgJSON.cmd === "CELLDEATH") {
+            if (msgJSON.cmd === "CELLDEATH" || msgJSON.cmd === "CELLDEATHSTAGEHAND") {
 
-                Script.setInterval(function () {
-                    console.log("I don't care. Stagehand");
-                }, 1000);
-                console.log("Stagehand CELLDEATH");
                 timeout(function () {
+                    debugLog("Stagehand CELLDEATH");
                     Script.stop();
-                }, 1500);
+                }, 3000);
                 Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
                     type: "DEBUG",
                     msg: "KILLINGSELF",
@@ -220,12 +280,18 @@ function stop() {
 
 function init() {
 
-    playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+    try {
+        playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+    } catch (e) {
+        Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+            type: "DEBUG",
+            id: "Stagehand",
+            msg: "ERROR", error: e, now: new Date
+        }));
+    }
 
     Agent.isAvatar = true;
-    Avatar.position = {x: 0, y: -10, z: 0};
-    Avatar.displayName = "Stagehand";
-    console.log(Agent.sessionUUID);
+    debugLog(Agent.sessionUUID);
     var uuid = Agent.sessionUUID;
     Script.setInterval(function () {
         if (Agent.sessionUUID !== uuid) {
@@ -250,7 +316,12 @@ function init() {
         now: new Date,
         init: true
     }));
-    console.log(AvatarList.getAvatarIdentifiers());
+    debug.send({color: 'black'}, JSON.stringify({type: "STAGEHANDINIT", id: "Stagehand", now: new Date}));
+
+    Avatar.skeletonModelURL = "https://highfidelity.com/api/v1/commerce/entity_edition/7fe80a1e-f445-4800-9e89-40e677b03bee.fst";
+    Avatar.displayName = "Stagehand";
+    Avatar.position = {x: 0, y: -10, z: 0};
+    debugLog(AvatarList.getAvatarIdentifiers());
 }
 
 function shutdown() {

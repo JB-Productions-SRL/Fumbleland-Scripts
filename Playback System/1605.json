@@ -1,0 +1,50 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1605-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 81920
+  },
+  "2": {
+    "name": "Jack",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1605-Jack.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 81920
+  },
+  "3": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1605-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "mucca1",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1605-mucca1.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "5": {
+    "name": "mucca2",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1605-mucca2.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "6": {
+    "name": "RainCow",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1605-RainCow.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 71210
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "0": [
+    {
+      "name": "LetterR",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2700999975204468,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterR.fbx",
+        "name": "Letter-R",
+        "position": {
+          "x": 9.505125045776367,
+          "y": -2.4977452754974365,
+          "z": 10.101594924926758
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.6466010808944702,
+          "z": -0.0000457763671875,
+          "w": 0.7628138065338135
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "82000": [
+    {
+      "name": "LetterR",
+      "action": "DELETE"
+    }
+  ]
+}

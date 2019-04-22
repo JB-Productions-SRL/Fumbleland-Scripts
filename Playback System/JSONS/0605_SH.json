@@ -1,0 +1,381 @@
+{
+  "0": [
+    {
+      "name": "LetterB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1858000010251999,
+          "y": 0.25130000710487366,
+          "z": 0.08630000054836273
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+        "name": "Village - LetterB",
+        "position": {
+          "x": 25.289260864257812,
+          "y": -2.869623899459839,
+          "z": 41.333072662353516
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterJ",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.18726323544979095,
+          "y": 0.25398150086402893,
+          "z": 0.08699782192707062
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterJ.fbx",
+        "name": "Village - LetterJ",
+        "position": {
+          "x": 46.2,
+          "y": -3.1,
+          "z": 39.9
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7253376245498657,
+          "z": -0.0000457763671875,
+          "w": 0.688349723815918
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "12190": [
+    {
+      "name": "LetterJ",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.016756057739257812,
+        "y": 0.077301025390625,
+        "z": 0.015315771102905273
+      },
+      "jointRotation": {
+        "x": -165.51100158691406,
+        "y": -86.55167388916016,
+        "z": 89.51085662841797
+      }
+    }
+  ],
+  "31500": [
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.046061813831329346,
+        "y": 0.06510734558105469,
+        "z": 0.10772514343261719
+      },
+      "jointRotation": {
+        "x": 31.898759841918945,
+        "y": -96.16497802734375,
+        "z": -88.09805297851562
+      }
+    }
+  ],
+  "64350": [
+    {
+      "name": "LetterJ",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.046855926513671875,
+        "y": 0.05358707904815674,
+        "z": 0.1059257984161377
+      },
+      "jointRotation": {
+        "x": -63.47248458862305,
+        "y": 97.56256103515625,
+        "z": 14.942623138427734
+      }
+    }
+  ],
+  "68240": [
+    {
+      "name": "LetterJ",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 25.305225372314453,
+          "y": -2.8622732162475586,
+          "z": 41.5000
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        }
+      }
+    }
+  ],
+  "71760": [
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 24.236804962158203,
+          "y": -2.285313844680786,
+          "z": 43.57966613769531
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "73560": [
+    {
+      "name": "Jellyfish",
+      "action": "REZ",
+      "props":{
+        "dimensions": {
+          "x": 0.21954134106636047,
+          "y": 0.3294130265712738,
+          "z": 0.20995034277439117
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/jellyFish_v001.fbx",
+        "name": "Village - Jellyfish",
+        "position": {
+          "x": 24.236835479736328,
+          "y": -1.2879165410995483,
+          "z": 43.57963562011719
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "shapeType": "simple-hull"
+      }
+    },
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 24.236835479736328,
+          "y": -1.5879165410995483,
+          "z": 43.57963562011719
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "79200": [
+    {
+      "name": "Jellyfish",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "95190": [
+    {
+      "name": "LetterJ",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB",
+      "action": "DELETE"
+    },
+    {
+      "name": "Jellyfish",
+      "action": "DELETE"
+    }
+  ]
+}

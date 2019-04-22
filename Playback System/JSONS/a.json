@@ -1,0 +1,28 @@
+{
+    "DataVersion": 0,
+    "Entities": [
+        {
+            "clientOnly": false,
+            "created": "2018-10-12T16:35:27Z",
+            "id": "{8c7d6507-b954-41fb-a84b-5e58d6f55e11}",
+            "lastEdited": 1539362458880105,
+            "lastEditedBy": "{65c74d93-3ac1-4286-bedb-5c10df2971ff}",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "queryAACube": {
+                "scale": 0.17320507764816284,
+                "x": -0.08660253882408142,
+                "y": -0.08660253882408142,
+                "z": -0.08660253882408142
+            },
+            "rotation": {
+                "w": 1,
+                "x": -3.0517578125e-05,
+                "y": -3.0517578125e-05,
+                "z": -3.0517578125e-05
+            },
+            "userData": "{\"grabbableKey\":{\"grabbable\":true}}"
+        }
+    ],
+    "Id": "{9985f70d-92da-4a08-a2db-f9ed5fe42067}",
+    "Version": 93
+}

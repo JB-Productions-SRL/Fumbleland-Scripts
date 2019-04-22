@@ -78,7 +78,7 @@ function checkForStoppedness() {
 var pingLoopTimer = null;
 
 function pingLoop() {
-    if (Object.keys(actorACs).length < 6) {
+    if (Object.keys(actorACs).length < 1) {
         Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({type: "SessionPing"}));
     } else {
         Script.clearInterval(pingLoopTimer);
@@ -138,10 +138,20 @@ function messageReceived(chan, msg, id) {
         }
         if (msgJSON.type === "COMMAND") {
             if (msgJSON.cmd === "LOADJSON") {
-                console.log("LOADJSON "+msgJSON.data)
+                console.log("LOADJSON " + msgJSON.data)
                 actorACs = {};
                 jsonToLoad = msgJSON.data + ".json";
-                playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+
+                try {
+                    playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+                } catch (e) {
+                    Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+                        type: "DEBUG",
+                        id: id,
+                        msg: "ERROR", error: e, json: jsonToLoad, now: new Date
+                    }));
+                }
+
                 Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({type: "SessionPing"}));
                 Messages.sendMessage(MESSAGE_CHANNEL_STAGEHAND, JSON.stringify({
                     type: "COMMAND",
@@ -150,7 +160,17 @@ function messageReceived(chan, msg, id) {
                 }));
             }
             if (msgJSON.cmd === "LOAD") {
-                playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+
+                try {
+                    playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+                } catch (e) {
+                    Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+                        type: "DEBUG",
+                        id: id,
+                        msg: "ERROR", error: e, json: jsonToLoad, now: new Date
+                    }));
+                }
+
                 if (Object.keys(actorACs).length < 6) {
                     if (!pingLoopTimer) {
                         pingLoopTimer = Script.setInterval(pingLoop, 1000);
@@ -160,7 +180,7 @@ function messageReceived(chan, msg, id) {
                 }
             }
             if (msgJSON.cmd === "PLAY") {
-                if (playbackReady&&!playing) {
+                if (playbackReady && !playing) {
                     playing = true;
                     Object.keys(playbackJSON).forEach(function (layer, i) {
                         actorACs[Object.keys(actorACs)[i]].status = "PLAYING";
@@ -216,11 +236,8 @@ function messageReceived(chan, msg, id) {
         }
         if (msgJSON.type === "CELLDEATH") {
 
-            Script.setInterval(function () {
-                console.log("I don't care. Director")
-            }, 1000);
-
             Object.keys(actorACs).forEach(function (actorAC) {
+                console.log("Sending CELLDEATH to " + actorACs[actorAC].id + "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                 Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
                     type: "COMMAND",
                     id: actorACs[actorAC].id,
@@ -237,18 +254,28 @@ function messageReceived(chan, msg, id) {
                 id: id,
                 now: new Date
             }));
-            console.log("Director CELLDEATH");
+            console.log("Director CELLDEATH+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
             Script.setTimeout(function () {
-                Avatar.getAbsoluteJointTranslationInObjectFrame(0);
+                location.deleteLater();
                 Script.stop();
-            }, 100);
+            }, 10000);
         }
     }
 }
 
 
 function init() {
-    playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+
+    try {
+        playbackJSON = Script.require("atp:/PlaybackSystem/" + jsonToLoad + "?" + Date.now());
+    } catch (e) {
+        Messages.sendMessage(MESSAGE_CHANNEL_OUT, JSON.stringify({
+            type: "DEBUG",
+            id: id,
+            msg: "ERROR", error: e, now: new Date
+        }));
+    }
+
     Messages.subscribe(MESSAGE_CHANNEL_IN);
     Messages.subscribe(MESSAGE_CHANNEL_OUT);
     Messages.messageReceived.connect(messageReceived);
@@ -266,6 +293,12 @@ function init() {
         now: new Date,
         init: true, version: version
     }));
+
+    Agent.isAvatar = true;
+    Script.setTimeout(function () {
+        Avatar.position = {x: 0, y: -10, z: 0};
+        Agent.isAvatar = false;
+    }, 1000);
 }
 
 function shutdown() {

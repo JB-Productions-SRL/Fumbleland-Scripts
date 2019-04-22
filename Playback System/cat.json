@@ -1,0 +1,39 @@
+{
+    "DataVersion": 0,
+    "Entities": [
+        {
+            "clientOnly": false,
+            "created": "2018-10-22T17:26:09Z",
+            "dimensions": {
+                "blue": 111.4999771118164,
+                "green": 13.185985565185547,
+                "red": 39.483116149902344,
+                "x": 39.483116149902344,
+                "y": 13.185985565185547,
+                "z": 111.4999771118164
+            },
+            "id": "{8a77e4f2-e935-4cc7-9330-ef2e2438f2b4}",
+            "lastEdited": 1540846083451920,
+            "lastEditedBy": "{c6c3ac3b-b4de-4782-b015-684a46d791c5}",
+            "modelURL": "https://fluffy.ws/HighFid/Caterpillar_edge.fbx",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "queryAACube": {
+                "scale": 119.01693725585938,
+                "x": -59.50846862792969,
+                "y": -59.50846862792969,
+                "z": -59.50846862792969
+            },
+            "rotation": {
+                "w": -4.57763671875e-05,
+                "x": -1.52587890625e-05,
+                "y": -1,
+                "z": 1.52587890625e-05
+            },
+            "shapeType": "simple-hull",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        }
+    ],
+    "Id": "{cdbf7381-234b-405a-9329-b929ebf4fe09}",
+    "Version": 93
+}

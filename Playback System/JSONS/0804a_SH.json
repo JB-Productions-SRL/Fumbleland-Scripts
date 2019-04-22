@@ -1,0 +1,125 @@
+{
+  "0": [
+    {
+      "name": "PaintBrush",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.15316219627857208,
+          "y": 0.061496052891016006,
+          "z": 0.3720414936542511
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/newObjects5/paintBrushRed_v001.fbx",
+        "name": "FloofEntity",
+        "position": {
+          "x": 17.858694076538086,
+          "y": -3.7798569202423096,
+          "z": -15.56551742553711
+        },
+        "rotation": {
+          "x": -0.054851412773132324,
+          "y": 0.6372231841087341,
+          "z": 0.7659628391265869,
+          "w": -0.06528833508491516
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "PaintBrush",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.11904144287109375,
+        "y": 0.14773845672607422,
+        "z": 0.05274391174316406
+      },
+      "jointRotation": {
+        "x": -109.79631805419922,
+        "y": 135.76930236816406,
+        "z": -80.18091583251953
+      }
+    }
+  ],
+  "17490": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 20.174896240234375,
+          "y": -1.5133641958236694,
+          "z": -16.854923248291016
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": 0.2576791048049927,
+          "z": -0.0000762939453125,
+          "w": 0.9662165641784668
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "19010": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 18.40958023071289,
+          "y": -1.711029291152954,
+          "z": -15.460087776184082
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.5591669082641602,
+          "z": -0.0000457763671875,
+          "w": 0.8290379047393799
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "55000": [
+    {
+      "name": "PaintBrush",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    }
+  ]
+}

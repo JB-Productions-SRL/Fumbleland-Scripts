@@ -1,0 +1,37 @@
+{
+  "0": [
+    {
+      "name": "LetterE",
+      "action": "REZ",
+      "props": {
+        "name": "Letter-E",
+        "type": "Model",
+        "lifetime": 300,
+        "dimensions": {
+          "x": "0.191",
+          "y": "0.250",
+          "z": "0.086"
+        },
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+        "position": {
+          "x": -14.0115966796875,
+          "y": -2.3271493911743164,
+          "z": 13.844730377197266
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.9025864601135254,
+          "z": -0.0001068115234375,
+          "w": 0.4304722547531128
+        }
+      }
+    }
+  ],
+  "65000": [
+    {
+      "name": "LetterE",
+      "action": "DELETE"
+    }
+  ]
+}

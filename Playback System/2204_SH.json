@@ -1,0 +1,68 @@
+{
+  "0": [
+    {
+      "name": "LetterL",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.15742051601409912,
+          "y": 0.2552202343940735,
+          "z": 0.08822689950466156
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_L_pink.fbx",
+        "name": "Letter - L",
+        "position": {
+          "x": -65.60322570800781,
+          "y": 4.52099609375,
+          "z": -30.70213508605957
+        },
+        "rotation": {
+          "x": -0.06688644737005234,
+          "y": -0.298528254032135,
+          "z": 0.2247113436460495,
+          "w": -0.9251550436019897
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "StopWatch",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.09157092869281769,
+          "y": 0.456683874130249,
+          "z": 0.3167211711406708
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/timer_v002.fbx",
+        "name": "timer_v002.fbx",
+        "position": {
+          "x": -66.44881439208984,
+          "y": 4.401628017425537,
+          "z": -30.352149963378906
+        },
+        "rotation": {
+          "x": -0.1905394196510315,
+          "y": -0.2088502049446106,
+          "z": 0.13313496112823486,
+          "w": 0.9499199390411377
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "62000": [
+    {
+      "name": "LetterL",
+      "action": "DELETE"
+    },
+    {
+      "name": "StopWatch",
+      "action": "DELETE"
+    }
+  ]
+}

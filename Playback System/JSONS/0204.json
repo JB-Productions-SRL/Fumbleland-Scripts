@@ -1,0 +1,26 @@
+{
+  "0": {
+    "name": "MrsS",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0204-MrsS.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "2": {
+    "name": "Sofy",
+    "timeOffset": 900,
+    "url": "atp:/recordings/0204-Sofy.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "3": {
+    "name": "David",
+    "timeOffset": 3700,
+    "url": "atp:/recordings/0204-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

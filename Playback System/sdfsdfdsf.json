@@ -1,0 +1,1691 @@
+{
+    "DataVersion": 0,
+    "Entities": [
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{8b0e4074-9552-4f6a-9b61-c1b335465cef}",
+            "lastEdited": 1539797653125520,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.21088695526123047,
+                "green": 0.5534399747848511,
+                "red": 0,
+                "x": 0,
+                "y": 0.5534399747848511,
+                "z": 0.21088695526123047
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.40539002418518066,
+                "z": 0.06283698976039886
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.2045266479253769,
+                "red": 0.186458021402359,
+                "x": 0.186458021402359,
+                "y": 0.2045266479253769,
+                "z": 0.06898196041584015
+            },
+            "id": "{088047f9-c950-419f-bddb-61d26af2753b}",
+            "lastEdited": 1539797653661271,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.44415283203125,
+                "green": 0.41317737102508545,
+                "red": 0,
+                "x": 0,
+                "y": 0.41317737102508545,
+                "z": 2.44415283203125
+            },
+            "queryAACube": {
+                "scale": 0.28523018956184387,
+                "x": -0.14261509478092194,
+                "y": 0.2705622911453247,
+                "z": 2.3015377521514893
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:47:50Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.2045266479253769,
+                "red": 0.186458021402359,
+                "x": 0.186458021402359,
+                "y": 0.2045266479253769,
+                "z": 0.06898196041584015
+            },
+            "id": "{7679aff7-a974-48b7-b620-ad9e26db87bb}",
+            "lastEdited": 1539797653661562,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.44415283203125,
+                "green": 0.41317737102508545,
+                "red": 0,
+                "x": 0,
+                "y": 0.41317737102508545,
+                "z": 2.44415283203125
+            },
+            "queryAACube": {
+                "scale": 0.28523018956184387,
+                "x": -0.14261509478092194,
+                "y": 0.2705622911453247,
+                "z": 2.3015377521514893
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.20269456505775452,
+                "red": 0.15870094299316406,
+                "x": 0.15870094299316406,
+                "y": 0.20269456505775452,
+                "z": 0.06898196786642075
+            },
+            "id": "{c97602da-d4a2-4732-8f41-e71bfa326272}",
+            "lastEdited": 1539797653661247,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterS.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.013230323791504,
+                "green": 0.5364868640899658,
+                "red": 1.1444091796875e-05,
+                "x": 1.1444091796875e-05,
+                "y": 0.5364868640899658,
+                "z": 2.013230323791504
+            },
+            "queryAACube": {
+                "scale": 0.26651376485824585,
+                "x": -0.13324543833732605,
+                "y": 0.4032299816608429,
+                "z": 1.8799734115600586
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{32c80e8d-0793-4150-9f24-e36d87e0a50f}",
+            "lastEdited": 1539797653126598,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.2431373596191406,
+                "green": 0.08772087097167969,
+                "red": 0,
+                "x": 0,
+                "y": 0.08772087097167969,
+                "z": 1.2431373596191406
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": -0.060329094529151917,
+                "z": 1.0950874090194702
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:47:50Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{c85e67ad-862e-4e1f-861b-7622b774ba4d}",
+            "lastEdited": 1539797653124223,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.22829532623291,
+                "green": 0.47505319118499756,
+                "red": 0,
+                "x": 0,
+                "y": 0.47505319118499756,
+                "z": 2.22829532623291
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.32700324058532715,
+                "z": 2.08024525642395
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.21107450127601624,
+                "red": 0.17283883690834045,
+                "x": 0.17283883690834045,
+                "y": 0.21107450127601624,
+                "z": 0.06898196786642075
+            },
+            "id": "{f366c15d-92cf-4bff-92f8-710d0de59e6b}",
+            "lastEdited": 1539797653128039,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterK.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0,
+                "green": 0.6517565250396729,
+                "red": 0,
+                "x": 0,
+                "y": 0.6517565250396729,
+                "z": 0
+            },
+            "queryAACube": {
+                "scale": 0.28139692544937134,
+                "x": -0.14069846272468567,
+                "y": 0.5110580921173096,
+                "z": -0.14069846272468567
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{7ffce2e8-cc9c-491e-8800-6e5e392a9939}",
+            "lastEdited": 1539797653661223,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.4373779296875,
+                "green": 0.4538971185684204,
+                "red": 0,
+                "x": 0,
+                "y": 0.4538971185684204,
+                "z": 0.4373779296875
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.30584716796875,
+                "z": 0.2893279790878296
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.2045266479253769,
+                "red": 0.186458021402359,
+                "x": 0.186458021402359,
+                "y": 0.2045266479253769,
+                "z": 0.06898196041584015
+            },
+            "id": "{bd2b72d0-f04e-470d-9d4d-d083e568bbbd}",
+            "lastEdited": 1539797653126830,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.449843406677246,
+                "green": 0,
+                "red": 0,
+                "x": 0,
+                "y": 0,
+                "z": 1.449843406677246
+            },
+            "queryAACube": {
+                "scale": 0.28523018956184387,
+                "x": -0.14261509478092194,
+                "y": -0.14261509478092194,
+                "z": 1.3072283267974854
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.20478832721710205,
+                "red": 0.16865120828151703,
+                "x": 0.16865120828151703,
+                "y": 0.20478832721710205,
+                "z": 0.06898196786642075
+            },
+            "id": "{f68fdae0-62a5-4d87-8f92-0d06862c4678}",
+            "lastEdited": 1539797653127031,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.037221908569336,
+                "green": 0.17510557174682617,
+                "red": 0,
+                "x": 0,
+                "y": 0.17510557174682617,
+                "z": 1.037221908569336
+            },
+            "queryAACube": {
+                "scale": 0.27411678433418274,
+                "x": -0.13705839216709137,
+                "y": 0.0380471795797348,
+                "z": 0.9001635313034058
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:41:17Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20086251199245453,
+                "red": 0.14848418533802032,
+                "x": 0.14848418533802032,
+                "y": 0.20086251199245453,
+                "z": 0.06898196041584015
+            },
+            "id": "{d839e401-b9d0-4f4b-83b2-fdd98a0200cd}",
+            "lastEdited": 1539797653661541,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.4683542251586914,
+                "green": 0.06214332580566406,
+                "red": 0,
+                "x": 0,
+                "y": 0.06214332580566406,
+                "z": 2.4683542251586914
+            },
+            "queryAACube": {
+                "scale": 0.2591366767883301,
+                "x": -0.12956833839416504,
+                "y": -0.06742501258850098,
+                "z": 2.3387858867645264
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:39:06Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.2045266479253769,
+                "red": 0.186458021402359,
+                "x": 0.186458021402359,
+                "y": 0.2045266479253769,
+                "z": 0.06898196041584015
+            },
+            "id": "{d4efa6e2-bce6-4664-96f9-528bb99fc62b}",
+            "lastEdited": 1539797653661584,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.4634342193603516,
+                "green": 0.735397458076477,
+                "red": 0,
+                "x": 0,
+                "y": 0.735397458076477,
+                "z": 2.4634342193603516
+            },
+            "queryAACube": {
+                "scale": 0.28523018956184387,
+                "x": -0.14261509478092194,
+                "y": 0.5927823781967163,
+                "z": 2.320819139480591
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.2045266479253769,
+                "red": 0.186458021402359,
+                "x": 0.186458021402359,
+                "y": 0.2045266479253769,
+                "z": 0.06898196041584015
+            },
+            "id": "{1a2823bc-b48c-4942-b116-5998a99b782e}",
+            "lastEdited": 1539797653126117,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.449843406677246,
+                "green": 0,
+                "red": 0,
+                "x": 0,
+                "y": 0,
+                "z": 1.449843406677246
+            },
+            "queryAACube": {
+                "scale": 0.28523018956184387,
+                "x": -0.14261509478092194,
+                "y": -0.14261509478092194,
+                "z": 1.3072283267974854
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{b8413885-388b-4709-9726-abbbe5f4f649}",
+            "lastEdited": 1539797653124940,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.22829532623291,
+                "green": 0.47505319118499756,
+                "red": 0,
+                "x": 0,
+                "y": 0.47505319118499756,
+                "z": 2.22829532623291
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.32700324058532715,
+                "z": 2.08024525642395
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "color": {
+                "blue": 0,
+                "green": 0,
+                "red": 255
+            },
+            "created": "2018-10-17T17:30:17Z",
+            "dimensions": {
+                "blue": 2.771766424179077,
+                "green": 1.1936743259429932,
+                "red": 0.16237369179725647,
+                "x": 0.16237369179725647,
+                "y": 1.1936743259429932,
+                "z": 2.771766424179077
+            },
+            "id": "{28788215-448d-46a4-8da5-8622b66d9eea}",
+            "lastEdited": 1539797653125274,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.2399682998657227,
+                "green": 0.4554128646850586,
+                "red": 0.03656768798828125,
+                "x": 0.03656768798828125,
+                "y": 0.4554128646850586,
+                "z": 1.2399682998657227
+            },
+            "queryAACube": {
+                "scale": 3.0222363471984863,
+                "x": -1.474550485610962,
+                "y": -1.0557053089141846,
+                "z": -0.2711498737335205
+            },
+            "rotation": {
+                "w": 1,
+                "x": -1.52587890625e-05,
+                "y": -1.52587890625e-05,
+                "z": -1.52587890625e-05
+            },
+            "shape": "Cube",
+            "type": "Box",
+            "userData": "{\"grabbableKey\":{\"grabbable\":true}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:41:17Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{74cb94a2-734e-48ce-9d7a-7f7acd3ecfe5}",
+            "lastEdited": 1539797653123887,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.247577667236328,
+                "green": 0.7972732782363892,
+                "red": 0,
+                "x": 0,
+                "y": 0.7972732782363892,
+                "z": 2.247577667236328
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.6492233276367188,
+                "z": 2.099527597427368
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:41:17Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20347972214221954,
+                "red": 0.14508163928985596,
+                "x": 0.14508163928985596,
+                "y": 0.20347972214221954,
+                "z": 0.06898196041584015
+            },
+            "id": "{869e9bfc-f37b-4cd5-afbe-103be5e0d2b3}",
+            "lastEdited": 1539797653128246,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.8258867263793945,
+                "green": 0.91815185546875,
+                "red": 0,
+                "x": 0,
+                "y": 0.91815185546875,
+                "z": 1.8258867263793945
+            },
+            "queryAACube": {
+                "scale": 0.259251207113266,
+                "x": -0.129625603556633,
+                "y": 0.7885262370109558,
+                "z": 1.6962611675262451
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.20478832721710205,
+                "red": 0.16865120828151703,
+                "x": 0.16865120828151703,
+                "y": 0.20478832721710205,
+                "z": 0.06898196786642075
+            },
+            "id": "{04a7d885-3c4a-4128-8c3a-d81a5bf24755}",
+            "lastEdited": 1539797653661146,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.032547950744629,
+                "green": 0.8589121103286743,
+                "red": 0,
+                "x": 0,
+                "y": 0.8589121103286743,
+                "z": 2.032547950744629
+            },
+            "queryAACube": {
+                "scale": 0.27411678433418274,
+                "x": -0.13705839216709137,
+                "y": 0.7218537330627441,
+                "z": 1.8954895734786987
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20086251199245453,
+                "red": 0.14848418533802032,
+                "x": 0.14848418533802032,
+                "y": 0.20086251199245453,
+                "z": 0.06898196041584015
+            },
+            "id": "{cdd097e2-9d5c-4c71-8e1b-b03e1f456dd4}",
+            "lastEdited": 1539797653661495,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.6214370727539062,
+                "green": 0.3613734245300293,
+                "red": 0,
+                "x": 0,
+                "y": 0.3613734245300293,
+                "z": 0.6214370727539062
+            },
+            "queryAACube": {
+                "scale": 0.2591366767883301,
+                "x": -0.12956833839416504,
+                "y": 0.23180508613586426,
+                "z": 0.4918687343597412
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:41:17Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.20478832721710205,
+                "red": 0.16865120828151703,
+                "x": 0.16865120828151703,
+                "y": 0.20478832721710205,
+                "z": 0.06898196786642075
+            },
+            "id": "{8059d223-2da0-4648-9a08-90a0001e5822}",
+            "lastEdited": 1539797653661518,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.032547950744629,
+                "green": 0.8589121103286743,
+                "red": 0,
+                "x": 0,
+                "y": 0.8589121103286743,
+                "z": 2.032547950744629
+            },
+            "queryAACube": {
+                "scale": 0.27411678433418274,
+                "x": -0.13705839216709137,
+                "y": 0.7218537330627441,
+                "z": 1.8954895734786987
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20347972214221954,
+                "red": 0.14508163928985596,
+                "x": 0.14508163928985596,
+                "y": 0.20347972214221954,
+                "z": 0.06898196041584015
+            },
+            "id": "{b928a276-a045-4c18-9ef9-872ac4bd4c18}",
+            "lastEdited": 1539797653661197,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.8393211364746094,
+                "green": 0.2590895891189575,
+                "red": 0,
+                "x": 0,
+                "y": 0.2590895891189575,
+                "z": 0.8393211364746094
+            },
+            "queryAACube": {
+                "scale": 0.259251207113266,
+                "x": -0.129625603556633,
+                "y": 0.12946398556232452,
+                "z": 0.7096955180168152
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.20478832721710205,
+                "red": 0.16865120828151703,
+                "x": 0.16865120828151703,
+                "y": 0.20478832721710205,
+                "z": 0.06898196786642075
+            },
+            "id": "{6c65adaa-e15d-4ca3-98d5-c553138e56eb}",
+            "lastEdited": 1539797653126380,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.037221908569336,
+                "green": 0.17510557174682617,
+                "red": 0,
+                "x": 0,
+                "y": 0.17510557174682617,
+                "z": 1.037221908569336
+            },
+            "queryAACube": {
+                "scale": 0.27411678433418274,
+                "x": -0.13705839216709137,
+                "y": 0.0380471795797348,
+                "z": 0.9001635313034058
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:43:28Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.21107450127601624,
+                "red": 0.17283883690834045,
+                "x": 0.17283883690834045,
+                "y": 0.21107450127601624,
+                "z": 0.06898196786642075
+            },
+            "id": "{fa9a709e-d2cb-4d48-9940-841622aa05e1}",
+            "lastEdited": 1539797653661606,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterK.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.80914306640625,
+                "green": 0.2517368793487549,
+                "red": 0,
+                "x": 0,
+                "y": 0.2517368793487549,
+                "z": 1.80914306640625
+            },
+            "queryAACube": {
+                "scale": 0.28139692544937134,
+                "x": -0.14069846272468567,
+                "y": 0.11103841662406921,
+                "z": 1.6684446334838867
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20086251199245453,
+                "red": 0.14848418533802032,
+                "x": 0.14848418533802032,
+                "y": 0.20086251199245453,
+                "z": 0.06898196041584015
+            },
+            "id": "{69727ca2-ea57-4d63-9fef-3ecbda16b962}",
+            "lastEdited": 1539797653661435,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.6214370727539062,
+                "green": 0.3613734245300293,
+                "red": 0,
+                "x": 0,
+                "y": 0.3613734245300293,
+                "z": 0.6214370727539062
+            },
+            "queryAACube": {
+                "scale": 0.2591366767883301,
+                "x": -0.12956833839416504,
+                "y": 0.23180508613586426,
+                "z": 0.4918687343597412
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:41:17Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{29fcec99-e7c8-4d63-bf56-e11951a63f7d}",
+            "lastEdited": 1539797653125908,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.0328140258789062,
+                "green": 0.1876211166381836,
+                "red": 0,
+                "x": 0,
+                "y": 0.1876211166381836,
+                "z": 2.0328140258789062
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.03957115113735199,
+                "z": 1.8847640752792358
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20347972214221954,
+                "red": 0.14508163928985596,
+                "x": 0.14508163928985596,
+                "y": 0.20347972214221954,
+                "z": 0.06898196041584015
+            },
+            "id": "{8c652dc7-650e-4c91-972c-03384424aede}",
+            "lastEdited": 1539797653661319,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.8066043853759766,
+                "green": 0.5959316492080688,
+                "red": 0,
+                "x": 0,
+                "y": 0.5959316492080688,
+                "z": 1.8066043853759766
+            },
+            "queryAACube": {
+                "scale": 0.259251207113266,
+                "x": -0.129625603556633,
+                "y": 0.46630603075027466,
+                "z": 1.6769788265228271
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.2045266479253769,
+                "red": 0.186458021402359,
+                "x": 0.186458021402359,
+                "y": 0.2045266479253769,
+                "z": 0.06898196041584015
+            },
+            "id": "{e7adf4a0-519b-48a6-b10a-f89e8a650f11}",
+            "lastEdited": 1539797653661296,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterN.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.4634342193603516,
+                "green": 0.735397458076477,
+                "red": 0,
+                "x": 0,
+                "y": 0.735397458076477,
+                "z": 2.4634342193603516
+            },
+            "queryAACube": {
+                "scale": 0.28523018956184387,
+                "x": -0.14261509478092194,
+                "y": 0.5927823781967163,
+                "z": 2.320819139480591
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{972bf4ea-6c77-49e7-961a-4cd5ba60f404}",
+            "lastEdited": 1539797653125734,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.2431373596191406,
+                "green": 0.08772087097167969,
+                "red": 0,
+                "x": 0,
+                "y": 0.08772087097167969,
+                "z": 1.2431373596191406
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": -0.060329094529151917,
+                "z": 1.0950874090194702
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:41:17Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{01eefcf6-4fcc-49a8-97bb-d6c87b75f2d1}",
+            "lastEdited": 1539797653124448,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.272088050842285,
+                "green": 0.12473440170288086,
+                "red": 0,
+                "x": 0,
+                "y": 0.12473440170288086,
+                "z": 2.272088050842285
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": -0.023315563797950745,
+                "z": 2.124037981033325
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.21107450127601624,
+                "red": 0.17283883690834045,
+                "x": 0.17283883690834045,
+                "y": 0.21107450127601624,
+                "z": 0.06898196786642075
+            },
+            "id": "{da582ba7-aa3d-4d6b-a2f0-3f46364968af}",
+            "lastEdited": 1539797653127867,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterK.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0,
+                "green": 0.6517565250396729,
+                "red": 0,
+                "x": 0,
+                "y": 0.6517565250396729,
+                "z": 0
+            },
+            "queryAACube": {
+                "scale": 0.28139692544937134,
+                "x": -0.14069846272468567,
+                "y": 0.5110580921173096,
+                "z": -0.14069846272468567
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:47:50Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20347972214221954,
+                "red": 0.14508163928985596,
+                "x": 0.14508163928985596,
+                "y": 0.20347972214221954,
+                "z": 0.06898196041584015
+            },
+            "id": "{918eb537-c052-4541-bed7-f165a6ab8bf1}",
+            "lastEdited": 1539797653661391,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.8066043853759766,
+                "green": 0.5959316492080688,
+                "red": 0,
+                "x": 0,
+                "y": 0.5959316492080688,
+                "z": 1.8066043853759766
+            },
+            "queryAACube": {
+                "scale": 0.259251207113266,
+                "x": -0.129625603556633,
+                "y": 0.46630603075027466,
+                "z": 1.6769788265228271
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{fdc53900-ed56-45b4-995c-94dbcec5c8ae}",
+            "lastEdited": 1539797653127636,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.0328140258789062,
+                "green": 0.1876211166381836,
+                "red": 0,
+                "x": 0,
+                "y": 0.1876211166381836,
+                "z": 2.0328140258789062
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.03957115113735199,
+                "z": 1.8847640752792358
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{e91ce761-b57e-4e3b-92db-f1490fa611b8}",
+            "lastEdited": 1539797653129055,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.4373779296875,
+                "green": 0.4538971185684204,
+                "red": 0,
+                "x": 0,
+                "y": 0.4538971185684204,
+                "z": 0.4373779296875
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.30584716796875,
+                "z": 0.2893279790878296
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20347972214221954,
+                "red": 0.14508163928985596,
+                "x": 0.14508163928985596,
+                "y": 0.20347972214221954,
+                "z": 0.06898196041584015
+            },
+            "id": "{5beccbb5-3b3b-4c13-97e1-dc45e18ee55d}",
+            "lastEdited": 1539797653128585,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.8258867263793945,
+                "green": 0.91815185546875,
+                "red": 0,
+                "x": 0,
+                "y": 0.91815185546875,
+                "z": 1.8258867263793945
+            },
+            "queryAACube": {
+                "scale": 0.259251207113266,
+                "x": -0.129625603556633,
+                "y": 0.7885262370109558,
+                "z": 1.6962611675262451
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20086251199245453,
+                "red": 0.14848418533802032,
+                "x": 0.14848418533802032,
+                "y": 0.20086251199245453,
+                "z": 0.06898196041584015
+            },
+            "id": "{a157c018-7e2d-4d9e-a455-4f4c961b41be}",
+            "lastEdited": 1539797653661413,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.4683542251586914,
+                "green": 0.06214332580566406,
+                "red": 0,
+                "x": 0,
+                "y": 0.06214332580566406,
+                "z": 2.4683542251586914
+            },
+            "queryAACube": {
+                "scale": 0.2591366767883301,
+                "x": -0.12956833839416504,
+                "y": -0.06742501258850098,
+                "z": 2.3387858867645264
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:43:28Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.20269456505775452,
+                "red": 0.15870094299316406,
+                "x": 0.15870094299316406,
+                "y": 0.20269456505775452,
+                "z": 0.06898196786642075
+            },
+            "id": "{d9033744-2d64-4ab2-ac07-00deaa1fdddd}",
+            "lastEdited": 1539797653661366,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterS.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.013230323791504,
+                "green": 0.5364868640899658,
+                "red": 1.1444091796875e-05,
+                "x": 1.1444091796875e-05,
+                "y": 0.5364868640899658,
+                "z": 2.013230323791504
+            },
+            "queryAACube": {
+                "scale": 0.26651376485824585,
+                "x": -0.13324543833732605,
+                "y": 0.4032299816608429,
+                "z": 1.8799734115600586
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{0cdd7809-b21e-4b10-a3d0-8b03cb66db8d}",
+            "lastEdited": 1539797653125111,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.272088050842285,
+                "green": 0.12473440170288086,
+                "red": 0,
+                "x": 0,
+                "y": 0.12473440170288086,
+                "z": 2.272088050842285
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": -0.023315563797950745,
+                "z": 2.124037981033325
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-09-29T11:52:12Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20347972214221954,
+                "red": 0.14508163928985596,
+                "x": 0.14508163928985596,
+                "y": 0.20347972214221954,
+                "z": 0.06898196041584015
+            },
+            "id": "{56a51109-f874-4269-be1f-b12b19f5e2b1}",
+            "lastEdited": 1539797653661342,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.8393211364746094,
+                "green": 0.2590895891189575,
+                "red": 0,
+                "x": 0,
+                "y": 0.2590895891189575,
+                "z": 0.8393211364746094
+            },
+            "queryAACube": {
+                "scale": 0.259251207113266,
+                "x": -0.129625603556633,
+                "y": 0.12946398556232452,
+                "z": 0.7096955180168152
+            },
+            "rotation": {
+                "w": 0.6933852434158325,
+                "x": 0.13859772682189941,
+                "y": 0.6933852434158325,
+                "z": 0.13862824440002441
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{d43b76d3-1c41-4ea8-a80c-6d995a99763e}",
+            "lastEdited": 1539797653127401,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 0.21088695526123047,
+                "green": 0.5534399747848511,
+                "red": 0,
+                "x": 0,
+                "y": 0.5534399747848511,
+                "z": 0.21088695526123047
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.40539002418518066,
+                "z": 0.06283698976039886
+            },
+            "rotation": {
+                "w": 0.690394401550293,
+                "x": 0.15275812149047852,
+                "y": 0.690394401550293,
+                "z": 0.15278863906860352
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196786642075,
+                "green": 0.21107450127601624,
+                "red": 0.17283883690834045,
+                "x": 0.17283883690834045,
+                "y": 0.21107450127601624,
+                "z": 0.06898196786642075
+            },
+            "id": "{199a1fec-cc1b-4fbb-8bca-e5cba032caa9}",
+            "lastEdited": 1539797653661455,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterK.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 1.80914306640625,
+                "green": 0.2517368793487549,
+                "red": 0,
+                "x": 0,
+                "y": 0.2517368793487549,
+                "z": 1.80914306640625
+            },
+            "queryAACube": {
+                "scale": 0.28139692544937134,
+                "x": -0.14069846272468567,
+                "y": 0.11103841662406921,
+                "z": 1.6684446334838867
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        },
+        {
+            "clientOnly": false,
+            "created": "2018-10-17T17:32:29Z",
+            "dimensions": {
+                "blue": 0.06898196041584015,
+                "green": 0.20216615498065948,
+                "red": 0.20504999160766602,
+                "x": 0.20504999160766602,
+                "y": 0.20216615498065948,
+                "z": 0.06898196041584015
+            },
+            "id": "{576ebbdb-5ca3-4ca6-a527-be8e7b2c3200}",
+            "lastEdited": 1539797653124729,
+            "lastEditedBy": "{9664be59-bc39-470b-95b6-4d236ccb001e}",
+            "modelURL": "http://vr.fumbleland.com/objects/LetterO.fbx",
+            "name": "Village - School - BoardLetters",
+            "owningAvatarID": "{00000000-0000-0000-0000-000000000000}",
+            "position": {
+                "blue": 2.247577667236328,
+                "green": 0.7972732782363892,
+                "red": 0,
+                "x": 0,
+                "y": 0.7972732782363892,
+                "z": 2.247577667236328
+            },
+            "queryAACube": {
+                "scale": 0.2960999310016632,
+                "x": -0.1480499655008316,
+                "y": 0.6492233276367188,
+                "z": 2.099527597427368
+            },
+            "rotation": {
+                "w": 0.7002213001251221,
+                "x": 0.09834444522857666,
+                "y": 0.7002213001251221,
+                "z": 0.09837496280670166
+            },
+            "shapeType": "static-mesh",
+            "type": "Model",
+            "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+        }
+    ],
+    "Id": "{d88bca01-b9af-4069-9531-48cdf742a08b}",
+    "Version": 93
+}

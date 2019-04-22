@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0505-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 117000
+  },
+  "2": {
+    "name": "Jack",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0505-Jack.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 117000
+  },
+  "3": {
+    "name": "EggSmell",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0505-EggSmell.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "LemonFart",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0505-LemonFart.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 99100
+  },
+  "5": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0505-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

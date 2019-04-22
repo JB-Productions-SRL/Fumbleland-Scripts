@@ -1,0 +1,255 @@
+{
+  "0": [
+    {
+      "name": "LetterR",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2700999975204468,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterR.fbx",
+        "name": "Letter-R",
+        "position": {
+          "x": 9.505125045776367,
+          "y": -2.4977452754974365,
+          "z": 10.101594924926758
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.6466010808944702,
+          "z": -0.0000457763671875,
+          "w": 0.7628138065338135
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterM",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.24509303271770477,
+          "y": 0.22597377002239227,
+          "z": 0.07750485092401505
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterM.fbx",
+        "name": "Letter-M",
+        "position": {
+          "x": 9.609872817993164,
+          "y": -2.9695727825164795,
+          "z": 9.955690383911133
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.7358052730560303,
+          "z": -0.0000762939453125,
+          "w": 0.6771801710128784
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.006224155426025391,
+        "y": 0.04163038730621338,
+        "z": 0.15979623794555664
+      },
+      "jointRotation": {
+        "x": 84.66619873046875,
+        "y": -78.47200012207031,
+        "z": -18.24493408203125
+      }
+    }
+  ],
+  "7820": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 8.163440704345703,
+          "y": -1.5481228828430176,
+          "z": 9.472902297973633
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.5520256757736206,
+          "z": -0.0000457763671875,
+          "w": 0.8338292837142944
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "9380": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 9.023846626281738,
+          "y": -1.6112399101257324,
+          "z": 10.766523361206055
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": -0.5520256757736206,
+          "z": -0.0000457763671875,
+          "w": 0.8338292837142944
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "23500": [
+    {
+      "name": "LetterM",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 9.508952140808105,
+          "y": -2.504056453704834,
+          "z": 9.839303016662598
+        },
+        "rotation": {
+          "x": -0.0000762939453125,
+          "y": -0.7358052730560303,
+          "z": -0.0000762939453125,
+          "w": 0.6771801710128784
+        }
+      }
+    }
+  ],
+  "25610": [
+    {
+      "name": "LetterR",
+      "action": "PARENT",
+      "target": "Sofy",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.0027379989624023438,
+        "y": 0.05084037780761719,
+        "z": 0.11173343658447266
+      },
+      "jointRotation": {
+        "x": 1.0896064043045044,
+        "y": -100.63678741455078,
+        "z": -63.7892951965332
+      }
+    }
+  ],
+  "40250": [
+    {
+      "name": "Doormat",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.788207471370697,
+          "y": 0.03674637898802757,
+          "z": 0.5010175108909607
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/doormat_A_v002.fbx",
+        "name": "Village - Doormat",
+        "position": {
+          "x": 9.561468124389648,
+          "y": -1.9899953603744507,
+          "z": 12.125297546386719
+        },
+        "rotation": {
+          "x": -0.000021579189706244506,
+          "y": -0.7071176171302795,
+          "z": 0,
+          "w": 0.7070960402488708
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "40750": [
+    {
+      "name": "Doormat",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "54600": [
+    {
+      "name": "LetterR",
+      "action": "DELETE"
+    }
+  ],
+  "60000": [
+    {
+      "name": "LetterM",
+      "action": "DELETE"
+    },
+    {
+      "name": "Doormat",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    }
+  ]
+}

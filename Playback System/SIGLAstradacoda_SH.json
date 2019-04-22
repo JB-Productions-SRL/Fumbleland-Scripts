@@ -1,0 +1,55 @@
+{
+  "0": [
+    {
+      "name": "PinkBag",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.27804940938949585,
+          "y": 0.5520216822624207,
+          "z": 0.5906500816345215
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Pink_bag_v004.fbx",
+        "name": "PinkBag",
+        "position": {
+          "x": 15.558308601379395,
+          "y": -2.0876855850219727,
+          "z": 10.83072280883789
+        },
+        "rotation": {
+          "x": 0.024002432823181152,
+          "y": -0.999114990234375,
+          "z": -0.0331273078918457,
+          "w": 0.01026928424835205
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "PinkBag",
+      "action": "PARENT",
+      "target": "MrsSpelling",
+      "jointIndex": 21,
+      "jointPosition": {
+        "x": -0.08144640922546387,
+        "y": 0.3069329261779785,
+        "z": 0.07565021514892578
+      },
+      "jointRotation": {
+        "x": 121.4137954711914,
+        "y": -99.40157318115234,
+        "z": 87.3303451538086
+      }
+    }
+  ],
+  "50000": [
+    {
+      "name": "PinkBag",
+      "action": "DELETE"
+    }
+  ]
+}

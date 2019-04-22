@@ -1,0 +1,104 @@
+{
+  "0": [
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1545638144016266,
+          "y": 0.17246556282043457,
+          "z": 0.05596780776977539
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+        "name": "Schoolboard letter - T",
+        "position": {
+          "x": 28.89423370361328,
+          "y": -3.983158826828003,
+          "z": 22.811758041381836
+        },
+        "rotation": {
+          "x": 0.3260163962841034,
+          "y": -0.5255423784255981,
+          "z": -0.036994241178035736,
+          "w": -0.7849572896957397
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "8340": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.05247390270233154,
+        "y": 0.11234474182128906,
+        "z": 0.03978157043457031
+      },
+      "jointRotation": {
+        "x": 112.02378845214844,
+        "y": 90.13270568847656,
+        "z": 52.93042755126953
+      }
+    }
+  ],
+  "28200": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 27.1149,
+          "y": -1.7964,
+          "z": 23.4929
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.6224918365478516,
+          "z": -0.0000762939453125,
+          "w": 0.7826199531555176
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "33200": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 56,
+      "jointPosition": {
+        "x": -0.0562286376953125,
+        "y": 0.047944068908691406,
+        "z": 0.03389930725097656
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 90,
+        "z": 75.00887298583984
+      }
+    }
+  ],
+  "50400": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    }
+  ]
+}

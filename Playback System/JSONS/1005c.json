@@ -1,0 +1,26 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 3000,
+    "url": "atp:/recordings/1005-MrsSpelling3.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 69200
+  },
+  "2": {
+    "name": "Leah",
+    "timeOffset": 3000,
+    "url": "atp:/recordings/1005-Leah3.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 69200
+  },
+  "3": {
+    "name": "RainGoat",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1005-RainGoat.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 56500
+  }
+}

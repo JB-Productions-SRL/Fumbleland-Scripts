@@ -1,0 +1,67 @@
+{
+  "12900": [
+    {
+      "name": "LetterC",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterC.fbx",
+        "name": "Letter-T",
+        "position": {
+          "x": 11,
+          "y": -2.5796,
+          "z": -30
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "19900": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.019150495529174805,
+        "y": 0.06844282150268555,
+        "z": 0.126672625541687
+      },
+      "jointRotation": {
+        "x": -20.899505615234375,
+        "y": -95.04224395751953,
+        "z": 88.83578491210938
+      }
+    }
+  ],
+  "47860": [
+    {
+      "name": "LetterC",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 27,
+      "jointPosition": {
+        "x": 0.016510009765625,
+        "y": 0.03945732116699219,
+        "z": 0.11608600616455078
+      },
+      "jointRotation": {
+        "x": 3.5409886837005615,
+        "y": -103.08869171142578,
+        "z": -80.11843872070312
+      }
+    }
+  ],
+  "85300": [
+    {
+      "name": "LetterC",
+      "action": "DELETE"
+    }
+  ]
+}

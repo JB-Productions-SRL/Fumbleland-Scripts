@@ -1,0 +1,175 @@
+{
+  "0": [
+    {
+      "name": "LetterB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.16901302337646484,
+          "y": 0.22863295674324036,
+          "z": 0.07851912826299667
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_B_pink.fbx",
+        "name": "Letter - B",
+        "position": {
+          "x": 35.478397369384766,
+          "y": -2.256186008453369,
+          "z": -26.693328857421875
+        },
+        "rotation": {
+          "x": -0.0033112168312072754,
+          "y": 0.005569577217102051,
+          "z": 0.028915882110595703,
+          "w": -0.99957275390625
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterW",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.24456734955310822,
+          "y": 0.18195542693138123,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterW.fbx",
+        "name": "Schoolboard letter - W",
+        "position": {
+          "x": 35.806976318359375,
+          "y": -2.14757869720459,
+          "z": -26.600797653198242
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.08747994899749756,
+          "z": -0.0000152587890625,
+          "w": 0.99615478515625
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Scissors",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.7059,
+          "y": 0.07367320358753204,
+          "z": 0.3719263970851898
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/shears_M_v001.fbx",
+        "name": "Viilage - BrushComb",
+        "position": {
+          "x": 36.84964370727539,
+          "y": -2.1845014095306396,
+          "z": -23.233427047729492
+        },
+        "rotation": {
+          "x": 0.6900736093521118,
+          "y": -0.10722256451845169,
+          "z": -0.2576032876968384,
+          "w": 0.6677901148796082
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "6000": [
+    {
+      "name": "Scissors",
+      "action": "PARENT",
+      "target": "WigToe",
+      "jointIndex": 48,
+      "jointPosition": {
+        "x": -0.26354751586914062,
+        "y": 0.12339210510253906,
+        "z": 0.06945350646972656
+      },
+      "jointRotation": {
+        "x": 48.25522232055664,
+        "y": 28.02172088623047,
+        "z": 7.443946838378906
+      }
+    },
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.06997549533843994,
+        "y": 0.06066703796386719,
+        "z": 0.09631729125976562
+      },
+      "jointRotation": {
+        "x": 8.241989135742188,
+        "y": 91.04418182373047,
+        "z": 82.7174301147461
+      }
+    }
+  ],
+  "68810": [
+    {
+      "name": "LetterB",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 35.478397369384766,
+          "y": -2.256186008453369,
+          "z": -26.693328857421875
+        },
+        "rotation": {
+          "x": -0.0033112168312072754,
+          "y": 0.005569577217102051,
+          "z": 0.028915882110595703,
+          "w": -0.99957275390625
+        }
+      }
+    }
+  ],
+  "71220": [
+    {
+      "name": "LetterW",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.05353879928588867,
+        "y": 0.11185073852539062,
+        "z": 0.11632156372070312
+      },
+      "jointRotation": {
+        "x": -162.67845153808594,
+        "y": 67.4218978881836,
+        "z": -89.4924087524414
+      }
+    }
+  ],
+  "79070": [
+    {
+      "name": "Scissors",
+      "action": "DELETE"
+    }
+  ],
+  "85110": [
+    {
+      "name": "LetterW",
+      "action": "DELETE"
+    }
+  ],
+  "91230": [
+    {
+      "name": "LetterB",
+      "action": "DELETE"
+    }
+  ]
+}

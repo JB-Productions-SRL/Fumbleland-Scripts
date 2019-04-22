@@ -1,0 +1,204 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2500999867916107,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Letter-P",
+        "position": {
+          "x": 14.608275413513184,
+          "y": -2.0600268840789795,
+          "z": 8.205459594726562
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.061112403869628906,
+          "z": -0.0000152587890625,
+          "w": 0.99810791015625
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1858000010251999,
+          "y": 0.25130000710487366,
+          "z": 0.08630000054836273
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+        "name": "Letter-B",
+        "position": {
+          "x": 13.966633796691895,
+          "y": -2.0577659606933594,
+          "z": 8.237854957580566
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.061020851135253906,
+          "z": -0.0000457763671875,
+          "w": 0.99810791015625
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "BearCollider",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.5594151616096497,
+          "y": 0.20000000298023224,
+          "z": 0.5465325117111206
+        },
+        "lifetime": 300,
+        "name": "BearCollider",
+        "position": {
+          "x": 17.246726989746094,
+          "y": -2.6262025833129883,
+          "z": 12.298005104064941
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Box",
+        "visible": false,
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.09204912185668945,
+        "y": 0.11269235610961914,
+        "z": 0.1127462387084961
+      },
+      "jointRotation": {
+        "x": -141.8192901611328,
+        "y": -83.24776458740234,
+        "z": 77.9854965209961
+      }
+    }
+  ],
+  "51300": [
+    {
+      "name": "LetterB",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 13.966633796691895,
+          "y": -2.0577659606933594,
+          "z": 8.237854957580566
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.061020851135253906,
+          "z": -0.0000457763671875,
+          "w": 0.99810791015625
+        }
+      }
+    }
+  ],
+  "57990": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Jack",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.0975637435913086,
+        "y": 0.09730911254882812,
+        "z": 0.11856496334075928
+      },
+      "jointRotation": {
+        "x": -7.552044868469238,
+        "y": -107.68687438964844,
+        "z": -62.178436279296875
+      }
+    }
+  ],
+  "66690": [
+    {
+      "name": "Teddybear",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.6684997081756592,
+          "y": 0.9542402029037476,
+          "z": 0.6101125478744507
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/TeddyBear_v002.fbx",
+        "name": "Village - Teddybear",
+        "position": {
+          "x": 17.30911636352539,
+          "y": -0.2835804522037506,
+          "z": 12.23409366607666
+        },
+        "rotation": {
+          "x": -0.014999628067016602,
+          "y": -0.721889078617096,
+          "z": 0.00971996784210205,
+          "w": 0.6917678117752075
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "78220": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ],
+  "86150": [
+    {
+      "name": "LetterB",
+      "action": "DELETE"
+    },
+    {
+      "name": "Teddybear",
+      "action": "DELETE"
+    },
+    {
+      "name": "BearCollider",
+      "action": "DELETE"
+    }
+  ]
+}

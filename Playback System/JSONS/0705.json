@@ -1,0 +1,34 @@
+{
+  "0": {
+    "name": "Jack",
+    "timeOffset": 5000,
+    "url": "atp:/recordings/0705-Jack.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 75550
+  },
+  "1": {
+    "name": "GlueBerry",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0705-GlueBerry.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 61000
+  },
+  "2": {
+    "name": "MrsSpelling",
+    "timeOffset": 6000,
+    "url": "atp:/recordings/0705-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 74550
+  },
+  "3": {
+    "name": "David",
+    "timeOffset": 28500,
+    "url": "atp:/recordings/0705-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 60050
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "0": [
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+        "name": "Letter-T",
+        "position": {
+          "x": 5.582573413848877,
+          "y": -2.2814106941223145,
+          "z": -24.03426170349121
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.9613641500473022,
+          "z": -0.0000152587890625,
+          "w": 0.2752879858016968
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterF",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2700999975204468,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterF.fbx",
+        "name": "Letter-F",
+        "position": {
+          "x": 2.7963669300079346,
+          "y": -2.283620834350586,
+          "z": -23.8477725982666
+        },
+        "rotation": {
+          "x": 8.969273039838299e-7,
+          "y": 0.9135366678237915,
+          "z": -0.0000482456453028135,
+          "w": 0.40675657987594604
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "21000": [
+    {
+      "name": "Fart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 1.2906,
+          "y": -2.2804,
+          "z": -25.2618
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/fartsGreen.js?1",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "55000": [
+    {
+      "name": "Fart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 2.3310,
+          "y": -1.8633,
+          "z": -25.0683
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/fartsYellow.js",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "75760": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Jack",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.02527761459350586,
+        "y": 0.060466766357421875,
+        "z": 0.04098320007324219
+      },
+      "jointRotation": {
+        "x": -21.688446044921875,
+        "y": 94.99073028564453,
+        "z": -89.6889419555664
+      }
+    }
+  ],
+  "80480": [
+    {
+      "name": "Fart3",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 2.3310,
+          "y": -1.8633,
+          "z": -25.0683
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/fartsYellow.js",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "83740": [
+    {
+      "name": "Fart4",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 1.2906,
+          "y": -2.2804,
+          "z": -25.2618
+        },
+        "rotation": {"x":0,"y":0.7071067690849304,"z":0,"w":0.7071067690849304},
+        "name": "Farts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/fartsGreen.js?1",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "88630": [
+    {
+      "name": "LetterT",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 2.858975410461426,
+          "y": -2.28362774848938,
+          "z": -23.980697631835938
+        },
+        "rotation": {
+          "x": 0.000008018238077056594,
+          "y": 0.9636247158050537,
+          "z": -0.00004758313298225403,
+          "w": 0.267259418964386
+        }
+      }
+    }
+  ],
+  "92020": [
+    {
+      "name": "LetterF",
+      "action": "PARENT",
+      "target": "Jack",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.000015020370483398438,
+        "y": 0.05099281668663025,
+        "z": 0.1082005500793457
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": -90,
+        "z": 90
+      }
+    }
+  ],
+  "98520": [
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 2.3310,
+          "y": -0.8633,
+          "z": -25.0683
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "101390": [
+    {
+      "name": "LemonTart",
+      "action": "REZ",
+      "props":{
+        "dimensions": {
+          "x": 0.5111002922058105,
+          "y": 0.08109736442565918,
+          "z": 0.33301466703414917
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/crostata_v002.fbx",
+        "name": "Village - Bookstore",
+        "position": {
+          "x": 2.3584752082824707,
+          "y": -1.0725789070129395,
+          "z": -23.985029220581055
+        },
+        "rotation": {
+          "x": -0.0001068115234375,
+          "y": 0.9998779296875,
+          "z": -0.0000762939453125,
+          "w": -0.015518426895141602
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "shapeType": "simple-hull"
+      }
+    },
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 2.3584752082824707,
+          "y": -1.2725789070129395,
+          "z": -23.985029220581055
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "101890": [
+    {
+      "name": "LemonTart",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "110580": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 3.96533203125,
+          "y": -1.4444270133972168,
+          "z": -23.916332244873047
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "112650": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 1.3751,
+          "y": -1.3767,
+          "z": -27.4727
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7070878744125366,
+          "z": -0.0000457763671875,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "script": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "120300": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterF",
+      "action": "DELETE"
+    },
+    {
+      "name": "Fart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Fart2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Fart3",
+      "action": "DELETE"
+    },
+    {
+      "name": "Fart4",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    },
+    {
+      "name": "LemonTart",
+      "action": "DELETE"
+    }
+  ]
+}

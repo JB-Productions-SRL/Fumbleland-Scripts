@@ -1,0 +1,18 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0302-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 3750,
+    "endTrim": 0
+  },
+  "1": {
+    "name": "Sofy",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0302-Sofy.hfr",
+    "ready": false,
+    "startTrim": 3750,
+    "endTrim": 0
+  }
+}

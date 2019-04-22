@@ -1,0 +1,10 @@
+{
+  "0": {
+    "name": "ManCake",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/0101-ManCake.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

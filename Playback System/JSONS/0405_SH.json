@@ -1,0 +1,433 @@
+{
+  "0": [
+    {
+      "name": "LetterB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1858000010251999,
+          "y": 0.25130000710487366,
+          "z": 0.08630000054836273
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterB.fbx",
+        "name": "Village - LetterB",
+        "position": {
+          "x": 5.582573413848877,
+          "y": -2.2814106941223145,
+          "z": -24.03426170349121
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.9613641500473022,
+          "z": -0.0000152587890625,
+          "w": 0.2752879858016968
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterJ",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.18726323544979095,
+          "y": 0.25398150086402893,
+          "z": 0.08699782192707062
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterJ.fbx",
+        "name": "Village - LetterJ",
+        "position": {
+          "x": 0.6741974353790283,
+          "y": -2.283620834350586,
+          "z": -26.60931625366211
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7253376245498657,
+          "z": -0.0000457763671875,
+          "w": 0.688349723815918
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "60890": [
+    {
+      "name": "LetterB",
+      "action": "PARENT",
+      "target": "Roby",
+      "jointIndex": 24,
+      "jointPosition": {
+        "x": 0.04130983352661133,
+        "y": 0.06552302837371826,
+        "z": 0.10925507545471191
+      },
+      "jointRotation": {
+        "x": 179.9999542236328,
+        "y": 95.99996185302734,
+        "z": 89.99993896484375
+      }
+    }
+  ],
+  "71920": [
+    {
+      "name": "LetterB",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 0.6899282932281494,
+          "y": -2.283620834350586,
+          "z": -26.897613525390625
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7253376245498657,
+          "z": -0.0000457763671875,
+          "w": 0.688349723815918
+        }
+      }
+    }
+  ],
+  "74560": [
+    {
+      "name": "LetterJ",
+      "action": "PARENT",
+      "target": "Roby",
+      "jointIndex": 53,
+      "jointPosition": {
+        "x": -0.046855926513671875,
+        "y": 0.05358707904815674,
+        "z": 0.1059257984161377
+      },
+      "jointRotation": {
+        "x": -63.47248458862305,
+        "y": 97.56256103515625,
+        "z": 14.942623138427734
+      }
+    }
+  ],
+  "78220": [
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 0.5979362726211548,
+          "y": -2.205617218017578,
+          "z": -27.6640682220459
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "80000": [
+    {
+      "name": "Ladybug",
+      "action": "REZ",
+      "props":{
+        "dimensions": {
+          "x": 0.33145713806152344,
+          "y": 0.16859044134616852,
+          "z": 0.3230283260345459
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Coccinella_v009.fbx",
+        "name": "Village - Ladybug",
+        "position": {
+          "x": 0.5979626178741455,
+          "y": -1.313166856765747,
+          "z": -27.664094924926758
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7095292806625366,
+          "z": -0.0000762939453125,
+          "w": -0.7046768665313721
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "shapeType": "simple-hull"
+      }
+    },
+    {
+      "name": "ParticleExit",
+      "action": "REZ",
+      "props": {
+        "lifetime": 10,
+        "position": {
+          "x": 0.5979626178741455,
+          "y": -1.513166856765747,
+          "z": -27.664094924926758
+        },
+        "script": "(function () {var entityUUID; this.preload = function (entityID) {entityUUID = entityID;Script.setTimeout(function () {Entities.editEntity(entityUUID, {'isEmitting': false}); }, 1000); }; });",
+        "isEmitting": true,
+        "lifespan": "1.7",
+        "maxParticles": "6298",
+        "textures": "https://content.highfidelity.com/DomainContent/production/Particles/wispy-smoke.png",
+        "emitRate": "304",
+        "emitSpeed": "0",
+        "speedSpread": "0",
+        "emitDimensions": {
+          "x": "0",
+          "y": "0",
+          "z": "0"
+        },
+        "emitOrientation": {
+          "x": "-90.01",
+          "y": "0",
+          "z": "0"
+        },
+        "emitterShouldTrail": true,
+        "particleRadius": "1.350000023841858",
+        "radiusSpread": "0.47999998927116394",
+        "radiusStart": "0",
+        "radiusFinish": "0.10000000149011612",
+        "color": {
+          "red": "222",
+          "blue": "222",
+          "green": "51"
+        },
+        "colorSpread": {
+          "red": "0",
+          "blue": "0",
+          "green": "0"
+        },
+        "colorStart": {
+          "red": "217",
+          "blue": "11",
+          "green": "196"
+        },
+        "colorFinish": {
+          "red": "132",
+          "blue": "227",
+          "green": "144"
+        },
+        "emitAcceleration": {
+          "x": "0",
+          "y": "0.75",
+          "z": "0"
+        },
+        "accelerationSpread": {
+          "x": "2.5",
+          "y": "3.5",
+          "z": "2.5"
+        },
+        "alpha": "0.1599999964237213",
+        "alphaSpread": "0.20000000298023224",
+        "alphaStart": "1",
+        "alphaFinish": "0",
+        "particleSpin": 0,
+        "spinSpread": 0,
+        "spinStart": 0,
+        "spinFinish": 0,
+        "rotateWithEntity": false,
+        "polarStart": 0,
+        "polarFinish": 0,
+        "azimuthStart": -3.1415927410125732,
+        "azimuthFinish": 3.1415927410125732,
+        "dimensions": {
+          "blue": 6.588200569152832,
+          "green": 6.588200569152832,
+          "red": 6.588200569152832,
+          "x": 6.588200569152832,
+          "y": 6.588200569152832,
+          "z": 6.588200569152832
+        },
+        "name": "particle",
+        "type": "ParticleEffect",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "80500": [
+    {
+      "name": "Ladybug",
+      "action": "EDIT",
+      "props": {
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        }
+      }
+    }
+  ],
+  "90900": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 1.6575,
+          "y": -1.5242,
+          "z": -25.6590
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7070878744125366,
+          "z": -0.0000457763671875,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "92840": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 1.631733775138855,
+          "y": -1.2581593990325928,
+          "z": -28.525772094726562
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.7070878744125366,
+          "z": -0.0000457763671875,
+          "w": 0.7070878744125366
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "100300": [
+    {
+      "name": "LetterJ",
+      "action": "DELETE"
+    },
+    {
+      "name": "LetterB",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Heart2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Ladybug",
+      "action": "DELETE"
+    }
+  ]
+}

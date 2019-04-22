@@ -1,0 +1,82 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 5000,
+    "url": "atp:/recordings/2305-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 94340
+  },
+  "2": {
+    "name": "Lory",
+    "timeOffset": 5000,
+    "url": "atp:/recordings/2305-Lory.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 94340
+  },
+  "3": {
+    "name": "ParkingPot",
+    "timeOffset": 5000,
+    "url": "atp:/recordings/2305-ParkingPot.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 82930
+  },
+  "4": {
+    "name": "David",
+    "timeOffset": 5000,
+    "url": "atp:/recordings/2305-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "5": {
+    "name": "PoliceCan",
+    "timeOffset": 36800,
+    "url": "atp:/recordings/2305-PoliceCan.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "6": {
+    "name": "mucca1",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2305-mucca1.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "7": {
+    "name": "mucca2",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2305-mucca2.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "8": {
+    "name": "mucca3",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2305-mucca3.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "9": {
+    "name": "mucca4",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2305-mucca4.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "10": {
+    "name": "mucca5",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2305-mucca5.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

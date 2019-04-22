@@ -1,0 +1,399 @@
+{
+  "0": [
+    {
+      "name": "LetterM",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.20366980135440826,
+          "y": 0.18778200447559357,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterM.fbx",
+        "name": "Schoolboard letter - M",
+        "position": {
+          "x": 35.260650634765625,
+          "y": -2.434972047805786,
+          "z": 12.899116516113281
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.0000457763671875,
+          "z": -0.0000457763671875,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterH",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.16587461531162262,
+          "y": 0.20323365926742554,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterH.fbx",
+        "name": "Schoolboard letter - H",
+        "position": {
+          "x": 35.507843017578125,
+          "y": -2.77,
+          "z": 12.74
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Shaker1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1164603978395462,
+          "y": 0.2129906564950943,
+          "z": 0.11646038293838501
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/saltshaker.fbx",
+        "name": "saltshaker.fbx",
+        "position": {
+          "x": 35.21189880371094,
+          "y": -2.4320595264434814,
+          "z": 12.044303894042969
+        },
+        "rotation": {
+          "x": 0.0029960423707962036,
+          "y": -0.011596709489822388,
+          "z": 0.1824769824743271,
+          "w": -0.9831197261810303
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Shaker2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1164603978395462,
+          "y": 0.2129906564950943,
+          "z": 0.11646038293838501
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/saltshaker.fbx",
+        "name": "saltshaker.fbx",
+        "position": {
+          "x": 35.876583099365234,
+          "y": -2.368659496307373,
+          "z": 12.005844116210938
+        },
+        "rotation": {
+          "x": 0.002081051468849182,
+          "y": -0.010746225714683533,
+          "z": -0.02601000666618347,
+          "w": -0.9995957612991333
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Spoon",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.41843679547309875,
+          "y": 0.04483259841799736,
+          "z": 0.09377828240394592
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/mestolo_v001.fbx",
+        "name": "Village - Bistro",
+        "position": {
+          "x": 34.7128791809082,
+          "y": -2.466977596282959,
+          "z": 12.315661430358887
+        },
+        "rotation": {
+          "x": 0.301899790763855,
+          "y": -0.30308997631073,
+          "z": -0.9021286368370056,
+          "w": -0.056290507316589355
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "3500": [
+    {
+      "name": "Shaker1",
+      "action": "PARENT",
+      "target": "SaltWaiter",
+      "jointIndex": 23,
+      "jointPosition": {
+        "x": 0.02463054656982422,
+        "y": 0.1272735595703125,
+        "z": 0.07085466384887695
+      },
+      "jointRotation": {
+        "x": -83.4812240600586,
+        "y": -92.76570129394531,
+        "z": 15.149551391601562
+      }
+    },
+    {
+      "name": "Shaker2",
+      "action": "PARENT",
+      "target": "SaltWaiter",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.03373146057128906,
+        "y": 0.13361358642578125,
+        "z": 0.07541322708129883
+      },
+      "jointRotation": {
+        "x": -2.934596538543701,
+        "y": 73.47445678710938,
+        "z": 77.7790298461914
+      }
+    },
+    {
+      "name": "Spoon",
+      "action": "PARENT",
+      "target": "EggSmell",
+      "jointIndex": 56,
+      "jointPosition": {
+        "x": -0.09858512878417969,
+        "y": 0.10763168334960938,
+        "z": 0.017596960067749023
+      },
+      "jointRotation": {
+        "x": 114.25764465332031,
+        "y": -5.04730749130249,
+        "z": -28.73235511779785
+      }
+    }
+  ],
+  "15000": [
+    {
+      "name": "LetterH",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.05862617492675781,
+        "y": 0.10443878173828125,
+        "z": 0.09525585174560547
+      },
+      "jointRotation": {
+        "x": -163.51223754882812,
+        "y": 67.7033920288086,
+        "z": -89.30416870117188
+      }
+    }
+  ],
+  "30470": [
+    {
+      "name": "LetterH",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 26,
+      "jointPosition": {
+        "x": 0.0655517578125,
+        "y": 0.07415199279785156,
+        "z": 0.09019660949707031
+      },
+      "jointRotation": {
+        "x": 19.45711898803711,
+        "y": -105.16071319580078,
+        "z": -83.35322570800781
+      }
+    }
+  ],
+  "44100": [
+    {
+      "name": "LetterH",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 35.507843017578125,
+          "y": -2.4350223541259766,
+          "z": 12.887155532836914
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        }
+      }
+    }
+  ],
+  "45430": [
+    {
+      "name": "LetterM",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 26,
+      "jointPosition": {
+        "x": 0.055816650390625,
+        "y": 0.07693862915039062,
+        "z": 0.11060523986816406
+      },
+      "jointRotation": {
+        "x": 19.650222778320312,
+        "y": -105.05859375,
+        "z": -83.43653106689453
+      }
+    }
+  ],
+  "49440": [
+    {
+      "name": "Spoon",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 34.7128791809082,
+          "y": -2.466977596282959,
+          "z": 12.315661430358887
+        },
+        "rotation": {
+          "x": 0.301899790763855,
+          "y": -0.30308997631073,
+          "z": -0.9021286368370056,
+          "w": -0.056290507316589355
+        }
+      }
+    }
+  ],
+  "53000": [
+    {
+      "name": "EggShell1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1941000074148178,
+          "y": 0.14110000431537628,
+          "z": 0.1988999992609024
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/EggShellUp_v001.fbx",
+        "name": "Village - Vase",
+        "position": {
+          "x": 35.45512390136719,
+          "y": -0.9009685516357422,
+          "z": 12.664342880249023
+        },
+        "rotation": {
+          "x": -0.023819327354431152,
+          "y": 0.014724969863891602,
+          "z": -0.011367976665496826,
+          "w": 0.999542236328125
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 0.6,
+        "damping": 0.4,
+        "shapeType": "simple-hull"
+      }
+    },
+    {
+      "name": "EggShell2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.20422589778900146,
+          "y": 0.15437664091587067,
+          "z": 0.2042260766029358
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/EggShellDown_v001.fbx",
+        "name": "Village - Vase",
+        "position": {
+          "x": 35.4578742980957,
+          "y": -1.0587799549102783,
+          "z": 12.670971870422363
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000457763671875,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -5,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 0.6,
+        "damping": 0.4,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "67150": [
+    {
+      "name": "LetterM",
+      "action": "DELETE"
+    }
+  ],
+  "70000": [
+    {
+      "name": "LetterH",
+      "action": "DELETE"
+    },
+    {
+      "name": "EggShell1",
+      "action": "DELETE"
+    },
+    {
+      "name": "EggShell2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Shaker1",
+      "action": "DELETE"
+    },
+    {
+      "name": "Shaker2",
+      "action": "DELETE"
+    },
+    {
+      "name": "Spoon",
+      "action": "DELETE"
+    }
+  ]
+}

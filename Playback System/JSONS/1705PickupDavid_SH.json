@@ -1,0 +1,55 @@
+{
+  "0": [
+    {
+      "name": "LetterH",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.16587461531162262,
+          "y": 0.20323365926742554,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterH.fbx",
+        "name": "Schoolboard letter - H",
+        "position": {
+          "x": 35.507843017578125,
+          "y": -2.77,
+          "z": 12.74
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.0000152587890625,
+          "z": -0.0000152587890625,
+          "w": 1
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2500": [
+    {
+      "name": "LetterH",
+      "action": "PARENT",
+      "target": "David",
+      "jointIndex": 52,
+      "jointPosition": {
+        "x": -0.05862617492675781,
+        "y": 0.10443878173828125,
+        "z": 0.09525585174560547
+      },
+      "jointRotation": {
+        "x": -163.51223754882812,
+        "y": 67.7033920288086,
+        "z": -89.30416870117188
+      }
+    }
+  ],
+  "20000": [
+    {
+      "name": "LetterH",
+      "action": "DELETE"
+    }
+  ]
+}

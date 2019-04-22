@@ -1,0 +1,198 @@
+{
+  "0": [
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2089,
+          "y": 0.2537,
+          "z": 0.0855
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterT.fbx",
+        "name": "Letter-T",
+        "position": {
+          "x": 7.962094306945801,
+          "y": -2.1353931427001953,
+          "z": 17.96836280822754
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2500999867916107,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Letter-P",
+        "position": {
+          "x": 15.87417221069336,
+          "y": -2.418731689453125,
+          "z": 8.808136940002441
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.5378957986831665,
+          "z": -0.0000152587890625,
+          "w": 0.843015193939209
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "SheetCollider",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 1.2343097925186157,
+          "y": 0.20000000298023224,
+          "z": 0.856479823589325
+        },
+        "lifetime": 300,
+        "name": "SheetCollider",
+        "position": {
+          "x": 16.563068389892578,
+          "y": -3.098201274871826,
+          "z": 9.971786499023438
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": 0.3664759397506714,
+          "z": -0.0001068115234375,
+          "w": 0.930418848991394
+        },
+        "type": "Box",
+        "visible": false,
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 25,
+      "jointPosition": {
+        "x": 0.04648566246032715,
+        "y": 0.0580601692199707,
+        "z": 0.054053306579589844
+      },
+      "jointRotation": {
+        "x": -27.159099578857422,
+        "y": 94.70086669921875,
+        "z": -87.41754150390625
+      }
+    }
+  ],
+  "52680": [
+    {
+      "name": "LetterT",
+      "action": "EDIT",
+      "props": {
+        "parentID": "",
+        "position": {
+          "x": 15.940264701843262,
+          "y": -2.408937931060791,
+          "z": 9.039793968200684
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.5001144409179688,
+          "z": -0.0000152587890625,
+          "w": 0.8659342527389526
+        }
+      }
+    }
+  ],
+  "55790": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Sky",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.11619853973388672,
+        "y": 0.11444830894470215,
+        "z": 0.007907867431640625
+      },
+      "jointRotation": {
+        "x": -0.11071491241455078,
+        "y": 81.12966918945312,
+        "z": 64.41295623779297
+      }
+    }
+  ],
+  "70500": [
+    {
+      "name": "BedSheet",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 1.7030764818191528,
+          "y": 0.617438554763794,
+          "z": 1.952049732208252
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/Pink_Sheet_02.fbx",
+        "name": "BedSheet",
+        "position": {
+          "x": 16.208038330078125,
+          "y": -0.6859191060066223,
+          "z": 10.217386245727539
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.3842068910598755,
+          "z": -0.0000457763671875,
+          "w": 0.9232470989227295
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "dynamic": true,
+        "gravity": {
+          "x": 0,
+          "y": -4,
+          "z": 0
+        },
+        "velocity": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "angularDamping": 1,
+        "damping": 0.6,
+        "shapeType": "simple-hull"
+      }
+    }
+  ],
+  "78000": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ],
+  "82000": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    },
+    {
+      "name": "BedSheet",
+      "action": "DELETE"
+    },
+    {
+      "name": "SheetCollider",
+      "action": "DELETE"
+    }
+  ]
+}

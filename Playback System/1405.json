@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 3300,
+    "url": "atp:/recordings/1405-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 82110
+  },
+  "1": {
+    "name": "Sky",
+    "timeOffset": 3000,
+    "url": "atp:/recordings/1405-Sky.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 82110
+  },
+  "2": {
+    "name": "WigToe",
+    "timeOffset": 3000,
+    "url": "atp:/recordings/1405-WigToe.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 76070
+  },
+  "3": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1405-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "HairPlane",
+    "timeOffset": 3800,
+    "url": "atp:/recordings/1405-HairPlane.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

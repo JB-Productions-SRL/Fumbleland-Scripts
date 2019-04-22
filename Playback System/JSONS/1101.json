@@ -1,0 +1,10 @@
+{
+  "0": {
+    "name": "DoorRat",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1101-DoorRat.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

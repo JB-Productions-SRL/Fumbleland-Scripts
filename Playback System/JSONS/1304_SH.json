@@ -1,0 +1,37 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1914999932050705,
+          "y": 0.2500999867916107,
+          "z": 0.08619999885559082
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Letter-P",
+        "position": {
+          "x": 15.87417221069336,
+          "y": -2.418731689453125,
+          "z": 8.808136940002441
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.5378957986831665,
+          "z": -0.0000152587890625,
+          "w": 0.843015193939209
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "89000": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ]
+}

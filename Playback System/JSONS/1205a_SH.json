@@ -1,0 +1,55 @@
+{
+  "0": [
+    {
+      "name": "LetterP",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.1232515424489975,
+          "y": 0.16096122562885284,
+          "z": 0.05431387200951576
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterP.fbx",
+        "name": "Schoolboard letter - P",
+        "position": {
+          "x": 32.42662048339844,
+          "y": -3.6660983562469482,
+          "z": 22.30638885498047
+        },
+        "rotation": {
+          "x": 0.033170707523822784,
+          "y": -0.8870763182640076,
+          "z": 0.06515365093946457,
+          "w": 0.45579686760902405
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "3000": [
+    {
+      "name": "LetterP",
+      "action": "PARENT",
+      "target": "Leah",
+      "jointIndex": 27,
+      "jointPosition": {
+        "x": 0.05837678909301758,
+        "y": 0.0623784065246582,
+        "z": 0.07483291625976562
+      },
+      "jointRotation": {
+        "x": -20.241430282592773,
+        "y": -90.13848876953125,
+        "z": -46.8387451171875
+      }
+    }
+  ],
+  "11000": [
+    {
+      "name": "LetterP",
+      "action": "DELETE"
+    }
+  ]
+}

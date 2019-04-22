@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1905b-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 77220
+  },
+  "2": {
+    "name": "Jack",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1905b-Jack.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 77220
+  },
+  "3": {
+    "name": "BedSheep",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1905b-BedSheep.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "4": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1905b-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "5": {
+    "name": "TeddyPear",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1905b-TeddyPear.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 63080
+  }
+}
