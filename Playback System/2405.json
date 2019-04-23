@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2405-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 91610
+  },
+  "2": {
+    "name": "David",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/2405-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "3": {
+    "name": "Lory",
+    "timeOffset": 1300,
+    "url": "atp:/recordings/2405-Lory.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 91310
+  },
+  "4": {
+    "name": "NoseBook",
+    "timeOffset": 39000,
+    "url": "atp:/recordings/2405-NoseBook.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "5": {
+    "name": "BookStop",
+    "timeOffset": 31200,
+    "url": "atp:/recordings/2405-BookStop.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 50730
+  }
+}

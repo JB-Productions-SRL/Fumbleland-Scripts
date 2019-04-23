@@ -1,0 +1,55 @@
+{
+  "0": [
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.23613132536411285,
+          "y": 0.28672751784324646,
+          "z": 0.10469239950180054
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_T_blu.fbx",
+        "name": "Letter - T",
+        "position": {
+          "x": -7.051091194152832,
+          "y": -1.55045747756958,
+          "z": -100.8484115600586
+        },
+        "rotation": {
+          "x": 0.022842764854431152,
+          "y": 0.8091402053833008,
+          "z": -0.009811580181121826,
+          "w": 0.5870603322982788
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "2000": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "BookStop",
+      "jointIndex": 56,
+      "jointPosition": {
+        "x": -0.08483457565307617,
+        "y": 0.1450514793395996,
+        "z": 0.07749748229980469
+      },
+      "jointRotation": {
+        "x": -71.73397064208984,
+        "y": 90.12973022460938,
+        "z": 3.162036180496216
+      }
+    }
+  ],
+  "41760": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    }
+  ]
+}

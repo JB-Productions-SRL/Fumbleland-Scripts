@@ -77,6 +77,10 @@ print(JSON.stringify(props));
 
 JSON.stringify(Script.require("atp:/PlaybackSystem/0305.json?" + Date.now()));
 
+function getJSON(json) {
+    return JSON.stringify(Script.require("atp:/PlaybackSystem/" + json + ".json?" + Date.now()));
+}
+
 function rezPosition(CREATE_DISTANCE) {
     var position;
     if (Camera.mode === "entity" || Camera.mode === "independent") {

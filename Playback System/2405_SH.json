@@ -1,0 +1,299 @@
+{
+  "0": [
+    {
+      "name": "LetterH",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.14213813841342926,
+          "y": 0.19221527874469757,
+          "z": 0.039423223584890366
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/LetterH.fbx",
+        "name": "Letter - H",
+        "position": {
+          "x": 6.765634059906006,
+          "y": -3.026181697845459,
+          "z": -19.68609046936035
+        },
+        "rotation": {
+          "x": 0.48570990562438965,
+          "y": 0.5822690725326538,
+          "z": -0.5053330659866333,
+          "w": 0.4119478464126587
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "LetterT",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.16725046932697296,
+          "y": 0.2030874490737915,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_T_blu.fbx",
+        "name": "Letter - T",
+        "position": {
+          "x": 8.5,
+          "y": -4.7,
+          "z": -19
+        },
+        "rotation": {
+          "x": 0.022842764854431152,
+          "y": 0.8091402053833008,
+          "z": -0.009811580181121826,
+          "w": 0.5870603322982788
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "Bookpile",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.5240011811256409,
+          "y": 0.4335097074508667,
+          "z": 0.3270610570907593
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/bookPile_A_v001.fbx",
+        "name": "Village - Bookpile",
+        "position": {
+          "x": 6.77757453918457,
+          "y": -3.1811344623565674,
+          "z": -19.54120445251465
+        },
+        "rotation": {
+          "x": -0.04657924175262451,
+          "y": -0.6510807871818542,
+          "z": -0.02764454483985901,
+          "w": 0.7571123242378235
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "PileB",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.23142966628074646,
+          "y": 0.31306740641593933,
+          "z": 0.10628709942102432
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/LetterB.fbx",
+        "name": "Schoolboard letter - b",
+        "position": {
+          "x": 6.790977478027344,
+          "y": -2.8450071811676025,
+          "z": -19.545005798339844
+        },
+        "rotation": {
+          "x": 0.0483713373541832,
+          "y": 0.08221423625946045,
+          "z": 0.7015362977981567,
+          "w": 0.7062138915061951
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "PileL",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.2035798728466034,
+          "y": 0.330056756734848,
+          "z": 0.11409708857536316
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_L_pink.fbx",
+        "name": "Letter - L",
+        "position": {
+          "x": 7.064004898071289,
+          "y": -3.2474334239959717,
+          "z": -19.389427185058594
+        },
+        "rotation": {
+          "x": -0.003306429833173752,
+          "y": 0.11708877235651016,
+          "z": 0.004964115563780069,
+          "w": -0.9930728077888489
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    },
+    {
+      "name": "PileM",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.25987374782562256,
+          "y": 0.2396014779806137,
+          "z": 0.08217890560626984
+        },
+        "lifetime": 300,
+        "modelURL": "atp:/objects/letter_M_blu.fbx",
+        "name": "Letter - M",
+        "position": {
+          "x": 6.495421886444092,
+          "y": -3.2977941036224365,
+          "z": -19.3890438079834
+        },
+        "rotation": {
+          "x": 0.0026092529296875,
+          "y": 0.9911803007125854,
+          "z": -0.020279228687286377,
+          "w": 0.13072407245635986
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "36620": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 5.663005828857422,
+          "y": -1.7690789699554443,
+          "z": -18.710569381713867
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.9876706600189209,
+          "z": -0.0000457763671875,
+          "w": 0.15642023086547852
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "40850": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "NoseBook",
+      "jointIndex": 21,
+      "jointPosition": {
+        "x": 0.07156801223754883,
+        "y": 0.06395530700683594,
+        "z": 0.05383181571960449
+      },
+      "jointRotation": {
+        "x": -32.93442153930664,
+        "y": -90.21940612792969,
+        "z": -34.2214469909668
+      }
+    }
+  ],
+  "52550": [
+    {
+      "name": "LetterT",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.06335210800170898,
+        "y": 0.0718526840209961,
+        "z": 0.05948019027709961
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 90,
+        "z": 69.03514099121094
+      }
+    }
+  ],
+  "61020": [
+    {
+      "name": "LetterH",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 25,
+      "jointPosition": {
+        "x": 0.05358922481536865,
+        "y": 0.08231401443481445,
+        "z": 0.09145402908325195
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 90,
+        "z": -68.05778503417969
+      }
+    }
+  ],
+  "74220": [
+    {
+      "name": "LetterH",
+      "action": "PARENT",
+      "target": "BookStop",
+      "jointIndex": 56,
+      "jointPosition": {
+        "x": -0.003427445888519287,
+        "y": 0.15185308456420898,
+        "z": 0.10278034210205078
+      },
+      "jointRotation": {
+        "x": -51.96216583251953,
+        "y": -90.13270568847656,
+        "z": -54.12474060058594
+      }
+    }
+  ],
+  "81930": [
+    {
+      "name": "LetterH",
+      "action": "DELETE"
+    }
+  ],
+  "92610": [
+    {
+      "name": "LetterT",
+      "action": "DELETE"
+    }
+  ],
+  "98410": [
+    {
+      "name": "PileM",
+      "action": "DELETE"
+    },
+    {
+      "name": "PileL",
+      "action": "DELETE"
+    },
+    {
+      "name": "PileB",
+      "action": "DELETE"
+    },
+    {
+      "name": "Bookpile",
+      "action": "DELETE"
+    }
+  ]
+}
