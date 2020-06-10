@@ -1,0 +1,42 @@
+{
+  "0": {
+    "name": "MrsSpelling",
+    "timeOffset": 4800,
+    "url": "atp:/recordings/1805-MrsSpelling.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 62900
+  },
+  "2": {
+    "name": "David",
+    "timeOffset": 4800,
+    "url": "atp:/recordings/1805-David.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  },
+  "3": {
+    "name": "Lory",
+    "timeOffset": 5500,
+    "url": "atp:/recordings/1805-Lory.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 62200
+  },
+  "4": {
+    "name": "ShakeSpear",
+    "timeOffset": 4800,
+    "url": "atp:/recordings/1805-ShakeSpear.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 47170
+  },
+  "5": {
+    "name": "CavePan",
+    "timeOffset": 1000,
+    "url": "atp:/recordings/1805-CavePan.hfr",
+    "ready": false,
+    "startTrim": 0,
+    "endTrim": 0
+  }
+}

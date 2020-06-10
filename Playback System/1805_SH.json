@@ -1,0 +1,134 @@
+{
+  "0": [
+    {
+      "name": "LetterE",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.14532993733882904,
+          "y": 0.20382800698280334,
+          "z": 0.0689999982714653
+        },
+        "lifetime": 300,
+        "modelURL": "http://vr.fumbleland.com/objects/LetterE.fbx",
+        "name": "Schoolboard letter - E",
+        "position": {
+          "x": 3.7238352298736572,
+          "y": -2.5200517177581787,
+          "z": -30.385007858276367
+        },
+        "rotation": {
+          "x": -0.0000457763671875,
+          "y": -0.14796674251556396,
+          "z": -0.0000152587890625,
+          "w": 0.9889830350875854
+        },
+        "type": "Model",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}"
+      }
+    }
+  ],
+  "29500": [
+    {
+      "name": "LetterE",
+      "action": "PARENT",
+      "target": "Lory",
+      "jointIndex": 54,
+      "jointPosition": {
+        "x": -0.0767965316772461,
+        "y": 0.06932634115219116,
+        "z": 0.09774446487426758
+      },
+      "jointRotation": {
+        "x": 0,
+        "y": 90,
+        "z": 74.02368927001953
+      }
+    }
+  ],
+  "38830": [
+    {
+      "name": "LetterE",
+      "action": "PARENT",
+      "target": "ShakeSpear",
+      "jointIndex": 20,
+      "jointPosition": {
+        "x": 0.6157152056694031,
+        "y": 0.18668150901794434,
+        "z": 0.09327578544616699
+      },
+      "jointRotation": {
+        "x": -132.02377319335938,
+        "y": -164.27809143066406,
+        "z": 59.356666564941406
+      }
+    }
+  ],
+  "51970": [
+    {
+      "name": "LetterE",
+      "action": "DELETE"
+    }
+  ],
+  "61250": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 2.1810779571533203,
+          "y": -1.6714131832122803,
+          "z": -29.989553451538086
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.17363238334655762,
+          "z": -0.0000457763671875,
+          "w": 0.9848020076751709
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "script": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "63000": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": 1.194510817527771,
+          "y": -1.5517325401306152,
+          "z": -29.54759407043457
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": 0.30897998809814453,
+          "z": -0.0000762939453125,
+          "w": 0.9510490894317627
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "visible": false
+      }
+    }
+  ]
+}

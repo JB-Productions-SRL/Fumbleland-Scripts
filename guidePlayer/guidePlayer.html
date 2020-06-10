@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head draggable="false">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <style>
+        body {
+            background-color: #0f212e;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col s12" style="min-height: 75px">
+
+        </div>
+        <div class="col s12">
+            <div class="card blue-grey darken-1 col s12 valign-wrapper">
+                <div class="row">
+                    <div class="card-content white-text col s12">
+                        <span class="flow-text col s6">
+                            Sets the mp3/wav file url for playback
+                        </span>
+                        <a class="waves-effect waves-light waves-orange orange darken-3 btn col s4"
+                           onclick="guideURL()">
+                            Set guide url
+                        </a>
+                        <span class="flow-text col s12" id="guideURL">
+                            File: BLANK URL
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card blue-grey darken-1 col s12 valign-wrapper">
+                <div class="card-content white-text col s8">
+                    <span class="flow-text">
+                        Set the position of the guide player to your position
+                    </span>
+                </div>
+                <a class="waves-effect waves-light waves-orange orange darken-3 btn col s4" onclick="setPos()">
+                    Set
+                </a>
+                <a class="waves-effect waves-light waves-orange orange darken-3 btn col s4" onclick="clearPos()">
+                    Clear
+                </a>
+            </div>
+            <div class="card blue-grey darken-1 col s12 valign-wrapper">
+
+                <div class="card-content white-text col s12">
+                    <div class="col s6 ">
+                        <span class="flow-text">
+                            Playback controls
+                        </span>
+                    </div>
+                    <a class="waves-effect waves-light waves-orange orange darken-3 btn col s2" onclick="play()"
+                       id="playButton">
+                        <i class="material-icons">play_arrow</i>
+                    </a>
+                    <a class="waves-effect waves-light waves-orange teal btn col s2" onclick="stop()" id="stopButton">
+                        <i class="material-icons">stop</i>
+                    </a>
+                    <a class="waves-effect waves-light waves-orange orange darken-3 btn col s2" onclick="replay()">
+                        <i class="material-icons">replay</i>
+                    </a>
+                </div>
+            </div>
+            <div class="card blue-grey darken-1 col s12 valign-wrapper">
+
+                <div class="card-content white-text col s12">
+                    <div class="col s6 ">
+                        <span class="flow-text" id="volume">Volume: </span>
+                    </div>
+                    <a class="waves-effect waves-light waves-orange orange darken-3 btn col s2" onclick="volDown()">
+                        <i class="material-icons">volume_down</i>
+                    </a>
+                    <a class="waves-effect waves-light waves-orange orange darken-3 btn col s2" onclick="volUp()">
+                        <i class="material-icons">volume_up</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var appUUID;
+
+    function emitWebEvent(obj) {
+        if (window.qt) {
+            obj.appUUID = appUUID; // Appends the appUUID for checking that its from the correct html/qml.
+            EventBridge.emitWebEvent(JSON.stringify(obj)); // So you can just send a JSON object without having to stringify.
+        }
+    }
+
+    function guideURL() {
+        emitWebEvent({type: "CMD", cmd: "guideURL"});
+    }
+
+    function play() {
+        emitWebEvent({type: "CMD", cmd: "play"});
+    }
+
+    function stop() {
+        emitWebEvent({type: "CMD", cmd: "stop"});
+    }
+
+    function replay() {
+        emitWebEvent({type: "CMD", cmd: "replay"});
+    }
+
+    function setPos() {
+        emitWebEvent({type: "CMD", cmd: "setPos"});
+    }
+
+    function clearPos() {
+        emitWebEvent({type: "CMD", cmd: "clearPos"});
+    }
+
+    function volUp() {
+        emitWebEvent({type: "CMD", cmd: "volUp"});
+    }
+
+    function volDown() {
+        emitWebEvent({type: "CMD", cmd: "volDown"});
+    }
+
+
+    function main() {
+        var parsedUrl = new URL(window.location.href);
+        appUUID = parsedUrl.searchParams.get("appUUID");
+
+        if (window.qt) {
+            setTimeout(function () {
+                console.log("connecting to eventbridge");
+                EventBridge.scriptEventReceived.connect(function (message) {
+                    var cmd = [];
+                    try {
+                        cmd = JSON.parse(message);
+                    } catch (e) {
+                        //
+                    }
+                    if (cmd.type === "CMD") {
+                        if (cmd.cmd === "guideURL") {
+                            document.getElementById("guideURL").textContent = "File: " + cmd.url;
+                        }
+                        if (cmd.cmd === "volume") {
+                            document.getElementById("volume").textContent = "Volume: "+(cmd.volume * 5).toFixed(2);
+                        }
+                        if (cmd.cmd === "playerState") {
+                            if (cmd.playerState === 0) {
+                                var classList = document.getElementById("stopButton").classList;
+                                classList.replace("orange", "teal");
+                                classList.remove("darken-3");
+                                classList = document.getElementById("playButton").classList;
+                                classList.replace("teal", "orange");
+                                classList.add("darken-3");
+                            } else if (cmd.playerState === 1) {
+                                var classList = document.getElementById("playButton").classList;
+                                classList.replace("orange", "teal");
+                                classList.remove("darken-3");
+                                classList = document.getElementById("stopButton").classList;
+                                classList.replace("teal", "orange");
+                                classList.add("darken-3");
+                            }
+                        }
+                    }
+                });
+            }, 100); // Delay to allow everything to settle
+        }
+
+        if (window.qt) {
+            setTimeout(function () {
+                emitWebEvent({
+                    "type": "ready"
+                });
+            }, 250); // Delay to allow everything to settle
+            console.log("sending ready signal!");
+        }
+    }
+
+    $(document).ready(main);
+</script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>

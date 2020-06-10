@@ -1,0 +1,63 @@
+{
+  "7350": [
+    {
+      "name": "Heart1",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -5.234473705291748,
+          "y": -1.7835853099822998,
+          "z": -31.898691177368164
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.9863889813423157,
+          "z": -0.0000457763671875,
+          "w": 0.16453802585601807
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "script": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "userData": "{\"grabbableKey\":{\"grabbable\":false}}",
+        "visible": false
+      }
+    }
+  ],
+  "9400": [
+    {
+      "name": "Heart2",
+      "action": "REZ",
+      "props": {
+        "dimensions": {
+          "x": 0.22044624388217926,
+          "y": 0.22044624388217926,
+          "z": 0.22044624388217926
+        },
+        "position": {
+          "x": -3.6339900493621826,
+          "y": -1.6839001178741455,
+          "z": -32.98766326904297
+        },
+        "rotation": {
+          "x": -0.0000152587890625,
+          "y": -0.9483329653739929,
+          "z": -0.0000457763671875,
+          "w": 0.3172503709793091
+        },
+        "name": "Hearts Emitter",
+        "collisionless": true,
+        "shape": "Cube",
+        "type": "Box",
+        "serverScripts": "http://vr.fumbleland.com/scripts/heart.js?2",
+        "visible": false
+      }
+    }
+  ]
+}

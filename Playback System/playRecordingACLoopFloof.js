@@ -81,7 +81,8 @@ Player = (function () {
                 Recording.setPlayFromCurrentLocation(false);
                 Recording.setPlayerUseHeadModel(false);
                 Recording.setPlayerUseAttachments(true);
-                Recording.setPlayerLoop(true);
+                console.log("HFR Player: recordingFilename \""+recordingFilename +"\" "+recordingFilename.toLowerCase().indexOf("noloop"));
+                Recording.setPlayerLoop(recordingFilename.toLowerCase().indexOf("noloop")===-1);
                 Recording.setPlayerUseSkeletonModel(true);
 
                 Recording.setPlayerTime(0);
